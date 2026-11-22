@@ -774,5 +774,17 @@
       "4": "Q1 de Stroll: configuración 100% y confianza muy alta"
     },
     "observaciones": "El usuario anuncia ajustes futuros de Alonso, no confirmados en estas capturas."
+  },
+  {
+    "id": "captura_resultados_carrera_zandvoort_2024_08_25",
+    "titulo": "GP de Países Bajos 2024: clasificación final top 10 y vuelta rápida",
+    "tipo": "captura_chat",
+    "fecha_partida": "2024-08-25",
+    "fecha_consulta": "2026-11-22",
+    "archivo": null,
+    "localizadores": {
+      "pantalla": "Resultados de carrera después de 72 vueltas"
+    },
+    "observaciones": "Top 10 visible. Alonso P5, 11 puntos con vuelta rápida 1:10.652; Stroll P8, 4 puntos. No inferir diferencias respecto a ganador desde intervalos posiblemente relativos."
   }
 ]
