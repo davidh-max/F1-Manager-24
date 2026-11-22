@@ -4,11 +4,12 @@ Generado con `python herramientas/gestion.py resumen`.
 
 La trayectoria comenzó en 2024. Las observaciones iniciales se conservan en `historial/eventos.jsonl`.
 
-- **Temporada** · Pendiente
-- **Fecha de partida** · Pendiente
-- **Gran Premio actual o próximo** · Pendiente
-- **Días hasta el inicio** · Pendiente
-- **Presupuesto disponible (USD)** · Pendiente
+- **Temporada** · 2024
+- **Fecha de partida** · 2024-07-29
+- **Gran Premio actual o próximo** · Países Bajos
+- **Días hasta el inicio** · 25
+- **Próximos Grandes Premios comunicados** · Países Bajos, Italia, Azerbaiyán, Singapur, Estados Unidos
+- **Presupuesto disponible (USD)** · 2625344
 - **Límite restante (USD)** · Pendiente
 - **Constructores** · Pendiente
 - **Fernando Alonso** · Pendiente
@@ -31,13 +32,11 @@ La trayectoria comenzó en 2024. Las observaciones iniciales se conservan en `hi
 - **Próximo vencimiento ATR** · Pendiente
 - **Principales problemas** · Pendiente
 - **Decisiones pendientes** · Pendiente
-- **Última actualización confirmada del estado** · Pendiente
+- **Última actualización confirmada del estado** · 2026-11-22
 
 ## Datos prioritarios para sincronizar
 
-- Fecha dentro del juego.
-- Gran Premio actual o próximo.
-- Presupuesto disponible.
+- Límite presupuestario restante.
 - Constructores.
 - Fernando Alonso.
 - Lance Stroll.

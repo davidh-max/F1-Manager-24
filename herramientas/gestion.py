@@ -201,21 +201,29 @@ def display(value):
 
 
 def summary():
-    partida = load('equipo/partida.json')['datos']
+    current_state = load('equipo/partida.json')
+    partida = current_state['datos']
     finance = load('finanzas/estado.json')['datos']
     season, day = partida['temporada'], partida['fecha_partida']
     gp = partida['gran_premio_confirmado']
-    remaining = None
-    if season and day and (ROOT / f'temporadas/{season}/calendario.json').is_file():
-        if calendar(season)['metadatos']['estado'] == 'CONFIRMADO':
+    day_matches_observation = day and current_state['metadatos']['fecha_partida'] == day
+    upcoming = partida.get('proximos_gp_confirmados') if day_matches_observation else None
+    remaining = partida.get('dias_hasta_gp_observados') if gp and day_matches_observation else None
+    if season and (ROOT / f'temporadas/{season}/calendario.json').is_file():
+        schedule = calendar(season)
+        names = {event['id']: event['nombre'] for event in schedule['datos']}
+        if remaining is None and day and schedule['metadatos']['estado'] == 'CONFIRMADO':
             info = calendar_info(date.fromisoformat(day), season)
             event = info['actual'] or info['siguiente']
             if event and gp in (None, event['id'], event['nombre']):
-                gp = event['nombre']
+                gp = event['id']
                 remaining = 0 if info['actual'] else info['dias_hasta_siguiente']
+        gp = names.get(gp, gp)
+        upcoming = [names.get(event_id, event_id) for event_id in upcoming] if upcoming else None
 
     fields = [('Temporada', season), ('Fecha de partida', day), ('Gran Premio actual o próximo', gp),
-              ('Días hasta el inicio', remaining), ('Presupuesto disponible (USD)', finance['saldo_usd']),
+              ('Días hasta el inicio', remaining), ('Próximos Grandes Premios comunicados', upcoming),
+              ('Presupuesto disponible (USD)', finance['saldo_usd']),
               ('Límite restante (USD)', finance['restante_limite_usd'])]
     if season and (ROOT / f'temporadas/{season}').is_dir():
         for title, filename, key, target in [
@@ -273,6 +281,8 @@ def summary():
         unresolved.append('Gran Premio actual o próximo')
     if finance['saldo_usd'] is None:
         unresolved.append('Presupuesto disponible')
+    if finance['restante_limite_usd'] is None:
+        unresolved.append('Límite presupuestario restante')
     for title, value in fields:
         if value is None and (title in ('Constructores', 'Lance Stroll', 'Fernando Alonso') or 'rendimiento general' in title):
             unresolved.append(title)

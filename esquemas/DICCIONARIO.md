@@ -12,7 +12,14 @@ Los JSON de dominio tienen una raíz con `metadatos` y `datos`. Cada ficha ident
 | `temporada` | Año de la trayectoria que corresponde al dato |
 | `fuente` | ID de `fuentes/registro.json` con sección opcional tras `#` |
 | `historial/eventos.jsonl` | Un evento por línea con `id`, `entidad`, `metadatos` y `datos`. Añade correcciones con su propio ID, indicando qué evento rectifican |
+| `equipo/partida.json` | `gran_premio_confirmado` acepta el ID del evento. `dias_hasta_gp_observados` es la cuenta que muestra el juego en la fecha de observación. `proximos_gp_confirmados` conserva los IDs en el orden comunicado para esa fecha |
 | Antigüedad | Fecha actual de la partida menos fecha de observación. Deja pendiente si falta cualquiera |
+
+## Evidencias audiovisuales
+
+- `fuentes/registro.json` identifica cada captura por circuito, tipo de panel y lote. El GP referencia esos IDs desde `datos.evidencias`. En la ficha del circuito, `datos.mapa` referencia la captura del mapa y `datos.secciones_por_velocidad.fuente` la del gráfico de velocidades.
+- Cuando el original esté disponible, guárdalo bajo `circuitos/<id>/evidencias/` con un nombre que incluya la temporada y el panel. Usa una ruta relativa al repositorio en `archivo`. Si la captura solo está visible en el chat, conserva su referencia y deja `archivo` en `null` hasta que se pueda archivar.
+- Para el vídeo registra el nombre del clip y el minuto y segundo de cada pantalla útil. Un clip pendiente de descarga queda registrado como evidencia pendiente y carece de fecha de consulta hasta que pueda revisarse.
 
 ## Entidades, unidades y claves
 

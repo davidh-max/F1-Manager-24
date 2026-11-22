@@ -25,7 +25,10 @@
     "paradas": [],
     "incidentes": [],
     "resultados": [],
-    "evidencias": [],
+    "evidencias": [
+      "capturas_circuitos_2024_07_29_zandvoort_mapa",
+      "capturas_circuitos_2024_07_29_zandvoort_secciones_por_velocidad"
+    ],
     "analisis": null,
     "lecciones": []
   }

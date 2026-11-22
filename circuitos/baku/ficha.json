@@ -2,11 +2,11 @@
   "id": "baku",
   "nombre": "Bakú",
   "metadatos": {
-    "estado": "DESCONOCIDO",
-    "fecha_partida": null,
-    "temporada": null,
-    "fecha_registro": null,
-    "fuente": null
+    "estado": "CONFIRMADO",
+    "fecha_partida": "2024-07-29",
+    "temporada": 2024,
+    "fecha_registro": "2026-11-22",
+    "fuente": "capturas_circuitos_2024_07_29_baku_mapa"
   },
   "datos": {
     "pais": null,
@@ -15,7 +15,7 @@
     "longitud_km": null,
     "vueltas": null,
     "distancia_km": null,
-    "curvas": null,
+    "curvas": 20,
     "sentido": null,
     "abrasividad": null,
     "caracteristicas": null,
@@ -25,9 +25,31 @@
     "perdida_vsc_s": null,
     "probabilidad_sc_pct": null,
     "probabilidad_vsc_pct": null,
-    "mapa": null,
-    "sectores": [],
-    "zonas_drs": [],
+    "mapa": "capturas_circuitos_2024_07_29_baku_mapa",
+    "sectores": [
+      {
+        "numero": 1,
+        "color": "rojo"
+      },
+      {
+        "numero": 2,
+        "color": "azul"
+      },
+      {
+        "numero": 3,
+        "color": "amarillo"
+      }
+    ],
+    "zonas_drs": [
+      {
+        "numero": 1,
+        "tramo_aproximado": "Recta de meta hacia la curva 1"
+      },
+      {
+        "numero": 2,
+        "tramo_aproximado": "Entre las curvas 2 y 3"
+      }
+    ],
     "adelantamientos": [],
     "secciones": [],
     "importancia_atributos": {
@@ -41,6 +63,16 @@
       "neumaticos": "DESCONOCIDO",
       "refrigeracion": "DESCONOCIDO",
       "peso_extra": "DESCONOCIDO"
+    },
+    "secciones_por_velocidad": {
+      "fuente": "capturas_circuitos_2024_07_29_baku_secciones_por_velocidad",
+      "leyenda": {
+        "rectas": "morado",
+        "lentas": "rojo",
+        "medias": "amarillo",
+        "rapidas": "verde"
+      },
+      "observacion_visual": "El gráfico marca rectas largas y numerosas secciones lentas, con un tramo rápido corto en el sector final."
     }
   }
 }
