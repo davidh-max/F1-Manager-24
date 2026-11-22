@@ -5,9 +5,9 @@ Generado con `python herramientas/gestion.py resumen`.
 La trayectoria comenzó en 2024. Las observaciones iniciales se conservan en `historial/eventos.jsonl`.
 
 - **Temporada** · 2024
-- **Fecha de partida** · 2024-08-01
+- **Fecha de partida** · 2024-08-11
 - **Gran Premio actual o próximo** · Países Bajos
-- **Días hasta el inicio** · 22
+- **Días hasta el inicio** · 12
 - **Próximos Grandes Premios comunicados** · Países Bajos, Italia, Azerbaiyán, Singapur, Estados Unidos
 - **Presupuesto disponible (USD)** · 2057015
 - **Límite restante (USD)** · 43461004
@@ -28,7 +28,7 @@ La trayectoria comenzó en 2024. Las observaciones iniciales se conservan en `hi
 - **Proyectos activos · diseno** · Alerón trasero nuevo, apresurada, 5 ingenieros, finalización prevista 2024-08-21
 - **Proyectos activos · investigacion** · Pendiente
 - **Proyectos activos · fabricacion** · Alerón trasero A. t.-4 ×2 (7 agosto), pontones P.-5 ×2 (17 agosto), chasis Ch.-3 ×1 (11 agosto)
-- **Instalaciones en obra** · Centro turístico nivel 3 → 4, finalización prevista 2024-08-15, coste pagado 100000 USD
+- **Instalaciones en obra** · Centro turístico nivel 3 → 4 (fin previsto 2024-08-15); sala de recuerdos en mejora (fin previsto 2024-08-18, comercialidad +20→+30, mentalidad +4→+6, coste pendiente)
 - **Próximos vencimientos contractuales** · ben_michell (2024-12-31), fernando_alonso (2024-12-31), jefe_aerodinamica (2024-12-31), jefe_tecnico (2024-12-31), lance_stroll (2024-12-31), director_deportivo (2027-12-31)
 - **Diseños pendientes de fabricar** · Ninguno de P.-5 y A. t.-4: ambos en fabricación
 - **Próximo vencimiento ATR** · Pendiente
