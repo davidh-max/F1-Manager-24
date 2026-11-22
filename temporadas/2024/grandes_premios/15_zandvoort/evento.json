@@ -1401,8 +1401,8 @@
         }
       },
       "q1": {
-        "modo": "desconocida",
-        "estado": "preparacion",
+        "modo": "manual",
+        "estado": "en_curso",
         "metadatos": {
           "estado": "CONFIRMADO",
           "temporada": 2024,
@@ -1411,7 +1411,40 @@
           "fuente": "capturas_fin_libres3_preparacion_q1_zandvoort_2024"
         },
         "observaciones": [
-          "Comienzo Q1 con llovizna y 1.44 mm en pantalla, recomendación inicial intermedios; aún no confirmado que hayan salido."
+          "Comienzo Q1 con llovizna y 1.44 mm en pantalla, recomendación inicial intermedios; aún no confirmado que hayan salido.",
+          "Primer intento: faltan 13:37, Leclerc lidera 1:14.493; Alonso 9º +0.901, Stroll 11º +1.187; primer eliminado Magnussen 16º +1.775. Ambos regresan a boxes. Pendiente revaluar con 5 min restantes."
+        ],
+        "instantaneas": [
+          {
+            "id": "q1_13m37",
+            "tiempo_restante": "13:37",
+            "lider_id": "charles_leclerc",
+            "lider_tiempo_ms": 74493,
+            "puestos": [
+              {
+                "piloto_id": "fernando_alonso",
+                "posicion": 9,
+                "diferencia_lider_ms": 901
+              },
+              {
+                "piloto_id": "lance_stroll",
+                "posicion": 11,
+                "diferencia_lider_ms": 1187
+              },
+              {
+                "piloto_id": "kevin_magnussen",
+                "posicion": 16,
+                "diferencia_lider_ms": 1775
+              }
+            ],
+            "metadatos": {
+              "estado": "CONFIRMADO",
+              "temporada": 2024,
+              "fecha_partida": "2024-08-24",
+              "fecha_registro": "2026-11-22",
+              "fuente": "captura_q1_zandvoort_13m37"
+            }
+          }
         ]
       }
     },
