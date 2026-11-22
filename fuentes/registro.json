@@ -424,5 +424,19 @@
     "fecha_partida": "2024-07-29",
     "referencia_adjunto": "sediment://file_00000000508481f4af357af4dcd01a2b",
     "observaciones": "Fecha de partida por continuidad con los informes del 29 de julio. Secciones de personal y salarios."
+  },
+  {
+    "id": "capturas_campeonato_2024_07_29",
+    "titulo": "Clasificaciones de F1 al 29 de julio",
+    "tipo": "lote_capturas_chat",
+    "fecha_consulta": "2026-11-22",
+    "fecha_partida": "2024-07-29",
+    "archivo": null,
+    "localizadores": {
+      "1": "Constructores",
+      "2": "Pilotos 1–10",
+      "3": "Pilotos 11–20",
+      "4": "Competición DHL de paradas"
+    }
   }
 ]

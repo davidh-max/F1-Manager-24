@@ -79,7 +79,7 @@
     },
     "resultados": [],
     "satisfaccion_rendimiento": "insatisfecho",
-    "puntos_temporada": 176,
+    "puntos_temporada": 187,
     "ultima_carrera_posicion": 5,
     "dorsal": 14,
     "agresividad": "media",
@@ -98,5 +98,14 @@
     "objetivo_desarrollo": "desarrollo del piloto",
     "ultimos_ingenieros_asociados": 5,
     "comercialibilidad": 85
+  },
+  "metadatos_por_bloque": {
+    "puntos_temporada": {
+      "estado": "CONFIRMADO",
+      "fecha_partida": "2024-07-29",
+      "fecha_registro": "2026-11-22",
+      "temporada": 2024,
+      "fuente": "capturas_campeonato_2024_07_29#2"
+    }
   }
 }

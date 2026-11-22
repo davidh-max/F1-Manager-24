@@ -1,0 +1,78 @@
+{
+  "metadatos": {
+    "estado": "CONFIRMADO",
+    "fecha_partida": "2024-07-29",
+    "fecha_registro": "2026-11-22",
+    "temporada": 2024,
+    "fuente": "capturas_campeonato_2024_07_29#4"
+  },
+  "panel_equipo": {
+    "equipo_id": "red_bull",
+    "victorias_competicion": 0,
+    "paradas_mas_rapidas_temporada": 5,
+    "paradas_mas_rapidas_totales_mostradas": 0,
+    "mejor_parada_s": 2.312
+  },
+  "datos": [
+    {
+      "posicion": 1,
+      "equipo_id": "red_bull",
+      "puntos": 300,
+      "puntos_ultimo_movimiento_mostrado": 29
+    },
+    {
+      "posicion": 2,
+      "equipo_id": "ferrari",
+      "puntos": 266,
+      "puntos_ultimo_movimiento_mostrado": 15
+    },
+    {
+      "posicion": 3,
+      "equipo_id": "mclaren",
+      "puntos": 188,
+      "puntos_ultimo_movimiento_mostrado": null
+    },
+    {
+      "posicion": 4,
+      "equipo_id": "alpine",
+      "puntos": 173,
+      "puntos_ultimo_movimiento_mostrado": 10
+    },
+    {
+      "posicion": 5,
+      "equipo_id": "rb",
+      "puntos": 150,
+      "puntos_ultimo_movimiento_mostrado": 18
+    },
+    {
+      "posicion": 6,
+      "equipo_id": "mercedes",
+      "puntos": 106,
+      "puntos_ultimo_movimiento_mostrado": null
+    },
+    {
+      "posicion": 7,
+      "equipo_id": "aston_martin",
+      "puntos": 85,
+      "puntos_ultimo_movimiento_mostrado": 14
+    },
+    {
+      "posicion": 8,
+      "equipo_id": "williams",
+      "puntos": 64,
+      "puntos_ultimo_movimiento_mostrado": 8
+    },
+    {
+      "posicion": 9,
+      "equipo_id": "kick_sauber",
+      "puntos": 56,
+      "puntos_ultimo_movimiento_mostrado": 6
+    },
+    {
+      "posicion": 10,
+      "equipo_id": "haas",
+      "puntos": 26,
+      "puntos_ultimo_movimiento_mostrado": 1
+    }
+  ]
+}

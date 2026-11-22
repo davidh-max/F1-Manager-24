@@ -1,1 +1,11 @@
-fecha_partida,evento,sesion,posicion,equipo_id,puntos,victorias,podios,diferencia_puntos,fuente,estado
+fecha_partida,evento,sesion,posicion,equipo_id,puntos,victorias,podios,diferencia_puntos,fuente,estado,puntos_ultimo_movimiento_mostrado
+2024-07-29,,estado_campeonato,1,ferrari,476,5,21,,capturas_campeonato_2024_07_29#1,CONFIRMADO,15
+2024-07-29,,estado_campeonato,2,red_bull,426,,,,capturas_campeonato_2024_07_29#1,CONFIRMADO,32
+2024-07-29,,estado_campeonato,3,mclaren,282,,,,capturas_campeonato_2024_07_29#1,CONFIRMADO,30
+2024-07-29,,estado_campeonato,4,aston_martin,236,,,,capturas_campeonato_2024_07_29#1,CONFIRMADO,10
+2024-07-29,,estado_campeonato,5,mercedes,83,,,,capturas_campeonato_2024_07_29#1,CONFIRMADO,8
+2024-07-29,,estado_campeonato,6,rb,31,,,,capturas_campeonato_2024_07_29#1,CONFIRMADO,6
+2024-07-29,,estado_campeonato,7,alpine,2,,,,capturas_campeonato_2024_07_29#1,CONFIRMADO,1
+2024-07-29,,estado_campeonato,8,williams,0,,,,capturas_campeonato_2024_07_29#1,CONFIRMADO,
+2024-07-29,,estado_campeonato,9,haas,0,,,,capturas_campeonato_2024_07_29#1,CONFIRMADO,
+2024-07-29,,estado_campeonato,10,kick_sauber,0,,,,capturas_campeonato_2024_07_29#1,CONFIRMADO,

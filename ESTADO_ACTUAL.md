@@ -11,9 +11,10 @@ La trayectoria comenzó en 2024. Las observaciones iniciales se conservan en `hi
 - **Próximos Grandes Premios comunicados** · Países Bajos, Italia, Azerbaiyán, Singapur, Estados Unidos
 - **Presupuesto disponible (USD)** · 2625344
 - **Límite restante (USD)** · Pendiente
-- **Constructores** · Pendiente
-- **Fernando Alonso** · 4
-- **Lance Stroll** · 9
+- **Constructores** · 4.º · 236 puntos
+- **Fernando Alonso** · 4.º · 187 puntos
+- **Lance Stroll** · 9.º · 49 puntos
+- **DHL de paradas en boxes** · 7.º · 85 puntos
 - **coche_1 · rendimiento general** · 8
 - **coche_1 · piloto** · lance_stroll
 - **coche_1 · ingeniero** · ben_michell
@@ -41,5 +42,4 @@ La trayectoria comenzó en 2024. Las observaciones iniciales se conservan en `hi
 ## Datos prioritarios para sincronizar
 
 - Límite presupuestario restante.
-- Constructores.
 - Proyectos activos de investigacion.

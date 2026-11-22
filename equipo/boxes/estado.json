@@ -16,6 +16,16 @@
     "entrenamiento": [],
     "objetivos": [],
     "errores": [],
-    "competiciones": []
+    "competiciones": [
+      {
+        "id": "dhl_fastest_pit_stop",
+        "temporada": 2024,
+        "fecha_partida": "2024-07-29",
+        "posicion": 7,
+        "puntos": 85,
+        "fuente": "capturas_campeonato_2024_07_29#4",
+        "archivo": "temporadas/2024/clasificacion_dhl_boxes.json"
+      }
+    ]
   }
 }

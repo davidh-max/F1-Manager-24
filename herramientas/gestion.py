@@ -242,9 +242,19 @@ def summary():
             ('Lance Stroll', 'clasificacion_pilotos.csv', 'piloto_id', 'lance_stroll'),
         ]:
             matches = [r for r in rows(ROOT / f'temporadas/{season}/{filename}') if r[key] == target and r['estado'] == 'CONFIRMADO']
-            fields.append((title, matches[-1]['posicion'] or None if matches else None))
+            latest_row = max(reversed(matches), key=lambda row: row['fecha_partida'], default=None)
+            standing = latest_row['posicion'] if latest_row else None
+            if standing and latest_row['puntos']:
+                standing = f"{standing}.º · {latest_row['puntos']} puntos"
+            fields.append((title, standing or None))
     else:
         fields.extend((title, None) for title in ('Constructores', 'Fernando Alonso', 'Lance Stroll'))
+
+    competitions = load('equipo/boxes/estado.json')['datos']['competiciones']
+    dhl = next((entry for entry in reversed(competitions) if entry.get('id') == 'dhl_fastest_pit_stop'
+                and entry.get('fecha_partida') == day and entry.get('temporada') == season), None)
+    if dhl:
+        fields.append(('DHL de paradas en boxes', f"{dhl['posicion']}.º · {dhl['puntos']} puntos"))
 
     contracts = []
     for path in sorted((ROOT / 'equipo/coches').glob('*.json')):
