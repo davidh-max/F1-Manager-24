@@ -786,5 +786,25 @@
       "pantalla": "Resultados de carrera después de 72 vueltas"
     },
     "observaciones": "Top 10 visible. Alonso P5, 11 puntos con vuelta rápida 1:10.652; Stroll P8, 4 puntos. No inferir diferencias respecto a ganador desde intervalos posiblemente relativos."
+  },
+  {
+    "id": "capturas_simulaciones_diseno_2024_08_26",
+    "titulo": "Seis piezas: comparativas de diseño sin ATR tras Zandvoort",
+    "tipo": "lote_fotos_chat",
+    "fecha_partida": "2024-08-26",
+    "fecha_consulta": "2026-11-22",
+    "total_capturas": 8,
+    "archivo": null,
+    "localizadores": {
+      "1": "Pontones: foco equilibrado, base y deltas de la pieza",
+      "2": "Pontones: efectos sobre coche 1 y saldo",
+      "3": "Alerón trasero: atributos de pieza",
+      "4": "Alerón trasero: efectos coche 1",
+      "5": "Alerón delantero: pieza y coche",
+      "6": "Chasis: pieza y coche",
+      "7": "Fondo plano: pieza y coche",
+      "8": "Suspensión: pieza y coche"
+    },
+    "observaciones": "Todas son simulaciones en interfaz de diseño, sin inicio confirmado ni gasto de diseño; cero CFD y cero túnel donde se observa. El saldo 1.202.015 USD y GP Italia en 4 días aparecen en cabeceras. Referencia del coche 1 = 321.81 km/h, 2.586/3.609/4.872 G, refrigeración 56.35%."
   }
 ]
