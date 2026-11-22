@@ -2,9 +2,9 @@
   "metadatos": {
     "estado": "CONFIRMADO",
     "temporada": 2024,
-    "fecha_partida": "2024-07-29",
+    "fecha_partida": "2024-08-23",
     "fecha_registro": "2026-11-22",
-    "fuente": "capturas_analisis_parrilla_2024_07_29"
+    "fuente": "capturas_zandvoort_fp1_2024_08_23"
   },
   "alcance": "Coche 1 de los cinco equipos rivales visibles",
   "media_parrilla": {
@@ -40,16 +40,16 @@
           "piloto": "Charles Leclerc",
           "posicion_piloto_mostrada": 2,
           "atributos": {
-            "velocidad_maxima": 322.44,
-            "aceleracion": 1.871,
-            "eficacia_drs": 63.78,
-            "curvas_lentas": 2.67,
-            "curvas_medias": 3.672,
-            "curvas_rapidas": 4.955,
-            "aire_sucio": 62.63,
+            "velocidad_maxima": 322.54,
+            "aceleracion": 1.872,
+            "eficacia_drs": 64.22,
+            "curvas_lentas": 2.676,
+            "curvas_medias": 3.68,
+            "curvas_rapidas": 4.973,
+            "aire_sucio": 63.21,
             "neumaticos": 68.06,
-            "refrigeracion": 63.22,
-            "peso_extra": 4.6
+            "refrigeracion": 63.54,
+            "peso_extra": 3.6
           },
           "posiciones_20_coches": {
             "velocidad_maxima": 3,
@@ -67,16 +67,58 @@
             "atributos": {
               "estado": "CONFIRMADO",
               "temporada": 2024,
-              "fecha_partida": "2024-07-29",
+              "fecha_partida": "2024-08-23",
               "fecha_registro": "2026-11-22",
-              "fuente": "capturas_analisis_parrilla_2024_07_29#2"
+              "fuente": "capturas_zandvoort_fp1_2024_08_23"
             },
             "posiciones_20_coches": {
               "estado": "CONFIRMADO",
               "temporada": 2024,
-              "fecha_partida": "2024-07-29",
+              "fecha_partida": "2024-08-23",
               "fecha_registro": "2026-11-22",
-              "fuente": "capturas_analisis_parrilla_2024_07_29#3"
+              "fuente": "capturas_zandvoort_fp1_2024_08_23"
+            }
+          },
+          "observacion_anterior": {
+            "atributos": {
+              "velocidad_maxima": 322.44,
+              "aceleracion": 1.871,
+              "eficacia_drs": 63.78,
+              "curvas_lentas": 2.67,
+              "curvas_medias": 3.672,
+              "curvas_rapidas": 4.955,
+              "aire_sucio": 62.63,
+              "neumaticos": 68.06,
+              "refrigeracion": 63.22,
+              "peso_extra": 4.6
+            },
+            "posiciones_20_coches": {
+              "velocidad_maxima": 3,
+              "aceleracion": 5,
+              "eficacia_drs": 3,
+              "curvas_lentas": 2,
+              "curvas_medias": 1,
+              "curvas_rapidas": 1,
+              "aire_sucio": 6,
+              "neumaticos": 2,
+              "refrigeracion": 5,
+              "peso_extra": 1
+            },
+            "metadatos_por_bloque": {
+              "atributos": {
+                "estado": "CONFIRMADO",
+                "temporada": 2024,
+                "fecha_partida": "2024-07-29",
+                "fecha_registro": "2026-11-22",
+                "fuente": "capturas_analisis_parrilla_2024_07_29#2"
+              },
+              "posiciones_20_coches": {
+                "estado": "CONFIRMADO",
+                "temporada": 2024,
+                "fecha_partida": "2024-07-29",
+                "fecha_registro": "2026-11-22",
+                "fuente": "capturas_analisis_parrilla_2024_07_29#3"
+              }
             }
           }
         }
@@ -93,16 +135,16 @@
           "piloto": "Max Verstappen",
           "posicion_piloto_mostrada": 1,
           "atributos": {
-            "velocidad_maxima": 323.03,
-            "aceleracion": 1.88,
+            "velocidad_maxima": 323.09,
+            "aceleracion": 1.881,
             "eficacia_drs": 64.94,
-            "curvas_lentas": 2.657,
-            "curvas_medias": 3.636,
-            "curvas_rapidas": 4.93,
-            "aire_sucio": 65.75,
+            "curvas_lentas": 2.671,
+            "curvas_medias": 3.649,
+            "curvas_rapidas": 4.956,
+            "aire_sucio": 66.48,
             "neumaticos": 50.49,
-            "refrigeracion": 64.39,
-            "peso_extra": 15.8
+            "refrigeracion": 65.27,
+            "peso_extra": 13
           },
           "posiciones_20_coches": {
             "velocidad_maxima": 1,
@@ -110,26 +152,68 @@
             "eficacia_drs": 1,
             "curvas_lentas": 5,
             "curvas_medias": 5,
-            "curvas_rapidas": 2,
+            "curvas_rapidas": 3,
             "aire_sucio": 1,
             "neumaticos": 11,
             "refrigeracion": 3,
-            "peso_extra": 10
+            "peso_extra": 6
           },
           "metadatos_por_bloque": {
             "atributos": {
               "estado": "CONFIRMADO",
               "temporada": 2024,
-              "fecha_partida": "2024-07-29",
+              "fecha_partida": "2024-08-23",
               "fecha_registro": "2026-11-22",
-              "fuente": "capturas_analisis_parrilla_2024_07_29#4"
+              "fuente": "capturas_zandvoort_fp1_2024_08_23"
             },
             "posiciones_20_coches": {
               "estado": "CONFIRMADO",
               "temporada": 2024,
-              "fecha_partida": "2024-07-29",
+              "fecha_partida": "2024-08-23",
               "fecha_registro": "2026-11-22",
-              "fuente": "capturas_analisis_parrilla_2024_07_29#5"
+              "fuente": "capturas_zandvoort_fp1_2024_08_23"
+            }
+          },
+          "observacion_anterior": {
+            "atributos": {
+              "velocidad_maxima": 323.03,
+              "aceleracion": 1.88,
+              "eficacia_drs": 64.94,
+              "curvas_lentas": 2.657,
+              "curvas_medias": 3.636,
+              "curvas_rapidas": 4.93,
+              "aire_sucio": 65.75,
+              "neumaticos": 50.49,
+              "refrigeracion": 64.39,
+              "peso_extra": 15.8
+            },
+            "posiciones_20_coches": {
+              "velocidad_maxima": 1,
+              "aceleracion": 1,
+              "eficacia_drs": 1,
+              "curvas_lentas": 5,
+              "curvas_medias": 5,
+              "curvas_rapidas": 2,
+              "aire_sucio": 1,
+              "neumaticos": 11,
+              "refrigeracion": 3,
+              "peso_extra": 10
+            },
+            "metadatos_por_bloque": {
+              "atributos": {
+                "estado": "CONFIRMADO",
+                "temporada": 2024,
+                "fecha_partida": "2024-07-29",
+                "fecha_registro": "2026-11-22",
+                "fuente": "capturas_analisis_parrilla_2024_07_29#4"
+              },
+              "posiciones_20_coches": {
+                "estado": "CONFIRMADO",
+                "temporada": 2024,
+                "fecha_partida": "2024-07-29",
+                "fecha_registro": "2026-11-22",
+                "fuente": "capturas_analisis_parrilla_2024_07_29#5"
+              }
             }
           }
         }
@@ -146,43 +230,85 @@
           "piloto": "Óscar Piastri",
           "posicion_piloto_mostrada": 7,
           "atributos": {
-            "velocidad_maxima": 321.94,
-            "aceleracion": 1.856,
+            "velocidad_maxima": 322.07,
+            "aceleracion": 1.858,
             "eficacia_drs": 60.22,
-            "curvas_lentas": 2.661,
-            "curvas_medias": 3.644,
-            "curvas_rapidas": 4.918,
-            "aire_sucio": 65.0,
-            "neumaticos": 57.06,
-            "refrigeracion": 64.51,
-            "peso_extra": 14.2
+            "curvas_lentas": 2.676,
+            "curvas_medias": 3.66,
+            "curvas_rapidas": 4.941,
+            "aire_sucio": 65,
+            "neumaticos": 58.91,
+            "refrigeracion": 66.99,
+            "peso_extra": 10.8
           },
           "posiciones_20_coches": {
-            "velocidad_maxima": 6,
-            "aceleracion": 12,
+            "velocidad_maxima": 5,
+            "aceleracion": 11,
             "eficacia_drs": 7,
-            "curvas_lentas": 4,
-            "curvas_medias": 4,
-            "curvas_rapidas": 6,
+            "curvas_lentas": 3,
+            "curvas_medias": 3,
+            "curvas_rapidas": 5,
             "aire_sucio": 3,
-            "neumaticos": 7,
+            "neumaticos": 5,
             "refrigeracion": 1,
-            "peso_extra": 7
+            "peso_extra": 3
           },
           "metadatos_por_bloque": {
             "atributos": {
               "estado": "CONFIRMADO",
               "temporada": 2024,
-              "fecha_partida": "2024-07-29",
+              "fecha_partida": "2024-08-23",
               "fecha_registro": "2026-11-22",
-              "fuente": "capturas_analisis_parrilla_2024_07_29#4"
+              "fuente": "capturas_zandvoort_fp1_2024_08_23"
             },
             "posiciones_20_coches": {
               "estado": "CONFIRMADO",
               "temporada": 2024,
-              "fecha_partida": "2024-07-29",
+              "fecha_partida": "2024-08-23",
               "fecha_registro": "2026-11-22",
-              "fuente": "capturas_analisis_parrilla_2024_07_29#5"
+              "fuente": "capturas_zandvoort_fp1_2024_08_23"
+            }
+          },
+          "observacion_anterior": {
+            "atributos": {
+              "velocidad_maxima": 321.94,
+              "aceleracion": 1.856,
+              "eficacia_drs": 60.22,
+              "curvas_lentas": 2.661,
+              "curvas_medias": 3.644,
+              "curvas_rapidas": 4.918,
+              "aire_sucio": 65,
+              "neumaticos": 57.06,
+              "refrigeracion": 64.51,
+              "peso_extra": 14.2
+            },
+            "posiciones_20_coches": {
+              "velocidad_maxima": 6,
+              "aceleracion": 12,
+              "eficacia_drs": 7,
+              "curvas_lentas": 4,
+              "curvas_medias": 4,
+              "curvas_rapidas": 6,
+              "aire_sucio": 3,
+              "neumaticos": 7,
+              "refrigeracion": 1,
+              "peso_extra": 7
+            },
+            "metadatos_por_bloque": {
+              "atributos": {
+                "estado": "CONFIRMADO",
+                "temporada": 2024,
+                "fecha_partida": "2024-07-29",
+                "fecha_registro": "2026-11-22",
+                "fuente": "capturas_analisis_parrilla_2024_07_29#4"
+              },
+              "posiciones_20_coches": {
+                "estado": "CONFIRMADO",
+                "temporada": 2024,
+                "fecha_partida": "2024-07-29",
+                "fecha_registro": "2026-11-22",
+                "fuente": "capturas_analisis_parrilla_2024_07_29#5"
+              }
             }
           }
         }
@@ -199,43 +325,85 @@
           "piloto": "George Russell",
           "posicion_piloto_mostrada": 8,
           "atributos": {
-            "velocidad_maxima": 321.77,
-            "aceleracion": 1.855,
-            "eficacia_drs": 55.95,
-            "curvas_lentas": 2.584,
-            "curvas_medias": 3.605,
-            "curvas_rapidas": 4.873,
-            "aire_sucio": 58.75,
+            "velocidad_maxima": 321.83,
+            "aceleracion": 1.856,
+            "eficacia_drs": 57.39,
+            "curvas_lentas": 2.591,
+            "curvas_medias": 3.615,
+            "curvas_rapidas": 4.885,
+            "aire_sucio": 59.63,
             "neumaticos": 58.44,
             "refrigeracion": 58.05,
-            "peso_extra": 16.0
+            "peso_extra": 14.2
           },
           "posiciones_20_coches": {
             "velocidad_maxima": 10,
             "aceleracion": 13,
             "eficacia_drs": 9,
-            "curvas_lentas": 9,
-            "curvas_medias": 9,
+            "curvas_lentas": 7,
+            "curvas_medias": 7,
             "curvas_rapidas": 7,
             "aire_sucio": 9,
-            "neumaticos": 6,
-            "refrigeracion": 7,
-            "peso_extra": 12
+            "neumaticos": 7,
+            "refrigeracion": 9,
+            "peso_extra": 8
           },
           "metadatos_por_bloque": {
             "atributos": {
               "estado": "CONFIRMADO",
               "temporada": 2024,
-              "fecha_partida": "2024-07-29",
+              "fecha_partida": "2024-08-23",
               "fecha_registro": "2026-11-22",
-              "fuente": "capturas_analisis_parrilla_2024_07_29#7"
+              "fuente": "capturas_zandvoort_fp1_2024_08_23"
             },
             "posiciones_20_coches": {
               "estado": "CONFIRMADO",
               "temporada": 2024,
-              "fecha_partida": "2024-07-29",
+              "fecha_partida": "2024-08-23",
               "fecha_registro": "2026-11-22",
-              "fuente": "capturas_analisis_parrilla_2024_07_29#6"
+              "fuente": "capturas_zandvoort_fp1_2024_08_23"
+            }
+          },
+          "observacion_anterior": {
+            "atributos": {
+              "velocidad_maxima": 321.77,
+              "aceleracion": 1.855,
+              "eficacia_drs": 55.95,
+              "curvas_lentas": 2.584,
+              "curvas_medias": 3.605,
+              "curvas_rapidas": 4.873,
+              "aire_sucio": 58.75,
+              "neumaticos": 58.44,
+              "refrigeracion": 58.05,
+              "peso_extra": 16
+            },
+            "posiciones_20_coches": {
+              "velocidad_maxima": 10,
+              "aceleracion": 13,
+              "eficacia_drs": 9,
+              "curvas_lentas": 9,
+              "curvas_medias": 9,
+              "curvas_rapidas": 7,
+              "aire_sucio": 9,
+              "neumaticos": 6,
+              "refrigeracion": 7,
+              "peso_extra": 12
+            },
+            "metadatos_por_bloque": {
+              "atributos": {
+                "estado": "CONFIRMADO",
+                "temporada": 2024,
+                "fecha_partida": "2024-07-29",
+                "fecha_registro": "2026-11-22",
+                "fuente": "capturas_analisis_parrilla_2024_07_29#7"
+              },
+              "posiciones_20_coches": {
+                "estado": "CONFIRMADO",
+                "temporada": 2024,
+                "fecha_partida": "2024-07-29",
+                "fecha_registro": "2026-11-22",
+                "fuente": "capturas_analisis_parrilla_2024_07_29#6"
+              }
             }
           }
         }
