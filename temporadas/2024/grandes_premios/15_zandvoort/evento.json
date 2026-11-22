@@ -1646,6 +1646,150 @@
       "fernando_alonso": "Victoria o podio como mínimo (objetivo ambicioso)",
       "lance_stroll": "P6; intentar superar a Tsunoda (RB)",
       "nota": "Objetivos del jefe de equipo, no resultados."
+    },
+    "plan_operativo_pre_carrera": {
+      "metadatos": {
+        "estado": "CONFIRMADO",
+        "temporada": 2024,
+        "fecha_partida": "2024-08-25",
+        "fecha_registro": "2026-11-22",
+        "fuente": "mensaje_usuario_estrategias_pre_carrera_2024_08_25"
+      },
+      "estado": "preparado_sin_iniciar_carrera",
+      "objetivos": {
+        "fernando_alonso": "podio o victoria",
+        "lance_stroll": "P6"
+      },
+      "planes_confirmados": {
+        "fernando_alonso": {
+          "parrilla": 5,
+          "secuencia": [
+            "blando",
+            "blando",
+            "medio"
+          ],
+          "paradas": 2,
+          "ventanas_orientativas": [
+            [
+              22,
+              25
+            ],
+            [
+              43,
+              47
+            ]
+          ],
+          "nota": "Plan principal elegido por usuario; juego muestra estrategia B con referencias v23 y v45. Cambiar ventanas en función de tráfico, vida y ritmo."
+        },
+        "lance_stroll": {
+          "parrilla": 7,
+          "secuencia": [
+            "medio",
+            "blando",
+            "blando"
+          ],
+          "paradas": 2,
+          "ventanas_orientativas": [
+            [
+              28,
+              34
+            ],
+            [
+              48,
+              54
+            ]
+          ],
+          "nota": "Plan elegido por usuario, objetivo prolongar primer stint y aprovechar aire libre cuando rivales paren."
+        }
+      },
+      "alternativas_para_alonso": [
+        {
+          "secuencia": [
+            "blando",
+            "medio",
+            "blando"
+          ],
+          "paradas": 2,
+          "referencia_paradas": [
+            24,
+            51
+          ],
+          "motivo": "Mayor capacidad de ataque final, especialmente si se pierden posiciones o conviene parar tras SC."
+        },
+        {
+          "secuencia": [
+            "blando",
+            "blando",
+            "blando",
+            "medio"
+          ],
+          "paradas": 3,
+          "referencia_paradas": [
+            18,
+            36,
+            52
+          ],
+          "motivo": "Alternativa del editor para altas prestaciones con tres paradas; estimada muy próxima, sin asumir que es mejor en tráfico."
+        }
+      ],
+      "alternativas_para_stroll": [
+        {
+          "secuencia": [
+            "medio",
+            "duro"
+          ],
+          "paradas": 1,
+          "referencia_parada": [
+            35
+          ],
+          "motivo": "Minimizar paso por boxes y defender posición, condicionado a existencia del juego de duro y desgaste."
+        }
+      ],
+      "salida_recomendada": {
+        "alonso": {
+          "neumaticos": "agresivo durante arranque si temperatura lo permite, después normal",
+          "combustible": "equilibrado, atacar solo si balance real lo permite",
+          "ers": "desplegar en salida y controlar reserva",
+          "adelantamientos": "mayor agresividad solo con oportunidad clara",
+          "defensa": "normal"
+        },
+        "stroll": {
+          "neumaticos": "normal para alargar medio",
+          "combustible": "equilibrado",
+          "ers": "desplegar al inicio y recuperar después",
+          "adelantamientos": "normal salvo oportunidad sobre Tsunoda",
+          "defensa": "normal, no hacer tapón que destruya estrategia propia"
+        }
+      },
+      "puntos_revision": [
+        1,
+        3,
+        8,
+        18,
+        22,
+        28,
+        33,
+        43,
+        48,
+        52
+      ],
+      "condiciones_para_recalcular": [
+        "safety_car",
+        "virtual_safety_car",
+        "lluvia",
+        "tráfico_tras_parada",
+        "degradacion_fuera_prevision",
+        "temperaturas_altas",
+        "cambio_sustancial_posiciones"
+      ],
+      "pendientes_de_verificar": [
+        "inventario real de juegos de cada compuesto y desgaste inicial",
+        "pronóstico de lluvia durante carrera y agua real",
+        "tiempo perdido en boxes bajo SC/VSC y verde",
+        "carga inicial de combustible y ERS",
+        "neumáticos de rivales al iniciar"
+      ],
+      "nota": "Son recomendaciones operativas, no órdenes ejecutadas. No declarar paradas ni cambios realizados hasta aviso del usuario."
     }
   },
   "metadatos_por_bloque": {
