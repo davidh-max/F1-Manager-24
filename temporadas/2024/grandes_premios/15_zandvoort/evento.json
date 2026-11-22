@@ -53,6 +53,18 @@
           "fecha_registro": "2026-11-22",
           "fuente": "capturas_zandvoort_fp1_2024_08_23"
         }
+      },
+      "prevision_q1": {
+        "estado": "llovizna",
+        "agua_mm": 1.44,
+        "neumatico_sugerido": "intermedio",
+        "metadatos": {
+          "estado": "CONFIRMADO",
+          "temporada": 2024,
+          "fecha_partida": "2024-08-24",
+          "fecha_registro": "2026-11-22",
+          "fuente": "capturas_fin_libres3_preparacion_q1_zandvoort_2024"
+        }
       }
     },
     "coches": {
@@ -1375,6 +1387,32 @@
             "fuente": "capturas_alonso_fp2_blandos_2024_08_23"
           }
         }
+      },
+      "fp3": {
+        "modo": "desconocida",
+        "estado": "finalizada",
+        "alcance": "Final confirmado, sin tiempos FP3 individualizados en capturas",
+        "metadatos": {
+          "estado": "CONFIRMADO",
+          "temporada": 2024,
+          "fecha_partida": "2024-08-24",
+          "fecha_registro": "2026-11-22",
+          "fuente": "capturas_fin_libres3_preparacion_q1_zandvoort_2024"
+        }
+      },
+      "q1": {
+        "modo": "desconocida",
+        "estado": "preparacion",
+        "metadatos": {
+          "estado": "CONFIRMADO",
+          "temporada": 2024,
+          "fecha_partida": "2024-08-24",
+          "fecha_registro": "2026-11-22",
+          "fuente": "capturas_fin_libres3_preparacion_q1_zandvoort_2024"
+        },
+        "observaciones": [
+          "Comienzo Q1 con llovizna y 1.44 mm en pantalla, recomendación inicial intermedios; aún no confirmado que hayan salido."
+        ]
       }
     },
     "reglajes": {},
@@ -1409,6 +1447,51 @@
           "fecha_registro": "2026-11-22",
           "fuente": "capturas_zandvoort_fp1_2024_08_23"
         }
+      },
+      "fp3_final": {
+        "coche_1": {
+          "piloto_id": "lance_stroll",
+          "adaptacion_pct": 82,
+          "conocimiento_piezas_pct": 95,
+          "satisfaccion_configuracion_pct": 100,
+          "preparacion_pct": 100,
+          "confianza_inicial": "muy alta"
+        },
+        "coche_2": {
+          "piloto_id": "fernando_alonso",
+          "adaptacion_pct": 79,
+          "conocimiento_piezas_pct": 95,
+          "satisfaccion_configuracion_pct": 90,
+          "preparacion_pct": 95,
+          "confianza_inicial": "alta"
+        },
+        "metadatos": {
+          "estado": "CONFIRMADO",
+          "temporada": 2024,
+          "fecha_partida": "2024-08-24",
+          "fecha_registro": "2026-11-22",
+          "fuente": "capturas_fin_libres3_preparacion_q1_zandvoort_2024"
+        }
+      },
+      "q1_previa": {
+        "coche_1": {
+          "configuracion_pct": 100,
+          "confianza": "muy alta",
+          "mejor_tiempo_entrenamientos_ms": 71979
+        },
+        "coche_2": {
+          "configuracion_pct": 90,
+          "confianza": "alta",
+          "mejor_tiempo_entrenamientos_ms": 71812
+        },
+        "metadatos": {
+          "estado": "CONFIRMADO",
+          "temporada": 2024,
+          "fecha_partida": "2024-08-24",
+          "fecha_registro": "2026-11-22",
+          "fuente": "capturas_fin_libres3_preparacion_q1_zandvoort_2024"
+        },
+        "nota": "El usuario prevé reajustar Alonso para mejorar satisfacción y confianza; NO confirmado todavía."
       }
     },
     "confianza": {},
@@ -1423,7 +1506,8 @@
       "capturas_zandvoort_fp1_2024_08_23",
       "capturas_fp2_tandas_2024_08_23",
       "capturas_alonso_fp2_blandos_2024_08_23",
-      "capturas_fp2_stroll_leclerc_blandos_2024_08_23"
+      "capturas_fp2_stroll_leclerc_blandos_2024_08_23",
+      "capturas_fin_libres3_preparacion_q1_zandvoort_2024"
     ],
     "analisis": null,
     "lecciones": [],
