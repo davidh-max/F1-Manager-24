@@ -54,9 +54,20 @@
         "inicial": 72,
         "restante": 7,
         "consumido": null,
-        "reservado": null
+        "reservado": null,
+        "restante_estimado_tras_asignacion": 0
       },
-      "nota": "7/72 h visibles; CFD disponible no aparece legible en estas 3 capturas; ningún recurso ATR asignado a la simulación."
+      "nota": "7/72 h visibles; CFD disponible no aparece legible en estas 3 capturas; ningún recurso ATR asignado a la simulación. Proyecto confirmado con 7 horas túnel y 0,4 MAU asignados; saldo de ATR post-confirmación pendiente de verificar.",
+      "asignaciones_posteriores": [
+        {
+          "proyecto": "diseno_suspension_2024_08_26",
+          "cfd_mau": 0.4,
+          "tunel_h": 7,
+          "fecha_partida": "2024-08-26",
+          "estado": "CONFIGURADO_EN_PROYECTO_INICIADO_CONSUMO_PENDIENTE_VERIFICAR",
+          "fuente": "confirmacion_diseno_suspension_2024_08_26"
+        }
+      ]
     }
   ]
 }
