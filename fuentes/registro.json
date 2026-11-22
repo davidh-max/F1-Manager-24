@@ -740,5 +740,23 @@
       "3": "Meteorología y agarre por vuelta"
     },
     "observaciones": "Alonso con blandos confirmado por usuario. Se usan vueltas cronometradas 33–40; la vuelta 41 es de entrada y se excluye del ritmo. El desgaste sí puede calcularse con observaciones de v33 a v41."
+  },
+  {
+    "id": "capturas_fp2_stroll_leclerc_blandos_2024_08_23",
+    "titulo": "Zandvoort FP2 — segunda tanda Stroll y stint Leclerc con blandos",
+    "tipo": "lote_fotos_chat",
+    "fecha_partida": "2024-08-23",
+    "fecha_consulta": "2026-11-22",
+    "total_capturas": 6,
+    "archivo": null,
+    "localizadores": {
+      "1": "Stroll vueltas 31–41, parciales",
+      "2": "Stroll neumáticos y gasolina",
+      "3": "Stroll pista y meteorología",
+      "4": "Leclerc vueltas 7–17 y parciales",
+      "5": "Leclerc neumáticos y gasolina",
+      "6": "Leclerc pista y meteorología"
+    },
+    "observaciones": "Leclerc comienza el stint con blandos en la vuelta 11 según usuario; las vueltas 14–16 son las vueltas competitivas visibles. Las comparativas sectoriales no son controladas por carga y modo."
   }
 ]
