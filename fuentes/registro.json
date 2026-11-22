@@ -536,7 +536,7 @@
     "tipo": "mensaje_usuario",
     "fecha_consulta": "2026-11-22",
     "fecha_partida": "2024-07-29",
-    "observaciones": "Usuario confirma las fechas de carrera para los diez GP restantes. Se conserva literalmente la fecha comunicada como carrera; inicio de fin de semana calculado como carrera menos 2 días, pendiente de verificación.",
+    "observaciones": "RECTIFICADO: estas fechas no correspondían al calendario de carreras sino a la disponibilidad del parte meteorológico. No deben usarse como fechas de GP.",
     "eventos": [
       {
         "id": "15_zandvoort",
@@ -588,6 +588,20 @@
         "carrera": "2024-11-29",
         "inicio_estimado": "2024-11-27"
       }
+    ],
+    "anulado_por": "rectificacion_calendario_usuario_2026_11_22"
+  },
+  {
+    "id": "rectificacion_calendario_usuario_2026_11_22",
+    "titulo": "Restablecer fechas originales de GP 2024",
+    "tipo": "mensaje_usuario",
+    "fecha_consulta": "2026-11-22",
+    "fecha_partida": "2024-07-29",
+    "observaciones": "El usuario revoca todas las fechas del mensaje anterior, confirma que el GP de Países Bajos comienza el 23 de agosto y que las fechas del calendario originales estaban bien. Las fechas anteriores se confundieron con la disponibilidad del parte meteorológico.",
+    "rectifica": [
+      "mensaje_calendario_usuario_2026_11_22",
+      "correccion_calendario_2024_2026_11_22",
+      "aclaracion_fechas_carrera_2024_2026_11_22"
     ]
   }
 ]
