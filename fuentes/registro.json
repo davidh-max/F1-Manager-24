@@ -854,5 +854,19 @@
       "2": "Deslizadores de suspensión, foco en curvas medias y altas, conservación reducida"
     },
     "observaciones": "Capturas de simulación; no ejecución confirmada. Velocidad +0.02 km/h, curvas +0.001/+0.003/+0.004 G, neumáticos -2.19 pp. No registrar consumo ATR."
+  },
+  {
+    "id": "confirmacion_diseno_suspension_2024_08_26",
+    "titulo": "Diseño de suspensión confirmado y pagado: 3 ingenieros, normal, 26 días, +0,03 km/h",
+    "tipo": "capturas_y_confirmacion_usuario",
+    "fecha_partida": "2024-08-26",
+    "fecha_consulta": "2026-11-22",
+    "total_capturas": 2,
+    "archivo": null,
+    "localizadores": {
+      "1": "Paso 3 diseño suspensión: 3 ingenieros, normal, 26 días, fin 21 septiembre, coste 1.000.000 USD, saldo restante 202.015 USD",
+      "2": "Resumen del rendimiento previsto en coche 2: +0.03 km/h, curvas +0.001/+0.002/+0.003 G, neumáticos +0.63 pp; botón confirmar todavía visible en captura, usuario confirma ejecución posterior"
+    },
+    "observaciones": "Pago y encargo confirmados expresamente por usuario tras captura. Saldo postgasto calculado. No se han fabricado ni instalado piezas."
   }
 ]
