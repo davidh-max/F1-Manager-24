@@ -139,90 +139,170 @@
       "ronda": 15,
       "nombre": "Países Bajos",
       "circuito": "zandvoort",
-      "inicio": "2024-08-23",
-      "carrera": "2024-08-25",
-      "sprint": false
+      "inicio": "2024-08-16",
+      "carrera": "2024-08-18",
+      "sprint": false,
+      "metadatos": {
+        "estado": "CONFIRMADO",
+        "fecha_partida": "2024-07-29",
+        "temporada": 2024,
+        "fecha_registro": "2026-11-22",
+        "fuente": "mensaje_calendario_usuario_2026_11_22",
+        "nota": "Inicio comunicado por el usuario; carrera calculada a +2 días, pendiente de confirmación explícita."
+      }
     },
     {
       "id": "16_monza",
       "ronda": 16,
       "nombre": "Italia",
       "circuito": "monza",
-      "inicio": "2024-08-30",
-      "carrera": "2024-09-01",
-      "sprint": false
+      "inicio": "2024-08-23",
+      "carrera": "2024-08-25",
+      "sprint": false,
+      "metadatos": {
+        "estado": "CONFIRMADO",
+        "fecha_partida": "2024-07-29",
+        "temporada": 2024,
+        "fecha_registro": "2026-11-22",
+        "fuente": "mensaje_calendario_usuario_2026_11_22",
+        "nota": "Inicio comunicado por el usuario; carrera calculada a +2 días, pendiente de confirmación explícita."
+      }
     },
     {
       "id": "17_baku",
       "ronda": 17,
       "nombre": "Azerbaiyán",
       "circuito": "baku",
-      "inicio": "2024-09-13",
-      "carrera": "2024-09-15",
-      "sprint": false
+      "inicio": "2024-09-06",
+      "carrera": "2024-09-08",
+      "sprint": false,
+      "metadatos": {
+        "estado": "CONFIRMADO",
+        "fecha_partida": "2024-07-29",
+        "temporada": 2024,
+        "fecha_registro": "2026-11-22",
+        "fuente": "mensaje_calendario_usuario_2026_11_22",
+        "nota": "Inicio comunicado por el usuario; carrera calculada a +2 días, pendiente de confirmación explícita."
+      }
     },
     {
       "id": "18_marina_bay",
       "ronda": 18,
       "nombre": "Singapur",
       "circuito": "marina_bay",
-      "inicio": "2024-09-20",
-      "carrera": "2024-09-22",
-      "sprint": false
+      "inicio": "2024-09-13",
+      "carrera": "2024-09-15",
+      "sprint": false,
+      "metadatos": {
+        "estado": "CONFIRMADO",
+        "fecha_partida": "2024-07-29",
+        "temporada": 2024,
+        "fecha_registro": "2026-11-22",
+        "fuente": "mensaje_calendario_usuario_2026_11_22",
+        "nota": "Inicio comunicado por el usuario; carrera calculada a +2 días, pendiente de confirmación explícita."
+      }
     },
     {
       "id": "19_austin",
       "ronda": 19,
       "nombre": "Estados Unidos",
       "circuito": "austin",
-      "inicio": "2024-10-18",
-      "carrera": "2024-10-20",
-      "sprint": true
+      "inicio": "2024-10-11",
+      "carrera": "2024-10-13",
+      "sprint": true,
+      "metadatos": {
+        "estado": "CONFIRMADO",
+        "fecha_partida": "2024-07-29",
+        "temporada": 2024,
+        "fecha_registro": "2026-11-22",
+        "fuente": "mensaje_calendario_usuario_2026_11_22",
+        "nota": "Inicio comunicado por el usuario; carrera calculada a +2 días, pendiente de confirmación explícita."
+      }
     },
     {
       "id": "20_hermanos_rodriguez",
       "ronda": 20,
       "nombre": "México",
       "circuito": "hermanos_rodriguez",
-      "inicio": "2024-10-25",
-      "carrera": "2024-10-27",
-      "sprint": false
+      "inicio": "2024-10-18",
+      "carrera": "2024-10-20",
+      "sprint": false,
+      "metadatos": {
+        "estado": "CONFIRMADO",
+        "fecha_partida": "2024-07-29",
+        "temporada": 2024,
+        "fecha_registro": "2026-11-22",
+        "fuente": "mensaje_calendario_usuario_2026_11_22",
+        "nota": "Inicio comunicado por el usuario; carrera calculada a +2 días, pendiente de confirmación explícita."
+      }
     },
     {
       "id": "21_interlagos",
       "ronda": 21,
       "nombre": "São Paulo",
       "circuito": "interlagos",
-      "inicio": "2024-11-01",
-      "carrera": "2024-11-03",
-      "sprint": true
+      "inicio": "2024-10-25",
+      "carrera": "2024-10-27",
+      "sprint": true,
+      "metadatos": {
+        "estado": "CONFIRMADO",
+        "fecha_partida": "2024-07-29",
+        "temporada": 2024,
+        "fecha_registro": "2026-11-22",
+        "fuente": "mensaje_calendario_usuario_2026_11_22",
+        "nota": "Inicio comunicado por el usuario; carrera calculada a +2 días, pendiente de confirmación explícita."
+      }
     },
     {
       "id": "22_las_vegas",
       "ronda": 22,
       "nombre": "Las Vegas",
       "circuito": "las_vegas",
-      "inicio": "2024-11-21",
-      "carrera": "2024-11-23",
-      "sprint": false
+      "inicio": "2024-11-14",
+      "carrera": "2024-11-16",
+      "sprint": false,
+      "metadatos": {
+        "estado": "CONFIRMADO",
+        "fecha_partida": "2024-07-29",
+        "temporada": 2024,
+        "fecha_registro": "2026-11-22",
+        "fuente": "mensaje_calendario_usuario_2026_11_22",
+        "nota": "Inicio comunicado por el usuario; carrera calculada a +2 días, pendiente de confirmación explícita."
+      }
     },
     {
       "id": "23_lusail",
       "ronda": 23,
       "nombre": "Catar",
       "circuito": "lusail",
-      "inicio": "2024-11-29",
-      "carrera": "2024-12-01",
-      "sprint": true
+      "inicio": "2024-11-22",
+      "carrera": "2024-11-24",
+      "sprint": true,
+      "metadatos": {
+        "estado": "CONFIRMADO",
+        "fecha_partida": "2024-07-29",
+        "temporada": 2024,
+        "fecha_registro": "2026-11-22",
+        "fuente": "mensaje_calendario_usuario_2026_11_22",
+        "nota": "Inicio comunicado por el usuario; carrera calculada a +2 días, pendiente de confirmación explícita."
+      }
     },
     {
       "id": "24_yas_marina",
       "ronda": 24,
       "nombre": "Abu Dabi",
       "circuito": "yas_marina",
-      "inicio": "2024-12-06",
-      "carrera": "2024-12-08",
-      "sprint": false
+      "inicio": "2024-11-29",
+      "carrera": "2024-12-01",
+      "sprint": false,
+      "metadatos": {
+        "estado": "CONFIRMADO",
+        "fecha_partida": "2024-07-29",
+        "temporada": 2024,
+        "fecha_registro": "2026-11-22",
+        "fuente": "mensaje_calendario_usuario_2026_11_22",
+        "nota": "Inicio comunicado por el usuario; carrera calculada a +2 días, pendiente de confirmación explícita."
+      }
     }
   ]
 }
