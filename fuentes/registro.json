@@ -529,5 +529,55 @@
       }
     ],
     "observaciones": "Las fotos conservan la durabilidad inicial. La versión aligerada y el plazo se registran según el mensaje."
+  },
+  {
+    "id": "mensaje_calendario_usuario_2026_11_22",
+    "titulo": "Corrección de fechas de los diez GP restantes de 2024",
+    "tipo": "mensaje_usuario",
+    "fecha_consulta": "2026-11-22",
+    "fecha_partida": "2024-07-29",
+    "observaciones": "Usuario comunica fechas 16 y 23 de agosto, 6 y 13 de septiembre, 11, 18 y 25 de octubre, 14, 22 y 29 de noviembre. Se interpretan como fechas de inicio de GP (normalmente viernes y jueves en Las Vegas); fechas de carrera calculadas +2 días, pendientes de verificar.",
+    "eventos": [
+      {
+        "id": "15_zandvoort",
+        "inicio": "2024-08-16"
+      },
+      {
+        "id": "16_monza",
+        "inicio": "2024-08-23"
+      },
+      {
+        "id": "17_baku",
+        "inicio": "2024-09-06"
+      },
+      {
+        "id": "18_marina_bay",
+        "inicio": "2024-09-13"
+      },
+      {
+        "id": "19_austin",
+        "inicio": "2024-10-11"
+      },
+      {
+        "id": "20_hermanos_rodriguez",
+        "inicio": "2024-10-18"
+      },
+      {
+        "id": "21_interlagos",
+        "inicio": "2024-10-25"
+      },
+      {
+        "id": "22_las_vegas",
+        "inicio": "2024-11-14"
+      },
+      {
+        "id": "23_lusail",
+        "inicio": "2024-11-22"
+      },
+      {
+        "id": "24_yas_marina",
+        "inicio": "2024-11-29"
+      }
+    ]
   }
 ]
