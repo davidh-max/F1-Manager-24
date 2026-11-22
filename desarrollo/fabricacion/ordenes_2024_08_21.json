@@ -13,14 +13,42 @@
       "version": "AST24 P.-6",
       "cantidad": 2,
       "estrategia": "apresurada",
-      "estado": "en_fabricacion",
+      "estado": "parcialmente_instalada_restante_en_fabricacion",
       "fecha_inicio": "2024-08-21",
       "primera_pieza": "2024-08-26",
       "fin_estimado": "2024-08-31",
-      "instaladas": 0,
+      "instaladas": 1,
       "coste_base_usd": 900000,
       "coste_estrategia_usd": 450000,
-      "coste_total_usd": 1350000
+      "coste_total_usd": 1350000,
+      "instaladas_en": {
+        "coche_2": 1,
+        "coche_1": 0
+      },
+      "cantidad_pendiente": 1,
+      "entregas_confirmadas": [
+        {
+          "coche": "coche_2",
+          "cantidad": 1,
+          "estado": "instalada",
+          "fecha_partida": "2024-08-26",
+          "fuente": "capturas_pontones_post_p6_coche2_2024_08_26"
+        }
+      ],
+      "metadatos_actualizacion": {
+        "estado": "CONFIRMADO",
+        "temporada": 2024,
+        "fecha_partida": "2024-08-26",
+        "fecha_registro": "2026-11-22",
+        "fuente": "capturas_pontones_post_p6_coche2_2024_08_26"
+      }
     }
-  ]
+  ],
+  "metadatos_observacion_reciente": {
+    "estado": "CONFIRMADO",
+    "temporada": 2024,
+    "fecha_partida": "2024-08-26",
+    "fecha_registro": "2026-11-22",
+    "fuente": "capturas_pontones_post_p6_coche2_2024_08_26"
+  }
 }
