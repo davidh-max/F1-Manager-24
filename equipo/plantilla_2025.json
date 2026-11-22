@@ -1,0 +1,38 @@
+{
+  "metadatos": {
+    "estado": "CONFIRMADO",
+    "temporada": 2024,
+    "fecha_partida": "2024-07-29",
+    "fecha_registro": "2026-11-22",
+    "fuente": "informe_personal_2024_07_29#5"
+  },
+  "datos": {
+    "temporada": 2025,
+    "sustituciones": [
+      {
+        "puesto": "jefe_tecnico",
+        "saliente": "Dan Fallows",
+        "entrante": "Enrico Cardile",
+        "salario_entrante_usd": null,
+        "atributos_entrante": null
+      },
+      {
+        "puesto": "jefe_aerodinamica",
+        "saliente": "Ian Greig",
+        "entrante": "Diego Tondi",
+        "salario_entrante_usd": null,
+        "atributos_entrante": null
+      }
+    ],
+    "continuidad": {
+      "coche_1": "Lance Stroll",
+      "coche_2": "Fernando Alonso",
+      "ingeniero_coche_2": "Peter Bonnington",
+      "director_deportivo": "Andy Stevenson"
+    },
+    "renovacion_pendiente": {
+      "ingeniero_coche_1": "Ben Michell",
+      "vencimiento": "2024-12-31"
+    }
+  }
+}

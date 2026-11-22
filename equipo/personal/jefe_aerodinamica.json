@@ -1,33 +1,87 @@
 {
   "rol": "jefe_aerodinamica",
-  "id": null,
-  "nombre": null,
+  "id": "ian_greig",
+  "nombre": "Ian Greig",
   "metadatos": {
-    "estado": "DESCONOCIDO",
-    "fecha_partida": null,
-    "temporada": null,
-    "fecha_registro": null,
-    "fuente": null
+    "estado": "CONFIRMADO",
+    "temporada": 2024,
+    "fecha_partida": "2024-07-29",
+    "fecha_registro": "2026-11-22",
+    "fuente": "informe_personal_2024_07_29#2.4"
   },
   "datos": {
-    "edad": null,
-    "valoracion": null,
-    "mentalidad": null,
-    "plan_desarrollo": null,
+    "edad": 46,
+    "valoracion": 84,
+    "mentalidad": "entusiasta",
+    "plan_desarrollo": "equilibrado",
     "velocidad_desarrollo": null,
-    "atributos": {},
+    "atributos": {
+      "refrigeracion": 91,
+      "delta_drs": 91,
+      "carga_alta": 90,
+      "carga_media": 92,
+      "carga_baja": 93,
+      "reduccion_resistencia": 88,
+      "gestion_flujo_aire": 94,
+      "sensibilidad_flujo_aire": 91
+    },
     "contrato": {
       "inicio": null,
-      "vencimiento": null,
-      "salario_usd": null,
-      "coste_rescision_usd": null,
+      "vencimiento": "2024-12-31",
+      "salario_usd": 3050000,
+      "coste_rescision_usd": 4575000,
       "bonificaciones": null,
       "objetivos": null,
       "clausulas": null,
       "ofertas": [],
       "negociaciones": [],
-      "renovaciones": []
+      "renovaciones": [],
+      "duracion_anios": 3,
+      "meses_restantes_mostrados": 5,
+      "continuidad_2025": false
     },
-    "contribuciones": []
+    "contribuciones": [],
+    "nacionalidad": "Reino Unido",
+    "alternativas_desarrollo": [
+      "principios aerodinámicos",
+      "carrocería",
+      "agarre y tracción",
+      "efecto suelo",
+      "entrada de aire",
+      "simulaciones"
+    ],
+    "habilidades_por_objetivo": {
+      "equilibrado": [
+        "refrigeracion",
+        "delta_drs",
+        "carga_alta",
+        "carga_media",
+        "carga_baja",
+        "reduccion_resistencia",
+        "gestion_flujo_aire",
+        "sensibilidad_flujo_aire"
+      ],
+      "carrocería": [
+        "refrigeracion",
+        "delta_drs",
+        "carga_baja",
+        "gestion_flujo_aire"
+      ],
+      "agarre y tracción": [
+        "carga_baja",
+        "carga_media",
+        "carga_alta",
+        "sensibilidad_flujo_aire"
+      ],
+      "entrada de aire": [
+        "refrigeracion",
+        "delta_drs",
+        "reduccion_resistencia",
+        "gestion_flujo_aire"
+      ]
+    },
+    "situacion_personal": "neutral",
+    "opinion_equipo": "positiva",
+    "opinion_jefe": "positiva"
   }
 }

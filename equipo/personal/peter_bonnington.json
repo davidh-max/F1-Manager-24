@@ -4,33 +4,47 @@
   "rol": "ingeniero_carrera",
   "metadatos": {
     "estado": "CONFIRMADO",
+    "temporada": 2024,
     "fecha_partida": "2024-07-29",
     "fecha_registro": "2026-11-22",
-    "temporada": 2024,
-    "fuente": "informe_tecnico_video_2_2024_07_29#resumen"
+    "fuente": "informe_personal_2024_07_29#2.2"
   },
   "datos": {
-    "edad": null,
-    "valoracion": null,
-    "comunicacion": null,
-    "comentarios": null,
-    "compostura": null,
+    "edad": 48,
+    "valoracion": 92,
+    "comunicacion": 95,
+    "comentarios": 91,
+    "compostura": 90,
     "piloto": "fernando_alonso",
-    "afinidad": null,
-    "mentalidad": null,
-    "plan_desarrollo": null,
+    "afinidad": "baja",
+    "mentalidad": "neutral",
+    "plan_desarrollo": "equilibrado",
     "velocidad_desarrollo": null,
     "contrato": {
-      "inicio": null,
+      "inicio": "2024-03-16",
       "vencimiento": null,
-      "salario_usd": null,
-      "coste_rescision_usd": null,
+      "salario_usd": 1410000,
+      "coste_rescision_usd": 2675137,
       "bonificaciones": null,
       "objetivos": null,
       "clausulas": null,
       "ofertas": [],
       "negociaciones": [],
-      "renovaciones": []
-    }
+      "renovaciones": [],
+      "duracion_anios": 4,
+      "anios_restantes_mostrados": 3
+    },
+    "nacionalidad": "Reino Unido",
+    "semanas_asociacion": 19,
+    "ultimos_pilotos_asociados": 2,
+    "alternativas_desarrollo": [
+      "análisis del coche",
+      "comunicación con pilotos",
+      "capacidad de respuesta"
+    ],
+    "situacion_personal": "neutral",
+    "opinion_equipo": "positiva",
+    "opinion_jefe": "negativa",
+    "principal_preocupacion": "otro personal"
   }
 }

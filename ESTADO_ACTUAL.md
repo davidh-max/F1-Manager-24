@@ -12,23 +12,23 @@ La trayectoria comenzó en 2024. Las observaciones iniciales se conservan en `hi
 - **Presupuesto disponible (USD)** · 2625344
 - **Límite restante (USD)** · Pendiente
 - **Constructores** · Pendiente
-- **Fernando Alonso** · Pendiente
+- **Fernando Alonso** · 4
 - **Lance Stroll** · 9
 - **coche_1 · rendimiento general** · 8
 - **coche_1 · piloto** · lance_stroll
 - **coche_1 · ingeniero** · ben_michell
-- **coche_1 · mentalidad** · Pendiente
+- **coche_1 · mentalidad** · neutral
 - **coche_1 · confianza por sesión** · Pendiente
 - **coche_2 · rendimiento general** · 7
 - **coche_2 · piloto** · fernando_alonso
 - **coche_2 · ingeniero** · peter_bonnington
-- **coche_2 · mentalidad** · Pendiente
+- **coche_2 · mentalidad** · positiva
 - **coche_2 · confianza por sesión** · Pendiente
 - **Proyectos activos · diseno** · Ninguno registrado
 - **Proyectos activos · investigacion** · Pendiente
 - **Proyectos activos · fabricacion** · Ninguno registrado
 - **Instalaciones en obra** · Pendiente
-- **Próximos vencimientos contractuales** · Pendiente
+- **Próximos vencimientos contractuales** · ben_michell (2024-12-31), fernando_alonso (2024-12-31), jefe_aerodinamica (2024-12-31), jefe_tecnico (2024-12-31), lance_stroll (2024-12-31), director_deportivo (2027-12-31)
 - **Diseños pendientes de fabricar** · AST24 P.-5, AST24 A. t.-4
 - **Próximo vencimiento ATR** · Pendiente
 - **Renovación ATR calculada** · 2024-09-02
@@ -42,5 +42,4 @@ La trayectoria comenzó en 2024. Las observaciones iniciales se conservan en `hi
 
 - Límite presupuestario restante.
 - Constructores.
-- Fernando Alonso.
 - Proyectos activos de investigacion.

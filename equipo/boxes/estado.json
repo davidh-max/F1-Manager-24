@@ -1,15 +1,15 @@
 {
   "metadatos": {
-    "estado": "DESCONOCIDO",
-    "fecha_partida": null,
-    "temporada": null,
-    "fecha_registro": null,
-    "fuente": null
+    "estado": "CONFIRMADO",
+    "temporada": 2024,
+    "fecha_partida": "2024-07-29",
+    "fecha_registro": "2026-11-22",
+    "fuente": "informe_personal_2024_07_29#2.5"
   },
   "datos": {
     "tiempo_parada_s": null,
     "riesgo_error_pct": null,
-    "fatiga": null,
+    "fatiga": "descansado",
     "mejor_parada_s": null,
     "peor_parada_s": null,
     "habilidades": {},
