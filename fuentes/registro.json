@@ -649,5 +649,21 @@
       }
     ],
     "observaciones": "Pantalla de confirmación previa al inicio; no hay evidencia de haber pulsado confirmar. Plazo de fabricación 3 días comunicado por usuario, pendiente de corroboración en juego."
+  },
+  {
+    "id": "confirmacion_usuario_diseno_y_fabricacion_2024_08_01",
+    "titulo": "Confirmación de diseño apresurado y tres órdenes de fabricación",
+    "tipo": "mensaje_usuario_y_capturas",
+    "fecha_partida": "2024-08-01",
+    "fecha_consulta": "2026-11-22",
+    "imagenes": [
+      "IMG_E78BC6C4-0070-48B9-BDFC-8EDC327C3C11.jpeg",
+      "IMG_C0E6033C-8826-4079-A0AD-EB9A06D86310.jpeg",
+      "IMG_29154E3D-E255-410E-89CE-E24516886D07.jpeg",
+      "IMG_9927A7F3-44CD-44E4-BC75-76F2D4C8178B.jpeg",
+      "IMG_6CAFD1FD-CE7C-4921-9C21-51A9AD7EE61D.jpeg",
+      "IMG_DCD704D5-386A-46D9-8F94-8814BB749FC8.jpeg"
+    ],
+    "observaciones": "Usuario confirma gasto de diseño apresurado 2.700.000 USD y tres fabricaciones (alerón trasero A.t.-4 x2, pontones P.-5 x2, chasis Ch.-3 x1). Capturas muestran importes de fabricación y saldos proyectados en pantallas de confirmación; ejecución de las tres órdenes afirmada por el usuario. No están instaladas."
   }
 ]
