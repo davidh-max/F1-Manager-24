@@ -472,5 +472,18 @@
     "tipo": "mensaje_usuario",
     "fecha_consulta": "2026-11-22",
     "fecha_partida": "2024-07-29"
+  },
+  {
+    "id": "informe_resultados_hasta_spa_2024",
+    "titulo": "Informe aportado de resultados de Baréin a Spa",
+    "tipo": "transcripcion_aportada",
+    "fecha_consulta": "2026-11-22",
+    "fecha_partida": "2024-07-29",
+    "referencia_adjunto": "sediment://file_00000000aa0081f4b3d2dd7b080117af",
+    "observaciones": "Corte asociado al estado del 29 de julio posterior a Spa. Resultados visibles de carrera y top 10 de tres clasificaciones. DNF de Stroll y su punto en Baréin según el texto.",
+    "localizadores": {
+      "carreras": "Secciones 1–14",
+      "clasificacion": "Sección 16"
+    }
   }
 ]

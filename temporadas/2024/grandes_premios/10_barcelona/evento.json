@@ -3,11 +3,11 @@
   "circuito": "barcelona",
   "temporada": 2024,
   "metadatos": {
-    "estado": "DESCONOCIDO",
-    "fecha_partida": null,
-    "temporada": null,
-    "fecha_registro": null,
-    "fuente": null
+    "estado": "CONFIRMADO",
+    "temporada": 2024,
+    "fecha_partida": "2024-07-29",
+    "fecha_registro": "2026-11-22",
+    "fuente": "informe_resultados_hasta_spa_2024#carrera_10"
   },
   "datos": {
     "previa": null,
@@ -24,9 +24,33 @@
     "confianza": {},
     "paradas": [],
     "incidentes": [],
-    "resultados": [],
-    "evidencias": [],
+    "resultados": [
+      {
+        "archivo": "temporadas/2024/resultados.csv",
+        "sesion": "carrera",
+        "filas_registradas": 10,
+        "alcance": "Parcial",
+        "fuente": "informe_resultados_hasta_spa_2024#carrera_10",
+        "ganador_id": "charles_leclerc",
+        "vuelta_rapida": {
+          "piloto_id": "charles_leclerc",
+          "tiempo_ms": 76318
+        }
+      }
+    ],
+    "evidencias": [
+      "informe_resultados_hasta_spa_2024#carrera_10"
+    ],
     "analisis": null,
     "lecciones": []
+  },
+  "metadatos_por_bloque": {
+    "resultados": {
+      "estado": "CONFIRMADO",
+      "temporada": 2024,
+      "fecha_partida": "2024-07-29",
+      "fecha_registro": "2026-11-22",
+      "fuente": "informe_resultados_hasta_spa_2024#carrera_10"
+    }
   }
 }
