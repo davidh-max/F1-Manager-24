@@ -13,7 +13,7 @@ La trayectoria comenzó en 2024. Las observaciones iniciales se conservan en `hi
 - **Límite restante (USD)** · Pendiente
 - **Constructores** · Pendiente
 - **Fernando Alonso** · Pendiente
-- **Lance Stroll** · Pendiente
+- **Lance Stroll** · 9
 - **coche_1 · rendimiento general** · 8
 - **coche_1 · piloto** · lance_stroll
 - **coche_1 · ingeniero** · ben_michell
@@ -43,5 +43,4 @@ La trayectoria comenzó en 2024. Las observaciones iniciales se conservan en `hi
 - Límite presupuestario restante.
 - Constructores.
 - Fernando Alonso.
-- Lance Stroll.
 - Proyectos activos de investigacion.

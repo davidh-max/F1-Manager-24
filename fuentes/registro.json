@@ -398,5 +398,22 @@
       "menu_diseno_inicio_s": 54
     },
     "observaciones": "Informe recibido como texto. En discrepancias comparables prevalecen las capturas directas del juego."
+  },
+  {
+    "id": "capturas_analisis_parrilla_2024_07_29",
+    "titulo": "Análisis de coches, media y cinco rivales",
+    "tipo": "lote_capturas_chat",
+    "fecha_consulta": "2026-11-22",
+    "fecha_partida": "2024-07-29",
+    "archivo": null,
+    "localizadores": {
+      "1": "Aston Martin y media, atributos",
+      "2": "Aston Martin y Ferrari, atributos",
+      "3": "Aston Martin y Ferrari, rankings",
+      "4": "Red Bull y McLaren, atributos",
+      "5": "Red Bull y McLaren, rankings",
+      "6": "Mercedes y RB, rankings",
+      "7": "Mercedes y RB, atributos"
+    }
   }
 ]

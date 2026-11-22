@@ -139,7 +139,8 @@
     "evidencias": [
       "capturas_circuitos_2024_07_29_zandvoort_mapa",
       "capturas_circuitos_2024_07_29_zandvoort_secciones_por_velocidad",
-      "transcripcion_video_2024_07_29#zandvoort/resumen/0:05"
+      "transcripcion_video_2024_07_29#zandvoort/resumen/0:05",
+      "capturas_analisis_parrilla_2024_07_29"
     ],
     "analisis": null,
     "lecciones": [],
@@ -147,7 +148,8 @@
       "coche_1": 10,
       "coche_2": 9
     },
-    "sprint": false
+    "sprint": false,
+    "referencia_comparativa_parrilla": "informes/parrilla_2024-07-29.md"
   },
   "metadatos_por_bloque": {
     "resumen": {
