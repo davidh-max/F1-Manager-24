@@ -1612,6 +1612,40 @@
         "fecha_registro": "2026-11-22",
         "fuente": "mensaje_usuario_resultados_fp1_zandvoort"
       }
+    },
+    "parrilla_salida_confirmada": {
+      "temporada": 2024,
+      "fecha_partida": "2024-08-25",
+      "fecha_registro": "2026-11-22",
+      "estado": "CONFIRMADO",
+      "origen": "usuario tras Q3",
+      "posiciones_conocidas": [
+        {
+          "piloto": "fernando_alonso",
+          "puesto": 5
+        },
+        {
+          "piloto": "lance_stroll",
+          "puesto": 7
+        },
+        {
+          "piloto": "carlos_sainz",
+          "puesto": 14,
+          "sancion_puestos": 10
+        },
+        {
+          "piloto": "sergio_perez",
+          "puesto": 20
+        }
+      ],
+      "nota": "Resto del orden derivable de Q3, pendiente de comprobar parrilla completa; Sainz cae de P4 a P14."
+    },
+    "objetivos_carrera_comunicados": {
+      "fecha_registro": "2026-11-22",
+      "estado": "CONFIRMADO",
+      "fernando_alonso": "Victoria o podio como mínimo (objetivo ambicioso)",
+      "lance_stroll": "P6; intentar superar a Tsunoda (RB)",
+      "nota": "Objetivos del jefe de equipo, no resultados."
     }
   },
   "metadatos_por_bloque": {
