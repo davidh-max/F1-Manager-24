@@ -2,16 +2,16 @@
   "moneda": "USD",
   "metadatos": {
     "estado": "CONFIRMADO",
-    "fecha_partida": "2024-08-11",
+    "fecha_partida": "2024-08-21",
     "fecha_registro": "2026-11-22",
     "temporada": 2024,
-    "fuente": "mensaje_usuario_saldo_2024_08_11"
+    "fuente": "capturas_pontones_p6_2024_08_21"
   },
   "datos": {
-    "saldo_usd": 1327015,
+    "saldo_usd": 64515,
     "limite_usd": null,
     "consumido_limite_usd": null,
-    "restante_limite_usd": 43461004,
+    "restante_limite_usd": 42111004,
     "ingresos_previstos_usd": null,
     "gastos_comprometidos_usd": null,
     "proyeccion_fin_temporada_usd": null,
