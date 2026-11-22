@@ -1218,6 +1218,111 @@
       "plazo_diseno_dias": null,
       "inicio_confirmado": null,
       "notas": "Comparación contra coche 2 con P.-6 montado según usuario, no contra P.-4. El foco privilegiando reducción de resistencia y flujo frontal penaliza flujo central -7.51 y curvas medias/rápidas. No iniciar sin probar foco distinto. Foto 1 pieza; foto 2 atributos del coche; foto 3 posiciones."
+    },
+    {
+      "id": "simulacion_suspension_equilibrada_post_p6_coche2_2024_08_26_con_atr",
+      "pieza": "suspension",
+      "estado": "en_evaluacion",
+      "coche": "coche_2",
+      "metadatos": {
+        "estado": "CONFIRMADO",
+        "fecha_partida": "2024-08-26",
+        "fecha_registro": "2026-11-22",
+        "temporada": 2024,
+        "fuente": "capturas_suspension_equilibrada_coche2_2024_08_26_con_atr"
+      },
+      "preajuste": "equilibrado",
+      "atr_simulado": {
+        "cfd_mau": 0.4,
+        "tunel_h": 7,
+        "estado": "seleccionado_en_vista_previa_no_consumo_confirmado"
+      },
+      "pieza_referencia": {
+        "reduccion_resistencia_pct": 54.63,
+        "carga_baja_kN": 4.08,
+        "carga_media_kN": 6.17,
+        "carga_alta_kN": 7.53,
+        "preservacion_neumaticos_pct": 62.47,
+        "flujo_frontal_pct": 55.37,
+        "duracion_minima_km": 2900
+      },
+      "delta_pieza_mostrado": {
+        "reduccion_resistencia_pct": 1.65,
+        "carga_baja_kN": 0.03,
+        "carga_media_kN": 0.03,
+        "carga_alta_kN": 0.02,
+        "preservacion_neumaticos_pct": 1.33,
+        "flujo_frontal_pct": 1.73,
+        "duracion_minima_km": 0
+      },
+      "base_comparativa_coche_2": {
+        "version_pontones": "AST24 P.-6",
+        "velocidad_maxima": 321.92,
+        "aceleracion": 1.855,
+        "eficacia_drs": 62.7,
+        "curvas_lentas": 2.593,
+        "curvas_medias": 3.626,
+        "curvas_rapidas": 4.904,
+        "aire_sucio": 61.83,
+        "neumaticos": 63.23,
+        "refrigeracion": 56.96,
+        "peso_extra": 17.6
+      },
+      "delta_coche_2_mostrado": {
+        "velocidad_maxima": 0.05,
+        "aceleracion": 0,
+        "eficacia_drs": 0,
+        "curvas_lentas": 0.002,
+        "curvas_medias": 0.001,
+        "curvas_rapidas": 0.002,
+        "aire_sucio": 0,
+        "neumaticos": 1.06,
+        "refrigeracion": 0,
+        "peso_extra": 0
+      },
+      "posiciones_actuales_coche_2": {
+        "velocidad_maxima": 9,
+        "aceleracion": 15,
+        "eficacia_drs": 6,
+        "curvas_lentas": 8,
+        "curvas_medias": 7,
+        "curvas_rapidas": 7,
+        "aire_sucio": 8,
+        "neumaticos": 3,
+        "refrigeracion": 15,
+        "peso_extra": 18
+      },
+      "variacion_posiciones_coche_2": {
+        "velocidad_maxima": 0,
+        "aceleracion": 0,
+        "eficacia_drs": 0,
+        "curvas_lentas": 1,
+        "curvas_medias": 0,
+        "curvas_rapidas": 0,
+        "aire_sucio": 0,
+        "neumaticos": 0,
+        "refrigeracion": 0,
+        "peso_extra": -2
+      },
+      "comparativa_secundaria_coche_1": {
+        "delta_coche_mostrado": {
+          "velocidad_maxima": 0.11,
+          "aceleracion": 0.001,
+          "eficacia_drs": 0,
+          "curvas_lentas": 0.005,
+          "curvas_medias": 0.004,
+          "curvas_rapidas": 0.004,
+          "aire_sucio": 0,
+          "neumaticos": 2.79,
+          "refrigeracion": 0,
+          "peso_extra": 0
+        },
+        "nota": "Misma propuesta de suspensión frente a piezas distintas instaladas en coche1 y coche2, no sumar deltas."
+      },
+      "coste_usd": null,
+      "plazo_diseno_dias": null,
+      "inicio_confirmado": null,
+      "notas": "Fotografías muestran las pantallas del paso 1 y paso 2, configuración equilibrada. Aun sin iniciar nuevo proyecto; 7h túnel y 0.4 MAU CFD indicados en pantalla como seleccionados para simulación, sin gasto confirmado. Recomendación iterativa: aumentar foco velocidad media y alta 2 posiciones, disminuir preservación neumáticos 2 y observar vista coche2 y coste."
     }
   ],
   "priorizacion_2024_08_26": {
@@ -1240,6 +1345,8 @@
       "19_austin",
       "20_hermanos_rodriguez",
       "21_interlagos"
-    ]
+    ],
+    "ultima_simulacion": "simulacion_suspension_equilibrada_post_p6_coche2_2024_08_26_con_atr",
+    "evaluacion_actual": "Ganancias de suspensión equilibrada sobre coche2 P6 modestas (+0.05 km/h, +0.002/+0.001/+0.002 G y +1.06 pp neumáticos); antes de iniciar reorientar deslizadores a medias y rápidas y comparar. CFD 0.4 MAU y túnel 7 h aparecen seleccionados en la vista previa, no consumidos."
   }
 }
