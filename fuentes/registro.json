@@ -536,47 +536,57 @@
     "tipo": "mensaje_usuario",
     "fecha_consulta": "2026-11-22",
     "fecha_partida": "2024-07-29",
-    "observaciones": "Usuario comunica fechas 16 y 23 de agosto, 6 y 13 de septiembre, 11, 18 y 25 de octubre, 14, 22 y 29 de noviembre. Se interpretan como fechas de inicio de GP (normalmente viernes y jueves en Las Vegas); fechas de carrera calculadas +2 días, pendientes de verificar.",
+    "observaciones": "Usuario confirma las fechas de carrera para los diez GP restantes. Se conserva literalmente la fecha comunicada como carrera; inicio de fin de semana calculado como carrera menos 2 días, pendiente de verificación.",
     "eventos": [
       {
         "id": "15_zandvoort",
-        "inicio": "2024-08-16"
+        "carrera": "2024-08-16",
+        "inicio_estimado": "2024-08-14"
       },
       {
         "id": "16_monza",
-        "inicio": "2024-08-23"
+        "carrera": "2024-08-23",
+        "inicio_estimado": "2024-08-21"
       },
       {
         "id": "17_baku",
-        "inicio": "2024-09-06"
+        "carrera": "2024-09-06",
+        "inicio_estimado": "2024-09-04"
       },
       {
         "id": "18_marina_bay",
-        "inicio": "2024-09-13"
+        "carrera": "2024-09-13",
+        "inicio_estimado": "2024-09-11"
       },
       {
         "id": "19_austin",
-        "inicio": "2024-10-11"
+        "carrera": "2024-10-11",
+        "inicio_estimado": "2024-10-09"
       },
       {
         "id": "20_hermanos_rodriguez",
-        "inicio": "2024-10-18"
+        "carrera": "2024-10-18",
+        "inicio_estimado": "2024-10-16"
       },
       {
         "id": "21_interlagos",
-        "inicio": "2024-10-25"
+        "carrera": "2024-10-25",
+        "inicio_estimado": "2024-10-23"
       },
       {
         "id": "22_las_vegas",
-        "inicio": "2024-11-14"
+        "carrera": "2024-11-14",
+        "inicio_estimado": "2024-11-12"
       },
       {
         "id": "23_lusail",
-        "inicio": "2024-11-22"
+        "carrera": "2024-11-22",
+        "inicio_estimado": "2024-11-20"
       },
       {
         "id": "24_yas_marina",
-        "inicio": "2024-11-29"
+        "carrera": "2024-11-29",
+        "inicio_estimado": "2024-11-27"
       }
     ]
   }
