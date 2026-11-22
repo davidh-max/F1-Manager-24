@@ -30,6 +30,39 @@
       "instaladas_por_coche": {
         "coche_1": 1,
         "coche_2": 1
+      },
+      "condicion_por_coche": {
+        "coche_1": "riesgo medio",
+        "coche_2": "riesgo medio"
+      },
+      "atributos_instalados": {
+        "reduccion_resistencia_pct": {
+          "valor": 61.93,
+          "posicion": 7
+        },
+        "refrigeracion_motor_pct": {
+          "valor": 58.22,
+          "posicion": 7
+        },
+        "flujo_frontal_pct": {
+          "valor": 60.75,
+          "posicion": 11
+        },
+        "flujo_central_pct": {
+          "valor": 39.95,
+          "posicion": 13
+        },
+        "duracion_minima_km": {
+          "valor": 4125,
+          "posicion": 9
+        }
+      },
+      "metadatos_ficha_instalada": {
+        "estado": "CONFIRMADO",
+        "fecha_partida": "2024-07-29",
+        "fecha_registro": "2026-11-22",
+        "temporada": 2024,
+        "fuente": "informe_tecnico_video_2_2024_07_29#ficha_instalada"
       }
     },
     {
@@ -52,7 +85,364 @@
       "version": "AST24 P.-1",
       "conocimiento_pct": 100,
       "total_mostrado": 4
+    },
+    {
+      "id": "ast24_ch_3",
+      "categoria": "chasis",
+      "version": "AST24 Ch.-3",
+      "conocimiento_pct": 100,
+      "total_mostrado": 2,
+      "instaladas_por_coche": {
+        "coche_1": 1,
+        "coche_2": 1
+      },
+      "condicion_por_coche": {
+        "coche_1": "fallida",
+        "coche_2": "riesgo medio"
+      },
+      "atributos_instalados": {
+        "reduccion_resistencia_pct": {
+          "valor": 60.07,
+          "posicion": 6
+        },
+        "delta_drs_pct": {
+          "valor": 58.18,
+          "posicion": 4
+        },
+        "refrigeracion_motor_pct": {
+          "valor": 48.85,
+          "posicion": 15
+        },
+        "flujo_central_pct": {
+          "valor": 61.22,
+          "posicion": 6
+        },
+        "duracion_minima_km": {
+          "valor": 5150,
+          "posicion": 13
+        }
+      },
+      "metadatos_ficha_instalada": {
+        "estado": "CONFIRMADO",
+        "fecha_partida": "2024-07-29",
+        "fecha_registro": "2026-11-22",
+        "temporada": 2024,
+        "fuente": "informe_tecnico_video_2_2024_07_29#ficha_instalada"
+      }
+    },
+    {
+      "id": "ast24_ad_4",
+      "categoria": "aleron_delantero",
+      "version": "AST24 A. d.-4",
+      "conocimiento_pct": 100,
+      "total_mostrado": 2,
+      "instaladas_por_coche": {
+        "coche_1": 1,
+        "coche_2": 1
+      },
+      "condicion_por_coche": {
+        "coche_1": "riesgo medio",
+        "coche_2": "riesgo medio"
+      },
+      "atributos_instalados": {
+        "carga_baja_kN": {
+          "valor": 4.21,
+          "posicion": 7
+        },
+        "carga_media_kN": {
+          "valor": 6.28,
+          "posicion": 6
+        },
+        "carga_alta_kN": {
+          "valor": 7.62,
+          "posicion": 5
+        },
+        "preservacion_neumaticos_pct": {
+          "valor": 66.25,
+          "posicion": 3
+        },
+        "sensibilidad_flujo_aire_pct": {
+          "valor": 61.01,
+          "posicion": 6
+        },
+        "flujo_frontal_pct": {
+          "valor": 60.78,
+          "posicion": 7
+        },
+        "duracion_minima_km": {
+          "valor": 2075,
+          "posicion": 6
+        }
+      },
+      "metadatos_ficha_instalada": {
+        "estado": "CONFIRMADO",
+        "fecha_partida": "2024-07-29",
+        "fecha_registro": "2026-11-22",
+        "temporada": 2024,
+        "fuente": "informe_tecnico_video_2_2024_07_29#ficha_instalada"
+      }
+    },
+    {
+      "id": "ast24_at_3",
+      "categoria": "aleron_trasero",
+      "version": "AST24 A. t.-3",
+      "conocimiento_pct": 100,
+      "total_mostrado": 2,
+      "instaladas_por_coche": {
+        "coche_1": 1,
+        "coche_2": 1
+      },
+      "condicion_por_coche": {
+        "coche_1": "riesgo alto",
+        "coche_2": "riesgo alto"
+      },
+      "atributos_instalados": {
+        "reduccion_resistencia_pct": {
+          "valor": 57.76,
+          "posicion": 7
+        },
+        "delta_drs_pct": {
+          "valor": 61.58,
+          "posicion": 7
+        },
+        "carga_baja_kN": {
+          "valor": 4.15,
+          "posicion": 9
+        },
+        "carga_media_kN": {
+          "valor": 6.32,
+          "posicion": 5
+        },
+        "carga_alta_kN": {
+          "valor": 7.57,
+          "posicion": 10
+        },
+        "sensibilidad_flujo_aire_pct": {
+          "valor": 59.5,
+          "posicion": 7
+        },
+        "duracion_minima_km": {
+          "valor": 2535,
+          "posicion": 12
+        }
+      },
+      "metadatos_ficha_instalada": {
+        "estado": "CONFIRMADO",
+        "fecha_partida": "2024-07-29",
+        "fecha_registro": "2026-11-22",
+        "temporada": 2024,
+        "fuente": "informe_tecnico_video_2_2024_07_29#ficha_instalada"
+      }
+    },
+    {
+      "id": "ast24_fp_5",
+      "categoria": "fondo_plano",
+      "version": "AST24 F. p.-5",
+      "conocimiento_pct": 73,
+      "total_mostrado": 2,
+      "instaladas_por_coche": {
+        "coche_1": 1,
+        "coche_2": 1
+      },
+      "condicion_por_coche": {
+        "coche_1": null,
+        "coche_2": null
+      },
+      "atributos_instalados": {
+        "reduccion_resistencia_pct": {
+          "valor": 60.68,
+          "posicion": 7
+        },
+        "carga_baja_kN": {
+          "valor": 4.2,
+          "posicion": 7
+        },
+        "carga_media_kN": {
+          "valor": 6.45,
+          "posicion": 1
+        },
+        "carga_alta_kN": {
+          "valor": 7.64,
+          "posicion": 3
+        },
+        "sensibilidad_flujo_aire_pct": {
+          "valor": 61.9,
+          "posicion": 7
+        },
+        "duracion_minima_km": {
+          "valor": 3550,
+          "posicion": 9
+        }
+      },
+      "metadatos_ficha_instalada": {
+        "estado": "CONFIRMADO",
+        "fecha_partida": "2024-07-29",
+        "fecha_registro": "2026-11-22",
+        "temporada": 2024,
+        "fuente": "informe_tecnico_video_2_2024_07_29#ficha_instalada"
+      }
+    },
+    {
+      "id": "ast24_s_1",
+      "categoria": "suspension",
+      "version": "AST24 S.-1",
+      "conocimiento_pct": 100,
+      "total_mostrado": 1,
+      "instaladas_por_coche": {
+        "coche_1": 1,
+        "coche_2": 0
+      },
+      "condicion_por_coche": {
+        "coche_1": "riesgo medio"
+      },
+      "atributos_instalados": {
+        "reduccion_resistencia_pct": {
+          "valor": 52.24,
+          "posicion": 18
+        },
+        "carga_baja_kN": {
+          "valor": 4.04,
+          "posicion": 16
+        },
+        "carga_media_kN": {
+          "valor": 6.13,
+          "posicion": 12
+        },
+        "carga_alta_kN": {
+          "valor": 7.5,
+          "posicion": 18
+        },
+        "preservacion_neumaticos_pct": {
+          "valor": 60.31,
+          "posicion": 4
+        },
+        "flujo_frontal_pct": {
+          "valor": 52.95,
+          "posicion": 16
+        },
+        "duracion_minima_km": {
+          "valor": 2900,
+          "posicion": 5
+        }
+      },
+      "metadatos_ficha_instalada": {
+        "estado": "CONFIRMADO",
+        "fecha_partida": "2024-07-29",
+        "fecha_registro": "2026-11-22",
+        "temporada": 2024,
+        "fuente": "informe_tecnico_video_2_2024_07_29#ficha_instalada"
+      }
+    },
+    {
+      "id": "ast24_s_2",
+      "categoria": "suspension",
+      "version": "AST24 S.-2",
+      "conocimiento_pct": 100,
+      "total_mostrado": 1,
+      "instaladas_por_coche": {
+        "coche_1": 0,
+        "coche_2": 1
+      },
+      "condicion_por_coche": {
+        "coche_2": null
+      },
+      "atributos_instalados": {
+        "reduccion_resistencia_pct": {
+          "valor": 54.63,
+          "posicion": 10
+        },
+        "carga_baja_kN": {
+          "valor": 4.09,
+          "posicion": 15
+        },
+        "carga_media_kN": {
+          "valor": 6.17,
+          "posicion": 9
+        },
+        "carga_alta_kN": {
+          "valor": 7.52,
+          "posicion": 13
+        },
+        "preservacion_neumaticos_pct": {
+          "valor": 62.47,
+          "posicion": 3
+        },
+        "flujo_frontal_pct": {
+          "valor": 55.37,
+          "posicion": 15
+        },
+        "duracion_minima_km": {
+          "valor": 2900,
+          "posicion": 5
+        }
+      },
+      "metadatos_ficha_instalada": {
+        "estado": "CONFIRMADO",
+        "fecha_partida": "2024-07-29",
+        "fecha_registro": "2026-11-22",
+        "temporada": 2024,
+        "fuente": "informe_tecnico_video_2_2024_07_29#ficha_instalada"
+      }
+    },
+    {
+      "id": "ast24_at_4",
+      "categoria": "aleron_trasero",
+      "version": "AST24 A. t.-4",
+      "total_mostrado": 0,
+      "disponibles": 0,
+      "instaladas_por_coche": {
+        "coche_1": 0,
+        "coche_2": 0
+      },
+      "en_fabricacion": 0,
+      "proyecto": "diseno_ast24_at_4",
+      "metadatos": {
+        "estado": "CONFIRMADO",
+        "fecha_partida": "2024-07-29",
+        "fecha_registro": "2026-11-22",
+        "temporada": 2024,
+        "fuente": "informe_tecnico_video_2_2024_07_29#inventario"
+      }
     }
   ],
-  "alcance": "Pontones mostrados en la pantalla de fabricación"
+  "alcance": "Versiones instaladas, diseños pendientes y totales por categoría",
+  "resumen_por_categoria": {
+    "chasis": {
+      "ultimo_diseno": "ast24_ch_3",
+      "unidades_ultimo_diseno": 2,
+      "unidades_todos_los_disenos": 6
+    },
+    "aleron_delantero": {
+      "ultimo_diseno": "ast24_ad_4",
+      "unidades_ultimo_diseno": 2,
+      "unidades_todos_los_disenos": 11
+    },
+    "aleron_trasero": {
+      "ultimo_diseno": "ast24_at_4",
+      "unidades_ultimo_diseno": 0,
+      "unidades_todos_los_disenos": 10
+    },
+    "pontones": {
+      "ultimo_diseno": "ast24_p_5",
+      "unidades_ultimo_diseno": 0,
+      "unidades_todos_los_disenos": 9
+    },
+    "fondo_plano": {
+      "ultimo_diseno": "ast24_fp_5",
+      "unidades_ultimo_diseno": 2,
+      "unidades_todos_los_disenos": 9
+    },
+    "suspension": {
+      "ultimo_diseno": "ast24_s_2",
+      "unidades_ultimo_diseno": 1,
+      "unidades_todos_los_disenos": 2
+    }
+  },
+  "metadatos_resumen_por_categoria": {
+    "estado": "CONFIRMADO",
+    "fecha_partida": "2024-07-29",
+    "fecha_registro": "2026-11-22",
+    "temporada": 2024,
+    "fuente": "informe_tecnico_video_2_2024_07_29#resumen_categoria"
+  }
 }

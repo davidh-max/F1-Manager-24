@@ -1,0 +1,36 @@
+{
+  "id": "peter_bonnington",
+  "nombre": "Peter Bonnington",
+  "rol": "ingeniero_carrera",
+  "metadatos": {
+    "estado": "CONFIRMADO",
+    "fecha_partida": "2024-07-29",
+    "fecha_registro": "2026-11-22",
+    "temporada": 2024,
+    "fuente": "informe_tecnico_video_2_2024_07_29#resumen"
+  },
+  "datos": {
+    "edad": null,
+    "valoracion": null,
+    "comunicacion": null,
+    "comentarios": null,
+    "compostura": null,
+    "piloto": "fernando_alonso",
+    "afinidad": null,
+    "mentalidad": null,
+    "plan_desarrollo": null,
+    "velocidad_desarrollo": null,
+    "contrato": {
+      "inicio": null,
+      "vencimiento": null,
+      "salario_usd": null,
+      "coste_rescision_usd": null,
+      "bonificaciones": null,
+      "objetivos": null,
+      "clausulas": null,
+      "ofertas": [],
+      "negociaciones": [],
+      "renovaciones": []
+    }
+  }
+}

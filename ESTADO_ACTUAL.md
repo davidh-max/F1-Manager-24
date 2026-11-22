@@ -14,27 +14,27 @@ La trayectoria comenzó en 2024. Las observaciones iniciales se conservan en `hi
 - **Constructores** · Pendiente
 - **Fernando Alonso** · Pendiente
 - **Lance Stroll** · Pendiente
-- **coche_1 · rendimiento general** · Pendiente
-- **coche_1 · piloto** · Pendiente
-- **coche_1 · ingeniero** · Pendiente
+- **coche_1 · rendimiento general** · 8
+- **coche_1 · piloto** · lance_stroll
+- **coche_1 · ingeniero** · ben_michell
 - **coche_1 · mentalidad** · Pendiente
 - **coche_1 · confianza por sesión** · Pendiente
-- **coche_2 · rendimiento general** · Pendiente
-- **coche_2 · piloto** · Pendiente
-- **coche_2 · ingeniero** · Pendiente
+- **coche_2 · rendimiento general** · 7
+- **coche_2 · piloto** · fernando_alonso
+- **coche_2 · ingeniero** · peter_bonnington
 - **coche_2 · mentalidad** · Pendiente
 - **coche_2 · confianza por sesión** · Pendiente
-- **Proyectos activos · diseno** · Pendiente
+- **Proyectos activos · diseno** · Ninguno registrado
 - **Proyectos activos · investigacion** · Pendiente
-- **Proyectos activos · fabricacion** · Pendiente
+- **Proyectos activos · fabricacion** · Ninguno registrado
 - **Instalaciones en obra** · Pendiente
 - **Próximos vencimientos contractuales** · Pendiente
-- **Diseños pendientes de fabricar** · AST24 P.-5, Diseño por identificar
+- **Diseños pendientes de fabricar** · AST24 P.-5, AST24 A. t.-4
 - **Próximo vencimiento ATR** · Pendiente
 - **Renovación ATR calculada** · 2024-09-02
 - **CFD disponible (MAU)** · 2.5
 - **Túnel de viento disponible (h)** · 33
-- **Principales problemas** · Pendiente
+- **Principales problemas** · El segundo informe muestra el chasis AST24 Ch.-3 de Stroll como fallido. Verificar su estado y buscar un repuesto apto.
 - **Decisiones pendientes** · Pendiente
 - **Última actualización confirmada del estado** · 2026-11-22
 
@@ -44,8 +44,4 @@ La trayectoria comenzó en 2024. Las observaciones iniciales se conservan en `hi
 - Constructores.
 - Fernando Alonso.
 - Lance Stroll.
-- coche_1 · rendimiento general.
-- coche_2 · rendimiento general.
-- Proyectos activos de diseno.
 - Proyectos activos de investigacion.
-- Proyectos activos de fabricacion.

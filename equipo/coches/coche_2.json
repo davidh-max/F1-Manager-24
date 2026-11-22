@@ -3,24 +3,24 @@
   "metadatos": {
     "estado": "CONFIRMADO",
     "fecha_partida": "2024-07-29",
-    "temporada": 2024,
     "fecha_registro": "2026-11-22",
-    "fuente": "transcripcion_video_2024_07_29#zandvoort/atributos_del_coche/0:17"
+    "temporada": 2024,
+    "fuente": "informe_tecnico_video_2_2024_07_29#atributos"
   },
   "datos": {
-    "piloto": null,
-    "rendimiento_general": null,
+    "piloto": "fernando_alonso",
+    "rendimiento_general": 7,
     "atributos": {
-      "velocidad_maxima": null,
-      "aceleracion": null,
-      "eficacia_drs": null,
-      "curvas_lentas": null,
-      "curvas_medias": null,
-      "curvas_rapidas": null,
-      "aire_sucio": null,
-      "neumaticos": null,
-      "refrigeracion": null,
-      "peso_extra": null
+      "velocidad_maxima": 321.78,
+      "aceleracion": 1.855,
+      "eficacia_drs": 60.56,
+      "curvas_lentas": 2.589,
+      "curvas_medias": 3.614,
+      "curvas_rapidas": 4.871,
+      "aire_sucio": 60.82,
+      "neumaticos": 63.23,
+      "refrigeracion": 56.35,
+      "peso_extra": 18.0
     },
     "posiciones_20_coches": {
       "velocidad_maxima": 9,
@@ -32,11 +32,16 @@
       "aire_sucio": 8,
       "neumaticos": 3,
       "refrigeracion": 14,
-      "peso_extra": null
+      "peso_extra": 18
     },
     "posicion_10_equipos": null,
     "piezas_instaladas": [
-      "ast24_p_4"
+      "ast24_ch_3",
+      "ast24_ad_4",
+      "ast24_at_3",
+      "ast24_p_4",
+      "ast24_fp_5",
+      "ast24_s_2"
     ],
     "unidad_potencia": {}
   },
@@ -47,6 +52,13 @@
       "fecha_partida": "2024-07-29",
       "fecha_registro": "2026-11-22",
       "fuente": "capturas_diseno_2024_07_29#ast24_p_5"
+    },
+    "resumen_video_2": {
+      "estado": "CONFIRMADO",
+      "fecha_partida": "2024-07-29",
+      "fecha_registro": "2026-11-22",
+      "temporada": 2024,
+      "fuente": "informe_tecnico_video_2_2024_07_29#resumen"
     }
   }
 }

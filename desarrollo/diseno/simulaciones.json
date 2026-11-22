@@ -89,9 +89,18 @@
         "refrigeracion": 0,
         "peso_extra": -1
       },
-      "coste_usd": null,
-      "duracion_diseno_dias": null,
-      "duracion_fabricacion_dias": null
+      "coste_usd": 1000000,
+      "duracion_diseno_dias": 31,
+      "duracion_fabricacion_dias": null,
+      "contribucion_piloto_tiempo_pct": -7,
+      "fin_diseno_si_inicia_fecha_partida_calculado": "2024-08-29",
+      "metadatos_coste_y_plazo": {
+        "estado": "CONFIRMADO",
+        "fecha_partida": "2024-07-29",
+        "fecha_registro": "2026-11-22",
+        "temporada": 2024,
+        "fuente": "informe_tecnico_video_2_2024_07_29#estimacion_diseno"
+      }
     },
     {
       "id": "simulacion_suspension_2024_07_29",
@@ -151,9 +160,18 @@
         "refrigeracion": 0,
         "peso_extra": -1
       },
-      "coste_usd": null,
-      "duracion_diseno_dias": null,
-      "duracion_fabricacion_dias": null
+      "coste_usd": 1000000,
+      "duracion_diseno_dias": 31,
+      "duracion_fabricacion_dias": null,
+      "contribucion_piloto_tiempo_pct": -7,
+      "fin_diseno_si_inicia_fecha_partida_calculado": "2024-08-29",
+      "metadatos_coste_y_plazo": {
+        "estado": "CONFIRMADO",
+        "fecha_partida": "2024-07-29",
+        "fecha_registro": "2026-11-22",
+        "temporada": 2024,
+        "fuente": "informe_tecnico_video_2_2024_07_29#estimacion_diseno"
+      }
     },
     {
       "id": "simulacion_pontones_2024_07_29",
@@ -209,9 +227,18 @@
         "refrigeracion": 6,
         "peso_extra": -1
       },
-      "coste_usd": null,
-      "duracion_diseno_dias": null,
-      "duracion_fabricacion_dias": null
+      "coste_usd": 1000000,
+      "duracion_diseno_dias": 31,
+      "duracion_fabricacion_dias": null,
+      "contribucion_piloto_tiempo_pct": -7,
+      "fin_diseno_si_inicia_fecha_partida_calculado": "2024-08-29",
+      "metadatos_coste_y_plazo": {
+        "estado": "CONFIRMADO",
+        "fecha_partida": "2024-07-29",
+        "fecha_registro": "2026-11-22",
+        "temporada": 2024,
+        "fuente": "informe_tecnico_video_2_2024_07_29#estimacion_diseno"
+      }
     },
     {
       "id": "simulacion_aleron_trasero_2024_07_29",
@@ -271,9 +298,18 @@
         "refrigeracion": 0,
         "peso_extra": -2
       },
-      "coste_usd": null,
-      "duracion_diseno_dias": null,
-      "duracion_fabricacion_dias": null
+      "coste_usd": 1800000,
+      "duracion_diseno_dias": 41,
+      "duracion_fabricacion_dias": null,
+      "contribucion_piloto_tiempo_pct": -7,
+      "fin_diseno_si_inicia_fecha_partida_calculado": "2024-09-08",
+      "metadatos_coste_y_plazo": {
+        "estado": "CONFIRMADO",
+        "fecha_partida": "2024-07-29",
+        "fecha_registro": "2026-11-22",
+        "temporada": 2024,
+        "fuente": "informe_tecnico_video_2_2024_07_29#estimacion_diseno"
+      }
     },
     {
       "id": "simulacion_aleron_delantero_2024_07_29",
@@ -333,9 +369,18 @@
         "refrigeracion": 0,
         "peso_extra": -2
       },
-      "coste_usd": null,
-      "duracion_diseno_dias": null,
-      "duracion_fabricacion_dias": null
+      "coste_usd": 1800000,
+      "duracion_diseno_dias": 41,
+      "duracion_fabricacion_dias": null,
+      "contribucion_piloto_tiempo_pct": -7,
+      "fin_diseno_si_inicia_fecha_partida_calculado": "2024-09-08",
+      "metadatos_coste_y_plazo": {
+        "estado": "CONFIRMADO",
+        "fecha_partida": "2024-07-29",
+        "fecha_registro": "2026-11-22",
+        "temporada": 2024,
+        "fuente": "informe_tecnico_video_2_2024_07_29#estimacion_diseno"
+      }
     },
     {
       "id": "simulacion_chasis_2024_07_29",
@@ -391,9 +436,18 @@
         "refrigeracion": 6,
         "peso_extra": -1
       },
-      "coste_usd": null,
-      "duracion_diseno_dias": null,
-      "duracion_fabricacion_dias": null
+      "coste_usd": 1000000,
+      "duracion_diseno_dias": 31,
+      "duracion_fabricacion_dias": null,
+      "contribucion_piloto_tiempo_pct": null,
+      "fin_diseno_si_inicia_fecha_partida_calculado": "2024-08-29",
+      "metadatos_coste_y_plazo": {
+        "estado": "CONFIRMADO",
+        "fecha_partida": "2024-07-29",
+        "fecha_registro": "2026-11-22",
+        "temporada": 2024,
+        "fuente": "informe_tecnico_video_2_2024_07_29#estimacion_diseno"
+      }
     }
   ]
 }

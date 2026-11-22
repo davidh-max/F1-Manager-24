@@ -385,5 +385,18 @@
     "tipo": "mensaje_usuario",
     "fecha_consulta": "2026-11-22",
     "fecha_partida": "2024-07-29"
+  },
+  {
+    "id": "informe_tecnico_video_2_2024_07_29",
+    "titulo": "Segundo informe técnico aportado por el usuario",
+    "tipo": "transcripcion_aportada",
+    "fecha_partida": "2024-07-29",
+    "fecha_consulta": "2026-11-22",
+    "url": null,
+    "duracion_video_s": 109,
+    "marcas_de_tiempo": {
+      "menu_diseno_inicio_s": 54
+    },
+    "observaciones": "Informe recibido como texto. En discrepancias comparables prevalecen las capturas directas del juego."
   }
 ]

@@ -2,17 +2,17 @@
   "id": "fernando_alonso",
   "nombre": "Fernando Alonso",
   "metadatos": {
-    "estado": "DESCONOCIDO",
-    "fecha_partida": null,
-    "temporada": null,
-    "fecha_registro": null,
-    "fuente": null
+    "estado": "CONFIRMADO",
+    "fecha_partida": "2024-07-29",
+    "fecha_registro": "2026-11-22",
+    "temporada": 2024,
+    "fuente": "informe_tecnico_video_2_2024_07_29#resumen"
   },
   "datos": {
     "edad": null,
     "nacionalidad": null,
-    "coche": null,
-    "ingeniero": null,
+    "coche": "coche_2",
+    "ingeniero": "peter_bonnington",
     "valoracion_general": null,
     "valoracion_rendimiento": null,
     "velocidad_desarrollo": null,
@@ -59,6 +59,9 @@
       "negociaciones": [],
       "renovaciones": []
     },
-    "resultados": []
+    "resultados": [],
+    "satisfaccion_rendimiento": "insatisfecho",
+    "puntos_temporada": 176,
+    "ultima_carrera_posicion": 5
   }
 }
