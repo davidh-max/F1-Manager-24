@@ -622,5 +622,32 @@
       }
     ],
     "observaciones": "Se trata de una previsualización del diseño, no de un proyecto iniciado, fabricado ni instalado."
+  },
+  {
+    "id": "capturas_aleron_trasero_configuracion_final_2024_08_01",
+    "titulo": "Nueva simulación alerón trasero, rendimiento y plazo apresurado",
+    "tipo": "lote_fotos_chat",
+    "fecha_partida": "2024-08-01",
+    "fecha_consulta": "2026-11-22",
+    "archivo": null,
+    "imagenes": [
+      {
+        "nombre": "IMG_9C2CBA46-2B53-42FC-A683-5B215759F0B4.jpeg",
+        "panel": "Atributos del diseño"
+      },
+      {
+        "nombre": "IMG_DC597CAB-C063-485C-9D89-87E70155ABBE.jpeg",
+        "panel": "Rendimiento coche 1"
+      },
+      {
+        "nombre": "IMG_0B1B30F9-AD14-46B8-9EE2-322EE3AF05C1.jpeg",
+        "panel": "Estrategia apresurada, plazo y coste"
+      },
+      {
+        "nombre": "IMG_089A3313-DD7B-437C-A276-BCE3DBC5C560.jpeg",
+        "panel": "Puestos previstos coche 2"
+      }
+    ],
+    "observaciones": "Pantalla de confirmación previa al inicio; no hay evidencia de haber pulsado confirmar. Plazo de fabricación 3 días comunicado por usuario, pendiente de corroboración en juego."
   }
 ]
