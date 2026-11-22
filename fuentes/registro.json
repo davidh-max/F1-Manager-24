@@ -665,5 +665,17 @@
       "IMG_DCD704D5-386A-46D9-8F94-8814BB749FC8.jpeg"
     ],
     "observaciones": "Usuario confirma gasto de diseño apresurado 2.700.000 USD y tres fabricaciones (alerón trasero A.t.-4 x2, pontones P.-5 x2, chasis Ch.-3 x1). Capturas muestran importes de fabricación y saldos proyectados en pantallas de confirmación; ejecución de las tres órdenes afirmada por el usuario. No están instaladas."
+  },
+  {
+    "id": "capturas_mejora_centro_turistico_2024_08_01",
+    "titulo": "Mejora centro turístico nivel 3 a 4",
+    "tipo": "capturas_chat",
+    "fecha_partida": "2024-08-01",
+    "fecha_consulta": "2026-11-22",
+    "imagenes": [
+      "IMG_048D943D-38B8-4396-9A55-B4151269C2F8.jpeg",
+      "IMG_77A8D1EB-B5CF-4E25-ACCC-4E312080A6ED.jpeg"
+    ],
+    "observaciones": "Centro turístico nivel 3 con mejora a 4 por 100000 USD, 14 días; captura posterior muestra saldo 2057015 USD, frente a 2157015 anterior. Estado 78 %, eficacia 100 %, ingresos semanales 75000 -> 87500 y comercialidad +20 -> +24. No corresponde al centro de diseño."
   }
 ]
