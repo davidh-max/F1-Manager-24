@@ -185,9 +185,58 @@
         ]
       }
     ],
-    "estrategias_ejecutadas": [],
+    "estrategias_ejecutadas": [
+      {
+        "piloto_id": "fernando_alonso",
+        "estado": "PARCIALMENTE_CONFIRMADO",
+        "plan_salida": [
+          "blando",
+          "blando",
+          "medio"
+        ],
+        "origen_plan": "usuario",
+        "detalle_ejecucion": "El usuario confirma parada adicional final para montar neumático de vuelta rápida; no están confirmadas las vueltas exactas ni todos los compuestos de las paradas anteriores.",
+        "paradas_exactas": null,
+        "numero_total_paradas": null,
+        "metadatos": {
+          "estado": "CONFIRMADO",
+          "temporada": 2024,
+          "fecha_partida": "2024-08-25",
+          "fecha_registro": "2026-11-22",
+          "fuente": "captura_resultados_carrera_zandvoort_2024_08_25"
+        }
+      },
+      {
+        "piloto_id": "lance_stroll",
+        "estado": "DESCONOCIDO",
+        "plan_salida": [
+          "medio",
+          "blando",
+          "blando"
+        ],
+        "paradas_exactas": null,
+        "numero_total_paradas": null,
+        "metadatos": {
+          "estado": "CONFIRMADO",
+          "temporada": 2024,
+          "fecha_partida": "2024-08-25",
+          "fecha_registro": "2026-11-22",
+          "fuente": "captura_resultados_carrera_zandvoort_2024_08_25"
+        }
+      }
+    ],
     "juegos_neumaticos": null,
-    "estado_carrera": null,
+    "estado_carrera": {
+      "estado": "finalizada",
+      "vuelta_final": 72,
+      "metadatos": {
+        "estado": "CONFIRMADO",
+        "temporada": 2024,
+        "fecha_partida": "2024-08-25",
+        "fecha_registro": "2026-11-22",
+        "fuente": "captura_resultados_carrera_zandvoort_2024_08_25"
+      }
+    },
     "decisiones_carrera": [],
     "sesiones": {
       "fp1": {
@@ -1499,6 +1548,25 @@
             }
           }
         ]
+      },
+      "carrera": {
+        "modo": "manual",
+        "estado": "finalizada",
+        "vueltas_totales": 72,
+        "alcance": "Top 10 de resultados finales y comentarios del director; detalles exactos de paradas pendientes",
+        "metadatos": {
+          "estado": "CONFIRMADO",
+          "temporada": 2024,
+          "fecha_partida": "2024-08-25",
+          "fecha_registro": "2026-11-22",
+          "fuente": "captura_resultados_carrera_zandvoort_2024_08_25"
+        },
+        "observaciones": [
+          "El usuario confirma que los principales rivales realizaron tres paradas y Fernando logró mantener contacto con ellos durante parte de la carrera, pero posteriormente cedió ritmo.",
+          "Norris adelantó a Fernando cerca de la vuelta 69 según comunicación del usuario, montaba blandos frescos y era inalcanzable; con ventana de parada gratuita, Alonso paró para intentar la vuelta rápida.",
+          "El usuario indica que Verstappen y Piastri empezaron con blandos, Leclerc con medios, y que los tres usaron estrategias de tres paradas.",
+          "La sesión de clasificación fue mojada y dejó mayor disponibilidad de blandos, circunstancia que el usuario considera relevante para las tres paradas rivales."
+        ]
       }
     },
     "reglajes": {},
@@ -1583,7 +1651,41 @@
     "confianza": {},
     "paradas": [],
     "incidentes": [],
-    "resultados": [],
+    "resultados": [
+      {
+        "archivo": "temporadas/2024/resultados.csv",
+        "sesion": "carrera",
+        "filas_registradas": 10,
+        "alcance": "Top 10 confirmado por pantalla, sin resultados 11–20",
+        "fuente": "captura_resultados_carrera_zandvoort_2024_08_25",
+        "ganador_id": "charles_leclerc",
+        "vuelta_rapida": {
+          "piloto_id": "fernando_alonso",
+          "tiempo_ms": 70652,
+          "bonificacion_puntos": 1
+        },
+        "aston_martin": {
+          "alonso": {
+            "parrilla": 5,
+            "meta": 5,
+            "puntos": 11
+          },
+          "stroll": {
+            "parrilla": 7,
+            "meta": 8,
+            "puntos": 4
+          },
+          "puntos_total": 15
+        },
+        "metadatos": {
+          "estado": "CONFIRMADO",
+          "temporada": 2024,
+          "fecha_partida": "2024-08-25",
+          "fecha_registro": "2026-11-22",
+          "fuente": "captura_resultados_carrera_zandvoort_2024_08_25"
+        }
+      }
+    ],
     "evidencias": [
       "capturas_circuitos_2024_07_29_zandvoort_mapa",
       "capturas_circuitos_2024_07_29_zandvoort_secciones_por_velocidad",
@@ -1593,10 +1695,43 @@
       "capturas_fp2_tandas_2024_08_23",
       "capturas_alonso_fp2_blandos_2024_08_23",
       "capturas_fp2_stroll_leclerc_blandos_2024_08_23",
-      "capturas_fin_libres3_preparacion_q1_zandvoort_2024"
+      "capturas_fin_libres3_preparacion_q1_zandvoort_2024",
+      "captura_resultados_carrera_zandvoort_2024_08_25"
     ],
-    "analisis": null,
-    "lecciones": [],
+    "analisis": {
+      "estado": "PARCIAL",
+      "metadatos": {
+        "estado": "CONFIRMADO",
+        "temporada": 2024,
+        "fecha_partida": "2024-08-25",
+        "fecha_registro": "2026-11-22",
+        "fuente": "captura_resultados_carrera_zandvoort_2024_08_25"
+      },
+      "objetivos_evaluados": {
+        "alonso": "Objetivo podio/victoria no cumplido; P5 y vuelta rápida",
+        "stroll": "Objetivo P6 no cumplido; P8"
+      },
+      "aprendizaje_clave": "Los rivales delanteros utilizaron tres paradas y disponían de múltiples juegos de blandos tras clasificación bajo lluvia; el equipo no pudo sostener su ritmo. Revisar una variante a tres paradas cuando la pérdida de boxes y el tráfico permitan recuperar tiempo.",
+      "incertidumbres": [
+        "No hay tiempos por vuelta completos de carrera",
+        "No se ha confirmado el orden exacto de todas las paradas y compuestos de ambos Aston Martin",
+        "El supuesto de ventaja causal de tres paradas es plausible, no cuantificado con simulación controlada"
+      ]
+    },
+    "lecciones": [
+      {
+        "id": "zandvoort_2024_tres_paradas_blandos",
+        "metadatos": {
+          "estado": "CONFIRMADO",
+          "temporada": 2024,
+          "fecha_partida": "2024-08-25",
+          "fecha_registro": "2026-11-22",
+          "fuente": "captura_resultados_carrera_zandvoort_2024_08_25"
+        },
+        "leccion": "Evaluar en próximas carreras si tres paradas con blandos de reserva ofrecen mayor tiempo de carrera que dos, especialmente tras clasificación mojada y con huecos de tráfico; no asumir que siempre es óptimo.",
+        "contexto": "Zandvoort: Leclerc, Verstappen y Piastri realizaron 3 paradas según usuario, Aston Martin P5/P8, Alonso consiguió vuelta rápida tras parada gratuita."
+      }
+    ],
     "posicion_en_parrilla_mostrada_en_previa": {
       "coche_1": 8,
       "coche_2": 7
