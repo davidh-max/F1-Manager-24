@@ -603,5 +603,24 @@
       "correccion_calendario_2024_2026_11_22",
       "aclaracion_fechas_carrera_2024_2026_11_22"
     ]
+  },
+  {
+    "id": "capturas_simulacion_aleron_trasero_2024_08_01",
+    "titulo": "Simulación personalizada de alerón trasero y rendimiento coche 1",
+    "tipo": "lote_fotos_chat",
+    "fecha_partida": "2024-08-01",
+    "fecha_consulta": "2026-11-22",
+    "archivo": null,
+    "imagenes": [
+      {
+        "nombre": "IMG_37F33DDE-44EE-46FD-90E9-98A99B2C293F.jpeg",
+        "panel": "Objetivo de atributos"
+      },
+      {
+        "nombre": "IMG_344E455C-157A-4826-8A8F-41D2142E3A49.jpeg",
+        "panel": "Rendimiento coche 1, fecha y saldo"
+      }
+    ],
+    "observaciones": "Se trata de una previsualización del diseño, no de un proyecto iniciado, fabricado ni instalado."
   }
 ]
