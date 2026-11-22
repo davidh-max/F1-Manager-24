@@ -32,6 +32,31 @@
         "consumido": null,
         "reservado": null
       }
+    },
+    {
+      "id": "atr_observado_2024_08_26",
+      "metadatos": {
+        "estado": "CONFIRMADO",
+        "temporada": 2024,
+        "fecha_partida": "2024-08-26",
+        "fecha_registro": "2026-11-22",
+        "fuente": "capturas_pontones_post_p6_coche2_2024_08_26"
+      },
+      "dias_hasta_renovacion_observados": 7,
+      "renovacion_calculada": "2024-09-02",
+      "cfd_mau": {
+        "inicial": null,
+        "restante": null,
+        "consumido": null,
+        "reservado": null
+      },
+      "tunel_h": {
+        "inicial": 72,
+        "restante": 7,
+        "consumido": null,
+        "reservado": null
+      },
+      "nota": "7/72 h visibles; CFD disponible no aparece legible en estas 3 capturas; ningún recurso ATR asignado a la simulación."
     }
   ]
 }
