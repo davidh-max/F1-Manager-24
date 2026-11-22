@@ -787,6 +787,293 @@
               "caucho": "alto"
             },
             "notas": "Vuelta 41 de entrada a boxes, no usar para ritmo. Vuelta 32 de salida y juego blando al 97 %, gasolina 12,9 kg; no usar para ritmo."
+          },
+          {
+            "id": "fp2_stroll_blando_32_41",
+            "piloto_id": "lance_stroll",
+            "compuesto": "blando",
+            "metadatos": {
+              "estado": "CONFIRMADO",
+              "temporada": 2024,
+              "fecha_partida": "2024-08-23",
+              "fecha_registro": "2026-11-22",
+              "fuente": "capturas_fp2_stroll_leclerc_blandos_2024_08_23"
+            },
+            "vueltas": [
+              {
+                "numero": 32,
+                "tiempo_ms": 72985,
+                "s1_ms": 25503,
+                "s2_ms": 25661,
+                "s3_ms": 21819
+              },
+              {
+                "numero": 33,
+                "tiempo_ms": 72389,
+                "s1_ms": 25149,
+                "s2_ms": 25441,
+                "s3_ms": 21798
+              },
+              {
+                "numero": 34,
+                "tiempo_ms": 72620,
+                "s1_ms": 25297,
+                "s2_ms": 25536,
+                "s3_ms": 21786
+              },
+              {
+                "numero": 35,
+                "tiempo_ms": 72980,
+                "s1_ms": 24998,
+                "s2_ms": 25711,
+                "s3_ms": 22270
+              },
+              {
+                "numero": 36,
+                "tiempo_ms": 74043,
+                "s1_ms": 25591,
+                "s2_ms": 26267,
+                "s3_ms": 22184
+              },
+              {
+                "numero": 37,
+                "tiempo_ms": 71979,
+                "s1_ms": 25127,
+                "s2_ms": 25247,
+                "s3_ms": 21605
+              },
+              {
+                "numero": 38,
+                "tiempo_ms": 72608,
+                "s1_ms": 25199,
+                "s2_ms": 25652,
+                "s3_ms": 21756
+              },
+              {
+                "numero": 39,
+                "tiempo_ms": 71991,
+                "s1_ms": 25076,
+                "s2_ms": 25309,
+                "s3_ms": 21606
+              },
+              {
+                "numero": 40,
+                "tiempo_ms": 72957,
+                "s1_ms": 25155,
+                "s2_ms": 25414,
+                "s3_ms": 22389
+              },
+              {
+                "numero": 41,
+                "tiempo_ms": 73700,
+                "s1_ms": 25704,
+                "s2_ms": 25754,
+                "s3_ms": 22241
+              }
+            ],
+            "estado_por_vuelta": [
+              {
+                "numero": 32,
+                "vida_neumatico_pct": 93,
+                "combustible_kg": 14.4,
+                "temperatura_aire_c": 19,
+                "temperatura_pista_c": 28,
+                "agua_mm": 0
+              },
+              {
+                "numero": 33,
+                "vida_neumatico_pct": 90,
+                "combustible_kg": 13,
+                "temperatura_aire_c": 19,
+                "temperatura_pista_c": 28,
+                "agua_mm": 0
+              },
+              {
+                "numero": 34,
+                "vida_neumatico_pct": 87,
+                "combustible_kg": 11.6,
+                "temperatura_aire_c": 19,
+                "temperatura_pista_c": 28,
+                "agua_mm": 0
+              },
+              {
+                "numero": 35,
+                "vida_neumatico_pct": 84,
+                "combustible_kg": 10.2,
+                "temperatura_aire_c": 19,
+                "temperatura_pista_c": 28,
+                "agua_mm": 0
+              },
+              {
+                "numero": 36,
+                "vida_neumatico_pct": 81,
+                "combustible_kg": 8.8,
+                "temperatura_aire_c": 19,
+                "temperatura_pista_c": 28,
+                "agua_mm": 0
+              },
+              {
+                "numero": 37,
+                "vida_neumatico_pct": 78,
+                "combustible_kg": 7.4,
+                "temperatura_aire_c": 19,
+                "temperatura_pista_c": 28,
+                "agua_mm": 0
+              },
+              {
+                "numero": 38,
+                "vida_neumatico_pct": 75,
+                "combustible_kg": 6,
+                "temperatura_aire_c": 19,
+                "temperatura_pista_c": 28,
+                "agua_mm": 0
+              },
+              {
+                "numero": 39,
+                "vida_neumatico_pct": 72,
+                "combustible_kg": 4.6,
+                "temperatura_aire_c": 19,
+                "temperatura_pista_c": 28,
+                "agua_mm": 0
+              },
+              {
+                "numero": 40,
+                "vida_neumatico_pct": 69,
+                "combustible_kg": 3.2,
+                "temperatura_aire_c": 19,
+                "temperatura_pista_c": 28,
+                "agua_mm": 0
+              },
+              {
+                "numero": 41,
+                "vida_neumatico_pct": 66,
+                "combustible_kg": 1.8,
+                "temperatura_aire_c": 19,
+                "temperatura_pista_c": 28,
+                "agua_mm": 0
+              }
+            ],
+            "observacion_inicial": {
+              "vuelta": 31,
+              "vida_neumatico_pct": 97,
+              "combustible_kg": 15.8
+            },
+            "observacion_final": {
+              "vuelta": 41,
+              "vida_neumatico_pct": 66,
+              "combustible_kg": 1.8
+            },
+            "notas": "Stroll blandos. La vuelta 31 es de entrada/cambio de tanda. V36 anormalmente lenta, causa desconocida. Agarre alto, caucho alto; ERS observado 77%."
+          },
+          {
+            "id": "fp2_leclerc_blando_11_17",
+            "piloto_id": "charles_leclerc",
+            "compuesto": "blando",
+            "metadatos": {
+              "estado": "CONFIRMADO",
+              "temporada": 2024,
+              "fecha_partida": "2024-08-23",
+              "fecha_registro": "2026-11-22",
+              "fuente": "capturas_fp2_stroll_leclerc_blandos_2024_08_23"
+            },
+            "vueltas": [
+              {
+                "numero": 12,
+                "tiempo_ms": 75548,
+                "s1_ms": 26166,
+                "s2_ms": 26517,
+                "s3_ms": 22864
+              },
+              {
+                "numero": 13,
+                "tiempo_ms": 75499,
+                "s1_ms": 25789,
+                "s2_ms": 26801,
+                "s3_ms": 22906
+              },
+              {
+                "numero": 14,
+                "tiempo_ms": 71573,
+                "s1_ms": 24954,
+                "s2_ms": 25061,
+                "s3_ms": 21557
+              },
+              {
+                "numero": 15,
+                "tiempo_ms": 71683,
+                "s1_ms": 25008,
+                "s2_ms": 25079,
+                "s3_ms": 21596
+              },
+              {
+                "numero": 16,
+                "tiempo_ms": 71749,
+                "s1_ms": 24938,
+                "s2_ms": 25106,
+                "s3_ms": 21704
+              }
+            ],
+            "estado_por_vuelta": [
+              {
+                "numero": 12,
+                "vida_neumatico_pct": 95,
+                "combustible_kg": 7.1,
+                "temperatura_aire_c": 19,
+                "temperatura_pista_c": 28,
+                "agua_mm": 0
+              },
+              {
+                "numero": 13,
+                "vida_neumatico_pct": 93,
+                "combustible_kg": 5.7,
+                "temperatura_aire_c": 19,
+                "temperatura_pista_c": 28,
+                "agua_mm": 0
+              },
+              {
+                "numero": 14,
+                "vida_neumatico_pct": 90,
+                "combustible_kg": 4.3,
+                "temperatura_aire_c": 19,
+                "temperatura_pista_c": 28,
+                "agua_mm": 0
+              },
+              {
+                "numero": 15,
+                "vida_neumatico_pct": 88,
+                "combustible_kg": 3,
+                "temperatura_aire_c": 19,
+                "temperatura_pista_c": 28,
+                "agua_mm": 0
+              },
+              {
+                "numero": 16,
+                "vida_neumatico_pct": 86,
+                "combustible_kg": 1.6,
+                "temperatura_aire_c": 19,
+                "temperatura_pista_c": 28,
+                "agua_mm": 0
+              }
+            ],
+            "observacion_inicial": {
+              "vuelta": 11,
+              "tipo": "salida",
+              "vida_neumatico_pct": 97,
+              "combustible_kg": 8.4
+            },
+            "observacion_final": {
+              "vuelta": 17,
+              "tipo": "entrada",
+              "vida_neumatico_pct": 84,
+              "combustible_kg": 0.4
+            },
+            "vueltas_excluidas_ritmo": [
+              11,
+              12,
+              13,
+              17
+            ],
+            "notas": "Leclerc comienza con blandos en vuelta 11 según usuario. V12-13 lentas (causa no verificada), v14-16 rápidas, v17 entrada. Agarre alto; caucho normal o bajo según vuelta."
           }
         ],
         "meteorologia": {
@@ -802,7 +1089,8 @@
           "Sergio Pérez lidera en 1:12.421 en tabla de sesión visible; Alonso aparece 7.º a +0.782 s; Stroll 6.º a +0.698 s en el momento de la captura.",
           "Corrección del usuario: Alonso pilotó con neumático duro; Stroll con medio. Rectifica la identificación anterior.",
           "RECTIFICACIÓN: la serie de vueltas 2-12 y desgaste 95→79% corresponde a Alonso con DUROS; la serie 4-14 y desgaste 91→69% corresponde a Stroll con MEDIOS. Se habían intercambiado los nombres al transcribir capturas.",
-          "Segunda tanda Alonso con blando en vueltas 33-40, entrada en 41: mejor 1:11.812 (v37), 94% a 71% entre v33 y v41, consumo aproximado 1.4 kg/vuelta, pista a 28°C, agarre muy alto y caucho alto."
+          "Segunda tanda Alonso con blando en vueltas 33-40, entrada en 41: mejor 1:11.812 (v37), 94% a 71% entre v33 y v41, consumo aproximado 1.4 kg/vuelta, pista a 28°C, agarre muy alto y caucho alto.",
+          "Segundo stint Stroll blando: v32–41, mejor v37 1:11.979; desgaste v31 97%→v41 66%. Rival Leclerc blando desde v11, vueltas rápidas v14–16 con mejor 1:11.573. En vueltas rápidas respectivas Stroll +0.406 s (+0.173 S1, +0.186 S2 y +0.048 S3), sin igualdad demostrada de carga y modo."
         ],
         "estimaciones": [
           {
@@ -912,6 +1200,83 @@
               "fecha_partida": "2024-08-23",
               "fecha_registro": "2026-11-22",
               "fuente": "capturas_alonso_fp2_blandos_2024_08_23"
+            }
+          },
+          {
+            "id": "fp2_stroll_blando_desgaste_31_41",
+            "piloto_id": "lance_stroll",
+            "compuesto": "blando",
+            "metrica": "desgaste_neumatico_pp_por_vuelta",
+            "vueltas_observadas": [
+              31,
+              41
+            ],
+            "vida_inicio_fin_pct": [
+              97,
+              66
+            ],
+            "resultado": 3.1,
+            "unidad": "puntos porcentuales por vuelta",
+            "metodo": "(97-66)/(41-31)",
+            "limitaciones": "Tanda concreta; no extrapolar linealmente a carrera ni equiparar desgaste a pérdida de ritmo.",
+            "metadatos": {
+              "estado": "CALCULADO",
+              "temporada": 2024,
+              "fecha_partida": "2024-08-23",
+              "fecha_registro": "2026-11-22",
+              "fuente": "capturas_fp2_stroll_leclerc_blandos_2024_08_23"
+            }
+          },
+          {
+            "id": "fp2_leclerc_blando_desgaste_11_17",
+            "piloto_id": "charles_leclerc",
+            "compuesto": "blando",
+            "metrica": "desgaste_neumatico_pp_por_vuelta",
+            "vueltas_observadas": [
+              11,
+              17
+            ],
+            "vida_inicio_fin_pct": [
+              97,
+              84
+            ],
+            "resultado": 2.167,
+            "unidad": "puntos porcentuales por vuelta",
+            "metodo": "(97-84)/(17-11)",
+            "limitaciones": "Incluye vuelta de salida y entrada, y pocas vueltas.",
+            "metadatos": {
+              "estado": "CALCULADO",
+              "temporada": 2024,
+              "fecha_partida": "2024-08-23",
+              "fecha_registro": "2026-11-22",
+              "fuente": "capturas_fp2_stroll_leclerc_blandos_2024_08_23"
+            }
+          },
+          {
+            "id": "fp2_leclerc_blando_ritmo_14_16",
+            "piloto_id": "charles_leclerc",
+            "compuesto": "blando",
+            "metrica": "ritmo_tanda",
+            "muestra": 3,
+            "vueltas_observadas": [
+              14,
+              16
+            ],
+            "media_s": 71.668,
+            "mejor_vuelta_s": 71.573,
+            "vueltas_excluidas": [
+              11,
+              12,
+              13,
+              17
+            ],
+            "limitaciones": "Solo tres vueltas rápidas con carga ligera y modo no verificado.",
+            "metadatos": {
+              "estado": "CALCULADO",
+              "temporada": 2024,
+              "fecha_partida": "2024-08-23",
+              "fecha_registro": "2026-11-22",
+              "fuente": "capturas_fp2_stroll_leclerc_blandos_2024_08_23"
             }
           }
         ],
@@ -1057,7 +1422,8 @@
       "capturas_analisis_parrilla_2024_07_29",
       "capturas_zandvoort_fp1_2024_08_23",
       "capturas_fp2_tandas_2024_08_23",
-      "capturas_alonso_fp2_blandos_2024_08_23"
+      "capturas_alonso_fp2_blandos_2024_08_23",
+      "capturas_fp2_stroll_leclerc_blandos_2024_08_23"
     ],
     "analisis": null,
     "lecciones": [],
