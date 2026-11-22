@@ -636,6 +636,93 @@
         5
       ],
       "inicio_confirmado": null
+    },
+    {
+      "id": "simulacion_aleron_trasero_alta_velocidad_2024_08_01",
+      "pieza": "aleron_trasero",
+      "estado": "en_evaluacion",
+      "coche": "coche_1",
+      "metadatos": {
+        "estado": "CONFIRMADO",
+        "temporada": 2024,
+        "fecha_partida": "2024-08-01",
+        "fecha_registro": "2026-11-22",
+        "fuente": "capturas_aleron_trasero_configuracion_final_2024_08_01"
+      },
+      "preajuste": "personalizado",
+      "pieza_referencia": {
+        "reduccion_resistencia_pct": 57.77,
+        "delta_drs_pct": 61.58,
+        "carga_baja_kN": 4.13,
+        "carga_media_kN": 6.31,
+        "carga_alta_kN": 7.57,
+        "sensibilidad_flujo_aire_pct": 59.5,
+        "duracion_minima_km": 2535
+      },
+      "delta_pieza_mostrado": {
+        "reduccion_resistencia_pct": 13.48,
+        "delta_drs_pct": 0.63,
+        "carga_baja_kN": 0.02,
+        "carga_media_kN": 0.02,
+        "carga_alta_kN": 0.09,
+        "sensibilidad_flujo_aire_pct": 4.62,
+        "duracion_minima_km": 0
+      },
+      "delta_coche_mostrado": {
+        "velocidad_maxima": 0.38,
+        "aceleracion": 0.002,
+        "eficacia_drs": 0.45,
+        "curvas_lentas": 0,
+        "curvas_medias": 0.002,
+        "curvas_rapidas": 0.015,
+        "aire_sucio": 1.39,
+        "neumaticos": 0,
+        "refrigeracion": 0,
+        "peso_extra": 0
+      },
+      "puestos_ganados_mostrados_coche_2": {
+        "velocidad_maxima": 5,
+        "aceleracion": 2,
+        "eficacia_drs": 1,
+        "curvas_lentas": 0,
+        "curvas_medias": 0,
+        "curvas_rapidas": 1,
+        "aire_sucio": 1,
+        "neumaticos": 0,
+        "refrigeracion": 0,
+        "peso_extra": 19
+      },
+      "puestos_actuales_coche_2": {
+        "velocidad_maxima": 9,
+        "aceleracion": 15,
+        "eficacia_drs": 6,
+        "curvas_lentas": 8,
+        "curvas_medias": 7,
+        "curvas_rapidas": 8,
+        "aire_sucio": 8,
+        "neumaticos": 3,
+        "refrigeracion": 14,
+        "peso_extra": 20
+      },
+      "alternativas": [
+        {
+          "estrategia": "apresurada",
+          "ingenieros": 5,
+          "duracion_diseno_dias": 20,
+          "fin_estimado": "2024-08-21",
+          "coste_usd": 2700000,
+          "saldo_proyectado_usd": 4157015,
+          "limite_restante_usd": 45461004
+        },
+        {
+          "estrategia": "normal",
+          "duracion_diseno_dias": 30,
+          "fin_estimado_calculado": "2024-08-31",
+          "coste_usd": null
+        }
+      ],
+      "fabricacion_dias_comunicados": 3,
+      "inicio_confirmado": null
     }
   ]
 }
