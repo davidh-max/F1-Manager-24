@@ -129,6 +129,9 @@
       }
     ],
     "estrategias_ejecutadas": [],
+    "juegos_neumaticos": null,
+    "estado_carrera": null,
+    "decisiones_carrera": [],
     "sesiones": {},
     "reglajes": {},
     "preparacion": {},

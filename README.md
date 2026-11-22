@@ -26,6 +26,14 @@ python herramientas/gestion.py calendario 2024-02-18 --fin-diseno 2024-03-03 --d
 
 Las fechas de ejemplo son ilustrativas. El calendario de 2024 utiliza las 24 citas y 6 Sprint de la referencia aportada. Los días hasta el siguiente GP se cuentan hasta que comienza el fin de semana. La disponibilidad de una pieza suma días naturales de fabricación y montaje al fin del diseño, y exige que la pieza esté disponible al inicio del GP. Ajusta el cálculo con las fechas observadas del juego y los huecos reales de fabricación. El cálculo de pausa de verano indica el hueco entre rondas. Para otra temporada, da de alta su calendario y sus fichas sin reutilizar fechas reales automáticamente.
 
+## Operación de pista
+
+Consulta la [guía de fin de semana](instrucciones/fin_de_semana.md) para preparar el GP, asesorar en directo y cerrar el análisis. Los registros operativos se incorporan a la ficha del GP según llegan. Cuando haya tandas con vueltas registradas, puedes consultar sus métricas con el comando siguiente. Añade uno o varios IDs de tanda al final para acotar la consulta.
+
+```bash
+python herramientas/gestion.py ritmo 2024 15_zandvoort fp1
+```
+
 ## Registrar una actualización
 
 1. Añade la evidencia al registro de fuentes. Anota la fecha de partida si aparece y la fecha real de incorporación.

@@ -328,11 +328,45 @@ def summary():
     return '\n'.join(lines) + '\n'
 
 
+def ritmo(year, event_id, session_id, stint_ids):
+    from pista import analizar_tanda
+
+    if event_id not in {event['id'] for event in calendar(year)['datos']}:
+        raise ValueError(f'GP desconocido para {year}: {event_id}')
+    event = load(f'temporadas/{year}/grandes_premios/{event_id}/evento.json')
+    session = event['datos']['sesiones'].get(session_id) or {}
+    stints = session.get('tandas') or []
+    if not stints:
+        raise ValueError(f'{event_id}/{session_id}: todavía no hay tandas registradas')
+    if duplicates(stints, ['id']):
+        raise ValueError(f'{event_id}/{session_id}: hay IDs de tanda duplicados')
+    by_id = {stint['id']: stint for stint in stints}
+    for stint_id in stint_ids:
+        if stint_id not in by_id:
+            raise ValueError(f'Tanda desconocida: {stint_id}')
+    return {
+        'gp': event_id,
+        'sesion': session_id,
+        'modo': session.get('modo', 'desconocida'),
+        'tandas': [
+            {'id': stint_id, 'piloto_id': by_id[stint_id].get('piloto_id'),
+             'compuesto': by_id[stint_id].get('compuesto'),
+             **analizar_tanda(by_id[stint_id])}
+            for stint_id in (stint_ids or by_id)
+        ],
+    }
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     sub = parser.add_subparsers(dest='command', required=True)
     sub.add_parser('validar')
     sub.add_parser('resumen')
+    pace = sub.add_parser('ritmo', help='Resume las vueltas útiles de las tandas registradas')
+    pace.add_argument('temporada', type=int)
+    pace.add_argument('gp')
+    pace.add_argument('sesion')
+    pace.add_argument('tandas', nargs='*', help='IDs de tanda. Por defecto, todas las de la sesión.')
     dates = sub.add_parser('calendario')
     dates.add_argument('fecha', type=date.fromisoformat)
     dates.add_argument('--temporada', type=int)
@@ -352,6 +386,9 @@ def main():
             if errors:
                 parser.exit(1, '\n'.join(errors) + '\n')
             print('Validación correcta')
+        elif args.command == 'ritmo':
+            info = ritmo(args.temporada, args.gp, args.sesion, args.tandas)
+            print(json.dumps(info, indent=2, ensure_ascii=False))
         else:
             if any(x is not None and x < 0 for x in (args.cantidad, args.dias_fabricacion, args.dias_montaje)):
                 parser.error('Las cantidades y duraciones deben ser no negativas')
