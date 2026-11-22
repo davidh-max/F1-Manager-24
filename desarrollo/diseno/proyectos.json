@@ -175,6 +175,54 @@
           "peso_extra": -1
         }
       }
+    },
+    {
+      "id": "diseno_suspension_2024_08_26",
+      "pieza": "suspension",
+      "version": "pendiente_identificar",
+      "temporada": 2024,
+      "estado": "en_diseno",
+      "inicio_real": "2024-08-26",
+      "fin_estimado": "2024-09-21",
+      "fin_real": null,
+      "duracion_dias": 26,
+      "ingenieros": 3,
+      "estrategia": "normal",
+      "coste_confirmado_usd": 1000000,
+      "comparacion_coche": "coche_2",
+      "simulacion": "simulacion_suspension_ajuste_moderado_confirmada_2024_08_26",
+      "atr_asignado": {
+        "cfd_mau": 0.4,
+        "tunel_h": 7,
+        "nota": "Recursos configurados en pantalla de diseño; confirmar consumo definitivo en pantalla ATR."
+      },
+      "metadatos": {
+        "estado": "CONFIRMADO",
+        "temporada": 2024,
+        "fecha_partida": "2024-08-26",
+        "fecha_registro": "2026-11-22",
+        "fuente": "confirmacion_diseno_suspension_2024_08_26"
+      },
+      "delta_coche_2_previsto": {
+        "velocidad_maxima_kmh": 0.03,
+        "aceleracion_g": 0,
+        "eficacia_drs_pp": 0,
+        "curvas_lentas_g": 0.001,
+        "curvas_medias_g": 0.002,
+        "curvas_rapidas_g": 0.003,
+        "aire_sucio_pp": 0,
+        "conservacion_neumaticos_pp": 0.63,
+        "refrigeracion_motor_pp": 0,
+        "peso_extra_kg": 0
+      },
+      "nota": "Diseño CONFIRMADO por usuario, no fabricado ni instalado; valor real al instalar pendiente."
     }
-  ]
+  ],
+  "metadatos_actualizacion": {
+    "estado": "CONFIRMADO",
+    "temporada": 2024,
+    "fecha_partida": "2024-08-26",
+    "fecha_registro": "2026-11-22",
+    "fuente": "confirmacion_diseno_suspension_2024_08_26"
+  }
 }
