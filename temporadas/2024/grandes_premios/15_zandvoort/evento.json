@@ -540,6 +540,253 @@
                 "combustible_kg": 1.8
               }
             ]
+          },
+          {
+            "id": "fp2_alonso_blando_segunda_tanda_33_41",
+            "piloto_id": "fernando_alonso",
+            "compuesto": "blando",
+            "metadatos": {
+              "estado": "CONFIRMADO",
+              "temporada": 2024,
+              "fecha_partida": "2024-08-23",
+              "fecha_registro": "2026-11-22",
+              "fuente": "capturas_alonso_fp2_blandos_2024_08_23"
+            },
+            "vueltas": [
+              {
+                "numero": 33,
+                "tiempo_ms": 72360,
+                "s1_ms": 25189,
+                "s2_ms": 25441,
+                "s3_ms": 21729
+              },
+              {
+                "numero": 34,
+                "tiempo_ms": 72545,
+                "s1_ms": 25245,
+                "s2_ms": 25505,
+                "s3_ms": 21794
+              },
+              {
+                "numero": 35,
+                "tiempo_ms": 72324,
+                "s1_ms": 25125,
+                "s2_ms": 25419,
+                "s3_ms": 21779
+              },
+              {
+                "numero": 36,
+                "tiempo_ms": 72475,
+                "s1_ms": 25281,
+                "s2_ms": 25555,
+                "s3_ms": 21637
+              },
+              {
+                "numero": 37,
+                "tiempo_ms": 71812,
+                "s1_ms": 24823,
+                "s2_ms": 25324,
+                "s3_ms": 21664
+              },
+              {
+                "numero": 38,
+                "tiempo_ms": 72062,
+                "s1_ms": 24830,
+                "s2_ms": 25477,
+                "s3_ms": 21753
+              },
+              {
+                "numero": 39,
+                "tiempo_ms": 72332,
+                "s1_ms": 25066,
+                "s2_ms": 25556,
+                "s3_ms": 21708
+              },
+              {
+                "numero": 40,
+                "tiempo_ms": 72281,
+                "s1_ms": 25146,
+                "s2_ms": 25446,
+                "s3_ms": 21688
+              }
+            ],
+            "estado_por_vuelta": [
+              {
+                "numero": 33,
+                "tiempo_ms": 72360,
+                "s1_ms": 25189,
+                "s2_ms": 25441,
+                "s3_ms": 21729,
+                "vida_neumatico_pct": 94,
+                "combustible_kg": 11.5,
+                "temperatura_neumatico_c": 96,
+                "temperatura_aire_c": 19,
+                "temperatura_pista_c": 28,
+                "agua_mm": 0,
+                "agarre": "muy alto",
+                "caucho": "alto",
+                "ers_pct": 77,
+                "estado": "normal",
+                "exclusion_ritmo": null
+              },
+              {
+                "numero": 34,
+                "tiempo_ms": 72545,
+                "s1_ms": 25245,
+                "s2_ms": 25505,
+                "s3_ms": 21794,
+                "vida_neumatico_pct": 91,
+                "combustible_kg": 10.1,
+                "temperatura_neumatico_c": 100,
+                "temperatura_aire_c": 19,
+                "temperatura_pista_c": 28,
+                "agua_mm": 0,
+                "agarre": "muy alto",
+                "caucho": "alto",
+                "ers_pct": 77,
+                "estado": "normal",
+                "exclusion_ritmo": null
+              },
+              {
+                "numero": 35,
+                "tiempo_ms": 72324,
+                "s1_ms": 25125,
+                "s2_ms": 25419,
+                "s3_ms": 21779,
+                "vida_neumatico_pct": 88,
+                "combustible_kg": 8.7,
+                "temperatura_neumatico_c": 102,
+                "temperatura_aire_c": 19,
+                "temperatura_pista_c": 28,
+                "agua_mm": 0,
+                "agarre": "muy alto",
+                "caucho": "alto",
+                "ers_pct": 77,
+                "estado": "normal",
+                "exclusion_ritmo": null
+              },
+              {
+                "numero": 36,
+                "tiempo_ms": 72475,
+                "s1_ms": 25281,
+                "s2_ms": 25555,
+                "s3_ms": 21637,
+                "vida_neumatico_pct": 85,
+                "combustible_kg": 7.3,
+                "temperatura_neumatico_c": 104,
+                "temperatura_aire_c": 19,
+                "temperatura_pista_c": 28,
+                "agua_mm": 0,
+                "agarre": "muy alto",
+                "caucho": "alto",
+                "ers_pct": 77,
+                "estado": "normal",
+                "exclusion_ritmo": null
+              },
+              {
+                "numero": 37,
+                "tiempo_ms": 71812,
+                "s1_ms": 24823,
+                "s2_ms": 25324,
+                "s3_ms": 21664,
+                "vida_neumatico_pct": 83,
+                "combustible_kg": 5.9,
+                "temperatura_neumatico_c": 106,
+                "temperatura_aire_c": 19,
+                "temperatura_pista_c": 28,
+                "agua_mm": 0,
+                "agarre": "muy alto",
+                "caucho": "alto",
+                "ers_pct": 77,
+                "estado": "normal",
+                "exclusion_ritmo": null
+              },
+              {
+                "numero": 38,
+                "tiempo_ms": 72062,
+                "s1_ms": 24830,
+                "s2_ms": 25477,
+                "s3_ms": 21753,
+                "vida_neumatico_pct": 80,
+                "combustible_kg": 4.5,
+                "temperatura_neumatico_c": 109,
+                "temperatura_aire_c": 19,
+                "temperatura_pista_c": 28,
+                "agua_mm": 0,
+                "agarre": "muy alto",
+                "caucho": "alto",
+                "ers_pct": 77,
+                "estado": "normal",
+                "exclusion_ritmo": null
+              },
+              {
+                "numero": 39,
+                "tiempo_ms": 72332,
+                "s1_ms": 25066,
+                "s2_ms": 25556,
+                "s3_ms": 21708,
+                "vida_neumatico_pct": 77,
+                "combustible_kg": 3.1,
+                "temperatura_neumatico_c": 110,
+                "temperatura_aire_c": 19,
+                "temperatura_pista_c": 28,
+                "agua_mm": 0,
+                "agarre": "muy alto",
+                "caucho": "alto",
+                "ers_pct": 77,
+                "estado": "normal",
+                "exclusion_ritmo": null
+              },
+              {
+                "numero": 40,
+                "tiempo_ms": 72281,
+                "s1_ms": 25146,
+                "s2_ms": 25446,
+                "s3_ms": 21688,
+                "vida_neumatico_pct": 74,
+                "combustible_kg": 1.7,
+                "temperatura_neumatico_c": 111,
+                "temperatura_aire_c": 19,
+                "temperatura_pista_c": 28,
+                "agua_mm": 0,
+                "agarre": "muy alto",
+                "caucho": "alto",
+                "ers_pct": 77,
+                "estado": "normal",
+                "exclusion_ritmo": null
+              },
+              {
+                "numero": 41,
+                "tiempo_ms": null,
+                "s1_ms": 24952,
+                "s2_ms": 25332,
+                "s3_ms": 25229,
+                "vida_neumatico_pct": 71,
+                "combustible_kg": 0.3,
+                "temperatura_neumatico_c": 112,
+                "temperatura_aire_c": 19,
+                "temperatura_pista_c": 28,
+                "agua_mm": 0,
+                "agarre": "muy alto",
+                "caucho": "alto",
+                "ers_pct": 77,
+                "estado": "normal",
+                "exclusion_ritmo": "Vuelta de entrada"
+              }
+            ],
+            "observacion_final": {
+              "vuelta": 41,
+              "vida_neumatico_pct": 71,
+              "combustible_kg": 0.3,
+              "temperatura_neumatico_c": 112,
+              "ers_pct": 77,
+              "temperatura_aire_c": 19,
+              "temperatura_pista_c": 28,
+              "agua_mm": 0,
+              "agarre": "muy alto",
+              "caucho": "alto"
+            },
+            "notas": "Vuelta 41 de entrada a boxes, no usar para ritmo. Vuelta 32 de salida y juego blando al 97 %, gasolina 12,9 kg; no usar para ritmo."
           }
         ],
         "meteorologia": {
@@ -554,7 +801,8 @@
           "Los tiempos de pilotos están ordenados por número de vuelta tal como aparecen en historial; sin inferir degradación por los cambios de ritmo y falta de datos de control.",
           "Sergio Pérez lidera en 1:12.421 en tabla de sesión visible; Alonso aparece 7.º a +0.782 s; Stroll 6.º a +0.698 s en el momento de la captura.",
           "Corrección del usuario: Alonso pilotó con neumático duro; Stroll con medio. Rectifica la identificación anterior.",
-          "RECTIFICACIÓN: la serie de vueltas 2-12 y desgaste 95→79% corresponde a Alonso con DUROS; la serie 4-14 y desgaste 91→69% corresponde a Stroll con MEDIOS. Se habían intercambiado los nombres al transcribir capturas."
+          "RECTIFICACIÓN: la serie de vueltas 2-12 y desgaste 95→79% corresponde a Alonso con DUROS; la serie 4-14 y desgaste 91→69% corresponde a Stroll con MEDIOS. Se habían intercambiado los nombres al transcribir capturas.",
+          "Segunda tanda Alonso con blando en vueltas 33-40, entrada en 41: mejor 1:11.812 (v37), 94% a 71% entre v33 y v41, consumo aproximado 1.4 kg/vuelta, pista a 28°C, agarre muy alto y caucho alto."
         ],
         "estimaciones": [
           {
@@ -615,6 +863,56 @@
             },
             "desgaste_observado_pp_por_vuelta": 2.2,
             "consumo_combustible_observado_kg_por_vuelta": 1.41
+          },
+          {
+            "id": "fp2_alonso_blando_degradacion_33_41",
+            "piloto_id": "fernando_alonso",
+            "compuesto": "blando",
+            "metrica": "desgaste_neumatico_pp_por_vuelta",
+            "muestra": 9,
+            "vueltas_observadas": [
+              33,
+              41
+            ],
+            "vida_inicio_fin_pct": [
+              94,
+              71
+            ],
+            "resultado": 2.875,
+            "unidad": "puntos porcentuales por vuelta",
+            "metodo": "(94-71)/(41-33)",
+            "limitaciones": "Desgaste observado de esta tanda con pista de agarre muy alto, temperatura de asfalto 28°C y gestión de ritmo no controlada; no extrapolar linealmente toda carrera.",
+            "metadatos": {
+              "estado": "CALCULADO",
+              "temporada": 2024,
+              "fecha_partida": "2024-08-23",
+              "fecha_registro": "2026-11-22",
+              "fuente": "capturas_alonso_fp2_blandos_2024_08_23"
+            }
+          },
+          {
+            "id": "fp2_alonso_blando_ritmo_33_40",
+            "piloto_id": "fernando_alonso",
+            "compuesto": "blando",
+            "metrica": "ritmo_tanda",
+            "muestra": 8,
+            "vueltas_observadas": [
+              33,
+              40
+            ],
+            "media_s": 72.277,
+            "mejor_vuelta_s": 71.812,
+            "peor_vuelta_s": 72.545,
+            "combustible_consumido_kg": 9.8,
+            "metodo": "Promedio aritmético de vueltas rápidas 33–40, excluyendo entrada 41",
+            "limitaciones": "Combustible decreciente y pista engomándose; no identifica degradación pura ni diferencia real respecto a rivales anteriores.",
+            "metadatos": {
+              "estado": "CALCULADO",
+              "temporada": 2024,
+              "fecha_partida": "2024-08-23",
+              "fecha_registro": "2026-11-22",
+              "fuente": "capturas_alonso_fp2_blandos_2024_08_23"
+            }
           }
         ],
         "analisis_sectores": {
@@ -676,7 +974,41 @@
               14
             ]
           },
-          "nota": "Sectores y evolución de vueltas no comparables directamente por distinto compuesto, carga, tráfico, estado del asfalto y condiciones de la sesión."
+          "nota": "Sectores y evolución de vueltas no comparables directamente por distinto compuesto, carga, tráfico, estado del asfalto y condiciones de la sesión.",
+          "alonso_segunda_tanda_blando": {
+            "mejores_sectores_ms": {
+              "s1": 24823,
+              "s2": 25324,
+              "s3": 21637
+            },
+            "comparacion_referencias_previas": {
+              "s1_diferencia_ms": -478,
+              "s2_diferencia_ms": -191,
+              "s3_diferencia_ms": -196
+            },
+            "advertencia": "Referencias rivales de instante anterior, pista evolucionada; no inferir ranking final",
+            "metadatos": {
+              "estado": "CONFIRMADO",
+              "temporada": 2024,
+              "fecha_partida": "2024-08-23",
+              "fecha_registro": "2026-11-22",
+              "fuente": "capturas_alonso_fp2_blandos_2024_08_23"
+            }
+          }
+        },
+        "meteorologia_ultima_observacion": {
+          "aire_c": 19,
+          "pista_c": 28,
+          "agua_mm": 0,
+          "agarre": "muy alto",
+          "caucho": "alto",
+          "metadatos": {
+            "estado": "CONFIRMADO",
+            "temporada": 2024,
+            "fecha_partida": "2024-08-23",
+            "fecha_registro": "2026-11-22",
+            "fuente": "capturas_alonso_fp2_blandos_2024_08_23"
+          }
         }
       }
     },
@@ -724,7 +1056,8 @@
       "transcripcion_video_2024_07_29#zandvoort/resumen/0:05",
       "capturas_analisis_parrilla_2024_07_29",
       "capturas_zandvoort_fp1_2024_08_23",
-      "capturas_fp2_tandas_2024_08_23"
+      "capturas_fp2_tandas_2024_08_23",
+      "capturas_alonso_fp2_blandos_2024_08_23"
     ],
     "analisis": null,
     "lecciones": [],
