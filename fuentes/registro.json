@@ -725,5 +725,20 @@
       "4-6": "Alonso: vueltas 4–14, estado coche y pista"
     },
     "observaciones": "Datos parciales de una sesión en curso. Se preservan vueltas y unidades en ficha del GP."
+  },
+  {
+    "id": "capturas_alonso_fp2_blandos_2024_08_23",
+    "titulo": "Zandvoort FP2 Alonso segundo stint con blandos, vueltas 31–41",
+    "tipo": "lote_fotos_chat",
+    "fecha_partida": "2024-08-23",
+    "fecha_consulta": "2026-11-22",
+    "total_capturas": 3,
+    "archivo": null,
+    "localizadores": {
+      "1": "Historial de vueltas y sectores Alonso 31–41",
+      "2": "Estado de neumáticos, combustible y componentes por vuelta",
+      "3": "Meteorología y agarre por vuelta"
+    },
+    "observaciones": "Alonso con blandos confirmado por usuario. Se usan vueltas cronometradas 33–40; la vuelta 41 es de entrada y se excluye del ritmo. El desgaste sí puede calcularse con observaciones de v33 a v41."
   }
 ]
