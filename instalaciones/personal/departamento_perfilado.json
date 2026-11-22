@@ -1,25 +1,33 @@
 {
   "id": "departamento_perfilado",
   "metadatos": {
-    "estado": "DESCONOCIDO",
-    "fecha_partida": null,
-    "temporada": null,
-    "fecha_registro": null,
-    "fuente": null
+    "estado": "CONFIRMADO",
+    "temporada": 2024,
+    "fecha_partida": "2024-07-29",
+    "fecha_registro": "2026-11-22",
+    "fuente": "informe_instalaciones_2024_07_29#departamento_perfilado"
   },
   "datos": {
-    "construida": null,
-    "nivel": null,
-    "conservacion": null,
-    "eficacia": null,
-    "mantenimiento_usd": null,
-    "beneficios": null,
-    "siguiente_nivel": null,
-    "coste_mejora_usd": null,
-    "duracion_mejora_dias": null,
-    "beneficios_siguiente_nivel": null,
+    "construida": true,
+    "nivel": 1,
+    "conservacion": 100,
+    "eficacia": 100,
+    "mantenimiento_usd": 42000,
+    "beneficios": {
+      "capacidad_perfilado": 2
+    },
+    "siguiente_nivel": 2,
+    "coste_mejora_usd": 1300000,
+    "duracion_mejora_dias": 35,
+    "beneficios_siguiente_nivel": {
+      "capacidad_perfilado": 3
+    },
     "coste_renovacion_usd": null,
     "estado_proyecto": null,
-    "fin_estimado": null
-  }
+    "fin_estimado": null,
+    "nivel_maximo": 5,
+    "mantenimiento_siguiente_nivel_usd": null,
+    "estado_renovacion": "no necesaria"
+  },
+  "nombre": "Departamento de perfilado"
 }

@@ -35,7 +35,7 @@ La trayectoria comenzó en 2024. Las observaciones iniciales se conservan en `hi
 - **Renovación ATR calculada** · 2024-09-02
 - **CFD disponible (MAU)** · 2.5
 - **Túnel de viento disponible (h)** · 33
-- **Principales problemas** · El segundo informe muestra el chasis AST24 Ch.-3 de Stroll como fallido. Verificar su estado y buscar un repuesto apto.
+- **Principales problemas** · El segundo informe muestra el chasis AST24 Ch.-3 de Stroll como fallido. Verificar su estado y buscar un repuesto apto., Helipuerto deteriorado: 68 % de conservación y 80 % de eficacia.
 - **Decisiones pendientes** · Pendiente
 - **Última actualización confirmada del estado** · 2026-11-22
 

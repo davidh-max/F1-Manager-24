@@ -1,25 +1,61 @@
 {
   "id": "centro_pruebas",
   "metadatos": {
-    "estado": "DESCONOCIDO",
-    "fecha_partida": null,
-    "temporada": null,
-    "fecha_registro": null,
-    "fuente": null
+    "estado": "CONFIRMADO",
+    "temporada": 2024,
+    "fecha_partida": "2024-07-29",
+    "fecha_registro": "2026-11-22",
+    "fuente": "informe_instalaciones_2024_07_29#centro_pruebas"
   },
   "datos": {
-    "construida": null,
-    "nivel": null,
-    "conservacion": null,
-    "eficacia": null,
-    "mantenimiento_usd": null,
-    "beneficios": null,
-    "siguiente_nivel": null,
-    "coste_mejora_usd": null,
-    "duracion_mejora_dias": null,
-    "beneficios_siguiente_nivel": null,
+    "construida": true,
+    "nivel": 2,
+    "conservacion": 88,
+    "eficacia": 100,
+    "mantenimiento_usd": 130000,
+    "beneficios": {
+      "carga_aerodinamica_n": 40,
+      "refrigeracion_motor_pct": 4,
+      "reduccion_resistencia_pct": 2,
+      "delta_drs_pct": 2,
+      "preservacion_neumaticos_pct": 4
+    },
+    "siguiente_nivel": 3,
+    "coste_mejora_usd": 8000000,
+    "duracion_mejora_dias": 38,
+    "beneficios_siguiente_nivel": {
+      "carga_aerodinamica_n": 60,
+      "refrigeracion_motor_pct": 6,
+      "reduccion_resistencia_pct": 3,
+      "delta_drs_pct": 3,
+      "preservacion_neumaticos_pct": 6
+    },
     "coste_renovacion_usd": null,
     "estado_proyecto": null,
-    "fin_estimado": null
-  }
+    "fin_estimado": null,
+    "nivel_maximo": 5,
+    "mantenimiento_siguiente_nivel_usd": null,
+    "estado_renovacion": "no disponible",
+    "piezas_por_beneficio": {
+      "carga_aerodinamica_n": [
+        "fondo_plano",
+        "aleron_trasero",
+        "aleron_delantero"
+      ],
+      "refrigeracion_motor_pct": [
+        "pontones",
+        "chasis"
+      ],
+      "reduccion_resistencia_pct": [
+        "aleron_trasero"
+      ],
+      "delta_drs_pct": [
+        "aleron_trasero"
+      ],
+      "preservacion_neumaticos_pct": [
+        "aleron_delantero"
+      ]
+    }
+  },
+  "nombre": "Centro de pruebas"
 }

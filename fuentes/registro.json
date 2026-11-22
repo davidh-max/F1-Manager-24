@@ -438,5 +438,32 @@
       "3": "Pilotos 11–20",
       "4": "Competición DHL de paradas"
     }
+  },
+  {
+    "id": "informe_instalaciones_2024_07_29",
+    "titulo": "Informe de instalaciones de Aston Martin",
+    "tipo": "transcripcion_aportada",
+    "fecha_consulta": "2026-11-22",
+    "fecha_partida": "2024-07-29",
+    "duracion_video_s": 64,
+    "referencia_adjunto": "sediment://file_000000007c108210aca7f454eec5baf1",
+    "localizadores": {
+      "fabrica": "0:00–0:05",
+      "centro_diseno": "0:06–0:10",
+      "tunel_viento": "0:11–0:14",
+      "simulador_cfd": "0:15–0:18",
+      "simulador_suspension": "0:21–0:24",
+      "centro_pruebas": "0:18–0:21",
+      "sede_equipo": "0:24–0:27",
+      "departamento_perfilado": "0:28–0:32",
+      "simulador_carreras": "0:32–0:37",
+      "sala_juntas": "0:38–0:42",
+      "zona_invitados": "0:43–0:46",
+      "centro_meteorologico": "0:51–0:55",
+      "helipuerto": "0:47–0:51",
+      "sala_recuerdos": "0:55–0:59",
+      "centro_turistico": "0:59–1:04"
+    },
+    "observaciones": "Datos y localizadores de la transcripción aportada. Las valoraciones de inversión son propuestas."
   }
 ]

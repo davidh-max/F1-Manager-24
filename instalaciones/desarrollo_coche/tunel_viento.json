@@ -1,25 +1,42 @@
 {
   "id": "tunel_viento",
   "metadatos": {
-    "estado": "DESCONOCIDO",
-    "fecha_partida": null,
-    "temporada": null,
-    "fecha_registro": null,
-    "fuente": null
+    "estado": "CONFIRMADO",
+    "temporada": 2024,
+    "fecha_partida": "2024-07-29",
+    "fecha_registro": "2026-11-22",
+    "fuente": "informe_instalaciones_2024_07_29#tunel_viento"
   },
   "datos": {
-    "construida": null,
-    "nivel": null,
-    "conservacion": null,
-    "eficacia": null,
-    "mantenimiento_usd": null,
-    "beneficios": null,
-    "siguiente_nivel": null,
-    "coste_mejora_usd": null,
-    "duracion_mejora_dias": null,
-    "beneficios_siguiente_nivel": null,
+    "construida": true,
+    "nivel": 1,
+    "conservacion": 84,
+    "eficacia": 100,
+    "mantenimiento_usd": 78000,
+    "beneficios": {
+      "flujo_central_pct": 0.009,
+      "carga_aerodinamica_n": 0.188,
+      "reduccion_resistencia_pct": 0.009,
+      "delta_drs_pct": 0.009,
+      "flujo_frontal_pct": 0.009
+    },
+    "siguiente_nivel": 2,
+    "coste_mejora_usd": 10000000,
+    "duracion_mejora_dias": 63,
+    "beneficios_siguiente_nivel": {
+      "flujo_central_pct": 0.013,
+      "carga_aerodinamica_n": 0.251,
+      "reduccion_resistencia_pct": 0.013,
+      "delta_drs_pct": 0.013,
+      "flujo_frontal_pct": 0.013
+    },
     "coste_renovacion_usd": null,
     "estado_proyecto": null,
-    "fin_estimado": null
-  }
+    "fin_estimado": null,
+    "nivel_maximo": 5,
+    "mantenimiento_siguiente_nivel_usd": null,
+    "estado_renovacion": "no disponible",
+    "base_beneficios": "por unidad de prueba"
+  },
+  "nombre": "Túnel de viento"
 }
