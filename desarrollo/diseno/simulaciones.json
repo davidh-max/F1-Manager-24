@@ -1133,25 +1133,113 @@
       "inicio_confirmado": null,
       "instalacion_confirmada": null,
       "notas": "Opción fuerte para carreras con desgaste alto; nuestros neumáticos ya son uno de los puntos fuertes."
+    },
+    {
+      "id": "simulacion_pontones_post_p6_coche_2_2024_08_26_sin_atr",
+      "pieza": "pontones",
+      "estado": "en_evaluacion",
+      "metadatos": {
+        "estado": "CONFIRMADO",
+        "temporada": 2024,
+        "fecha_partida": "2024-08-26",
+        "fecha_registro": "2026-11-22",
+        "fuente": "capturas_pontones_post_p6_coche2_2024_08_26"
+      },
+      "coche": "coche_2",
+      "version_candidata": "posterior_a_AST24_P-6_no_confirmada",
+      "preajuste": "personalizado_reduccion_resistencia_y_flujo_frontal",
+      "atr_simulado": {
+        "cfd_mau": 0,
+        "tunel_h": 0
+      },
+      "referencia_pieza_instalada": {
+        "reduccion_resistencia_pct": 63.45,
+        "refrigeracion_motor_pct": 58.99,
+        "flujo_frontal_pct": 62.1,
+        "flujo_central_pct": 56.94,
+        "duracion_minima_km": 3850
+      },
+      "delta_pieza_mostrado": {
+        "reduccion_resistencia_pct": 3.56,
+        "refrigeracion_motor_pct": 5.05,
+        "flujo_frontal_pct": 4.45,
+        "flujo_central_pct": -7.51,
+        "duracion_minima_km": 275
+      },
+      "referencia_coche_2": {
+        "velocidad_maxima": 321.92,
+        "aceleracion": 1.855,
+        "eficacia_drs": 62.7,
+        "curvas_lentas": 2.593,
+        "curvas_medias": 3.626,
+        "curvas_rapidas": 4.904,
+        "aire_sucio": 61.83,
+        "neumaticos": 63.23,
+        "refrigeracion": 56.96,
+        "peso_extra": 17.6
+      },
+      "delta_coche_mostrado": {
+        "velocidad_maxima": 0.1,
+        "aceleracion": 0,
+        "eficacia_drs": 0,
+        "curvas_lentas": 0,
+        "curvas_medias": -0.006,
+        "curvas_rapidas": -0.016,
+        "aire_sucio": 0,
+        "neumaticos": 0,
+        "refrigeracion": 4.04,
+        "peso_extra": 1
+      },
+      "posiciones_actuales_20_coches": {
+        "velocidad_maxima": 9,
+        "aceleracion": 15,
+        "eficacia_drs": 6,
+        "curvas_lentas": 8,
+        "curvas_medias": 7,
+        "curvas_rapidas": 7,
+        "aire_sucio": 8,
+        "neumaticos": 3,
+        "refrigeracion": 15,
+        "peso_extra": 18
+      },
+      "variacion_posiciones_20_coches": {
+        "velocidad_maxima": 2,
+        "aceleracion": 0,
+        "eficacia_drs": 0,
+        "curvas_lentas": 0,
+        "curvas_medias": 0,
+        "curvas_rapidas": -1,
+        "aire_sucio": 0,
+        "neumaticos": 0,
+        "refrigeracion": 8,
+        "peso_extra": -1
+      },
+      "coste_usd": null,
+      "plazo_diseno_dias": null,
+      "inicio_confirmado": null,
+      "notas": "Comparación contra coche 2 con P.-6 montado según usuario, no contra P.-4. El foco privilegiando reducción de resistencia y flujo frontal penaliza flujo central -7.51 y curvas medias/rápidas. No iniciar sin probar foco distinto. Foto 1 pieza; foto 2 atributos del coche; foto 3 posiciones."
     }
   ],
   "priorizacion_2024_08_26": {
-    "estado": "RECOMENDACION_CONDICIONAL",
+    "estado": "RECOMENDACION_ACTUALIZADA_CONDICIONAL",
     "fecha_partida": "2024-08-26",
-    "fuente": "capturas_simulaciones_diseno_2024_08_26",
-    "primera_opcion": "pontones",
+    "fuente": "capturas_pontones_post_p6_coche2_2024_08_26",
+    "primera_opcion": "suspension",
+    "prioridad_inmediata": "fabricar o confirmar fabricación del alerón trasero de diseño completado el 21 agosto antes de comprometer nuevo presupuesto",
     "otras_opciones": [
-      "suspension",
       "chasis",
-      "aleron_trasero"
+      "aleron_delantero_enfocado_curvas_lentas",
+      "pontones_foco_flujo_central_solo_si_simulacion_nueva_es_positiva"
     ],
-    "condicion": "No iniciar o contabilizar diseño P.-7 sobre la base de esta captura sin comparar con P.-6 realmente instalado. P.-6 se encuentra en fabricación y sus mejoras ya propuestas en repositorio (+0.015 curvas medias, +0.030 curvas rápidas); la pantalla de la nueva simulación usa todavía los atributos base antiguos.",
+    "pontones_modo_actual": "DESCARTAR",
+    "fundamento": "Después de P6: pontones +0.10 km/h, -0.006 G curvas medias, -0.016 G rápidas, +4.04pp refrigeración, +1.0 kg. Frente al diseño post P6, seleccionar pieza sin penalizaciones relevantes en curvas. Suspensión observada con +0.005/+0.004/+0.004 G y +2.79pp neumáticos, pero esa simulación procede de coche 1 sin P6: confirmar de nuevo sobre coche 2.",
+    "estado_previo": "Priorización inicial de pontones basaba en P4; rectificada por nueva prueba contra P6 instalado.",
+    "presupuesto": "Saldo 1202015 USD, posible necesidad de financiar fabricación del alerón trasero terminado; no iniciar nuevo diseño sin presupuesto de fabricación y coste confirmado.",
+    "atr": "7 horas túnel disponibles y 7 días hasta nuevo período ATR observados en esta captura; uso de CFD actual desconocido.",
     "objetivo_competiciones": [
       "19_austin",
       "20_hermanos_rodriguez",
       "21_interlagos"
-    ],
-    "evaluacion": "México: refrigeración relevante por altura (referencia externa, no atributo crucial confirmado en juego). Brasil: curvas medias/rápidas y tracción (estimación). Los datos de importancia crucial en fichas de México e Interlagos figuran aún DESCONOCIDO.",
-    "costes_y_plazos": "No presentes en capturas; disponibilidad para Austin no confirmada, depende de calendario de diseño, fabricación, instalación y liquidez."
+    ]
   }
 }
