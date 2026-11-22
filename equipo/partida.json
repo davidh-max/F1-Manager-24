@@ -9,7 +9,7 @@
     "temporada": 2024,
     "fecha_partida": "2024-08-26",
     "fecha_registro": "2026-11-22",
-    "fuente": "capturas_simulaciones_diseno_2024_08_26"
+    "fuente": "confirmacion_diseno_suspension_2024_08_26"
   },
   "datos": {
     "temporada": 2024,
@@ -20,7 +20,8 @@
       "Helipuerto deteriorado: 68 % de conservación y 80 % de eficacia."
     ],
     "decisiones_pendientes": [
-      "Evaluar próxima suspensión en coche 2 con P.-6 instalado, antes de confirmar diseño y ATR. Configurar foco curvas para evitar ganancias engañosas.",
+      "Saldo tras diseño suspensión: 202.015 USD. No encargar fabricación de alerón trasero sin financiación adicional.",
+      "Suspensión en diseño desde 26 agosto, 3 ingenieros, estrategia normal, final previsto 21 septiembre; planificar su fabricación cuando concluya.",
       "Verificar coste de fabricación del alerón trasero ya diseñado y presupuesto disponible, priorizar su fabricación si es viable.",
       "Pontones posteriores a P.-6: descartar configuración probada por pérdidas en curvas medias (-0.006 G) y rápidas (-0.016 G).",
       "Confirmar entrega prevista 31 agosto e instalación de P.-6 en coche 1; coche 2 confirmado con P.-6 el 26 agosto.",
