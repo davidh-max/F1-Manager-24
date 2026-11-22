@@ -1,1 +1,2 @@
 id,fecha_partida,temporada,fecha_registro,fuente,estado,tipo,categoria,concepto,importe_usd,saldo_posterior_usd,consume_limite,entidad
+gasto_diseno_suspension_2024_08_26,2024-08-26,2024,2026-11-22,confirmacion_diseno_suspension_2024_08_26,CONFIRMADO,gasto,diseno,Diseno suspension 3 ingenieros normal,-1000000,202015,si,diseno_suspension_2024_08_26
