@@ -10,14 +10,59 @@
     "fuente": "transcripcion_video_2024_07_29#zandvoort/resumen/0:05"
   },
   "datos": {
-    "previa": null,
+    "previa": {
+      "metadatos": {
+        "estado": "CONFIRMADO",
+        "temporada": 2024,
+        "fecha_partida": "2024-08-23",
+        "fecha_registro": "2026-11-22",
+        "fuente": "capturas_zandvoort_fp1_2024_08_23"
+      },
+      "objetivos": {
+        "fernando_alonso": "pelear por puntos, aspirar al top 8",
+        "lance_stroll": "pelear por puntos, objetivo top 10"
+      },
+      "observaciones": [
+        "Conservación de neumáticos destacada: puestos 3 y 4",
+        "Déficit de refrigeración y de velocidad punta",
+        "Pronóstico de llovizna el sábado; intensidad no visible"
+      ]
+    },
     "meteorologia": {
       "probabilidad_lluvia_pct": 38,
       "fecha_disponibilidad_prevision": "2024-08-16",
       "dias_hasta_disponibilidad_observados": 18,
-      "prevision": null
+      "prevision": {
+        "fp1": {
+          "temperatura_c": 19,
+          "cielo": "algo nublado"
+        },
+        "fp2": {
+          "temperatura_c": 19,
+          "cielo": "algo nublado"
+        },
+        "sabado": {
+          "fenomeno": "llovizna",
+          "intensidad": null,
+          "probabilidad_pct": null
+        },
+        "metadatos": {
+          "estado": "CONFIRMADO",
+          "temporada": 2024,
+          "fecha_partida": "2024-08-23",
+          "fecha_registro": "2026-11-22",
+          "fuente": "capturas_zandvoort_fp1_2024_08_23"
+        }
+      }
     },
-    "coches": {},
+    "coches": {
+      "coche_1": {
+        "rendimiento_general": 8
+      },
+      "coche_2": {
+        "rendimiento_general": 7
+      }
+    },
     "componentes": {},
     "inventario_neumaticos": [
       {
@@ -132,9 +177,57 @@
     "juegos_neumaticos": null,
     "estado_carrera": null,
     "decisiones_carrera": [],
-    "sesiones": {},
+    "sesiones": {
+      "fp1": {
+        "modo": "desconocida",
+        "estado": "preparacion",
+        "metadatos": {
+          "estado": "CONFIRMADO",
+          "temporada": 2024,
+          "fecha_partida": "2024-08-23",
+          "fecha_registro": "2026-11-22",
+          "fuente": "capturas_zandvoort_fp1_2024_08_23"
+        },
+        "neumaticos": "duros nuevos",
+        "vueltas_plan": 15,
+        "preparacion_inicial_pct": 7,
+        "conocimiento_piezas_pct": 79
+      }
+    },
     "reglajes": {},
-    "preparacion": {},
+    "preparacion": {
+      "fp1": {
+        "coche_1": {
+          "piloto": "lance_stroll",
+          "adaptacion_pct": 0,
+          "conocimiento_piezas_pct": 79,
+          "preparacion_pct": 7,
+          "compuesto": "duro",
+          "vida_pct": 100,
+          "vueltas_plan": 15,
+          "combustible_kg": 21.5,
+          "configuracion": "sin probar"
+        },
+        "coche_2": {
+          "piloto": "fernando_alonso",
+          "adaptacion_pct": 0,
+          "conocimiento_piezas_pct": 79,
+          "preparacion_pct": 7,
+          "compuesto": "duro",
+          "vida_pct": 100,
+          "vueltas_plan": 15,
+          "combustible_kg": 21.4,
+          "configuracion": "sin probar"
+        },
+        "metadatos": {
+          "estado": "CONFIRMADO",
+          "temporada": 2024,
+          "fecha_partida": "2024-08-23",
+          "fecha_registro": "2026-11-22",
+          "fuente": "capturas_zandvoort_fp1_2024_08_23"
+        }
+      }
+    },
     "confianza": {},
     "paradas": [],
     "incidentes": [],
@@ -143,13 +236,14 @@
       "capturas_circuitos_2024_07_29_zandvoort_mapa",
       "capturas_circuitos_2024_07_29_zandvoort_secciones_por_velocidad",
       "transcripcion_video_2024_07_29#zandvoort/resumen/0:05",
-      "capturas_analisis_parrilla_2024_07_29"
+      "capturas_analisis_parrilla_2024_07_29",
+      "capturas_zandvoort_fp1_2024_08_23"
     ],
     "analisis": null,
     "lecciones": [],
     "posicion_en_parrilla_mostrada_en_previa": {
-      "coche_1": 10,
-      "coche_2": 9
+      "coche_1": 8,
+      "coche_2": 7
     },
     "sprint": false,
     "referencia_comparativa_parrilla": "informes/parrilla_2024-07-29.md"
@@ -189,6 +283,20 @@
       "temporada": 2024,
       "fecha_registro": "2026-11-22",
       "fuente": "transcripcion_video_2024_07_29#zandvoort/rendimiento_del_compuesto/0:26"
+    },
+    "fp1_preparacion": {
+      "estado": "CONFIRMADO",
+      "temporada": 2024,
+      "fecha_partida": "2024-08-23",
+      "fecha_registro": "2026-11-22",
+      "fuente": "capturas_zandvoort_fp1_2024_08_23"
+    },
+    "meteorologia_actual": {
+      "estado": "CONFIRMADO",
+      "temporada": 2024,
+      "fecha_partida": "2024-08-23",
+      "fecha_registro": "2026-11-22",
+      "fuente": "capturas_zandvoort_fp1_2024_08_23"
     }
   }
 }
