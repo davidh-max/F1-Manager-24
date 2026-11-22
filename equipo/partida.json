@@ -20,10 +20,11 @@
       "Helipuerto deteriorado: 68 % de conservación y 80 % de eficacia."
     ],
     "decisiones_pendientes": [
-      "Confirmar recepción e instalación de pontones AST24 P.-6 (lote de 2, fechas previstas 26 y 31 agosto).",
-      "Comprobar estado de fabricación del alerón trasero completado en diseño el 21 agosto; no tratarlo como instalado.",
-      "Evaluar próximo proyecto de pontones P.-7 solo después de comparar con P.-6 montado; hay simulaciones alternativas de seis piezas del 26 agosto.",
-      "Revisar presupuesto, coste de diseño/fabricación y recursos ATR antes de comenzar nuevo proyecto."
+      "Evaluar próxima suspensión en coche 2 con P.-6 instalado, antes de confirmar diseño y ATR. Configurar foco curvas para evitar ganancias engañosas.",
+      "Verificar coste de fabricación del alerón trasero ya diseñado y presupuesto disponible, priorizar su fabricación si es viable.",
+      "Pontones posteriores a P.-6: descartar configuración probada por pérdidas en curvas medias (-0.006 G) y rápidas (-0.016 G).",
+      "Confirmar entrega prevista 31 agosto e instalación de P.-6 en coche 1; coche 2 confirmado con P.-6 el 26 agosto.",
+      "Vencimiento del periodo ATR en 7 días desde 26 agosto; 7/72 horas túnel disponibles observadas."
     ],
     "dias_hasta_gp_observados": 4,
     "proximos_gp_confirmados": [
@@ -87,6 +88,19 @@
         "fecha_partida": "2024-08-23",
         "fecha_registro": "2026-11-22",
         "fuente": "capturas_zandvoort_fp1_2024_08_23"
+      }
+    },
+    "estado_piezas_confirmado_por_coche": {
+      "coche_2": {
+        "pontones": "AST24 P.-6",
+        "estado": "instalados",
+        "fecha_partida": "2024-08-26",
+        "fuente": "capturas_pontones_post_p6_coche2_2024_08_26"
+      },
+      "coche_1": {
+        "pontones": "AST24 P.-6",
+        "estado": "fabricacion_restante_pendiente",
+        "fecha_estimada": "2024-08-31"
       }
     }
   },
