@@ -9,7 +9,7 @@ La trayectoria comenzó en 2024. Las observaciones iniciales se conservan en `hi
 - **Gran Premio actual o próximo** · Países Bajos
 - **Días hasta el inicio** · 22
 - **Próximos Grandes Premios comunicados** · Países Bajos, Italia, Azerbaiyán, Singapur, Estados Unidos
-- **Presupuesto disponible (USD)** · 2157015
+- **Presupuesto disponible (USD)** · 2057015
 - **Límite restante (USD)** · 43461004
 - **Constructores** · 4.º · 236 puntos
 - **Fernando Alonso** · 4.º · 187 puntos
@@ -28,7 +28,7 @@ La trayectoria comenzó en 2024. Las observaciones iniciales se conservan en `hi
 - **Proyectos activos · diseno** · Alerón trasero nuevo, apresurada, 5 ingenieros, finalización prevista 2024-08-21
 - **Proyectos activos · investigacion** · Pendiente
 - **Proyectos activos · fabricacion** · Alerón trasero A. t.-4 ×2 (7 agosto), pontones P.-5 ×2 (17 agosto), chasis Ch.-3 ×1 (11 agosto)
-- **Instalaciones en obra** · Pendiente
+- **Instalaciones en obra** · Centro turístico nivel 3 → 4, finalización prevista 2024-08-15, coste pagado 100000 USD
 - **Próximos vencimientos contractuales** · ben_michell (2024-12-31), fernando_alonso (2024-12-31), jefe_aerodinamica (2024-12-31), jefe_tecnico (2024-12-31), lance_stroll (2024-12-31), director_deportivo (2027-12-31)
 - **Diseños pendientes de fabricar** · Ninguno de P.-5 y A. t.-4: ambos en fabricación
 - **Próximo vencimiento ATR** · Pendiente
@@ -36,7 +36,7 @@ La trayectoria comenzó en 2024. Las observaciones iniciales se conservan en `hi
 - **CFD disponible (MAU)** · 2.5
 - **Túnel de viento disponible (h)** · 33
 - **Principales problemas** · El segundo informe muestra el chasis AST24 Ch.-3 de Stroll como fallido. Verificar su estado y buscar un repuesto apto., Helipuerto deteriorado: 68 % de conservación y 80 % de eficacia.
-- **Decisiones pendientes** · Zandvoort: cubrir repuestos de chasis y alerón trasero, cotizar P.-5 y A. t.-4 y valorar el centro turístico por 100.000 USD. Propuesta pendiente de decidir., Siguiente proyecto: simular chasis y pontones en normal y apresurada con el ATR disponible.
+- **Decisiones pendientes** · Zandvoort: comprobar llegada e instalación de las piezas fabricadas., Siguiente proyecto: simular chasis y pontones en normal y apresurada con el ATR disponible.
 - **Última actualización confirmada del estado** · 2026-11-22
 
 ## Datos prioritarios para sincronizar
