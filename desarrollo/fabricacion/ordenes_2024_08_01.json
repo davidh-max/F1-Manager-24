@@ -1,0 +1,53 @@
+{
+  "metadatos": {
+    "estado": "CONFIRMADO",
+    "temporada": 2024,
+    "fecha_partida": "2024-08-01",
+    "fecha_registro": "2026-11-22",
+    "fuente": "confirmacion_usuario_diseno_y_fabricacion_2024_08_01"
+  },
+  "datos": [
+    {
+      "pieza": "aleron_trasero",
+      "version": "AST24 A. t.-4",
+      "cantidad": 2,
+      "inicio_real": "2024-08-01",
+      "primera_pieza": "2024-08-04",
+      "fin_estimado": "2024-08-07",
+      "estado": "en_fabricacion",
+      "id": "fabricacion_ast24_at4_20240801",
+      "coste_usd": 550000,
+      "metodo": "normal",
+      "fin_real": null,
+      "instaladas": 0
+    },
+    {
+      "pieza": "pontones",
+      "version": "AST24 P.-5",
+      "cantidad": 2,
+      "inicio_real": "2024-08-01",
+      "primera_pieza": "2024-08-09",
+      "fin_estimado": "2024-08-17",
+      "estado": "en_fabricacion",
+      "id": "fabricacion_ast24_p5_20240801",
+      "coste_usd": 900000,
+      "metodo": "normal",
+      "fin_real": null,
+      "instaladas": 0
+    },
+    {
+      "pieza": "chasis",
+      "version": "AST24 Ch.-3",
+      "cantidad": 1,
+      "inicio_real": "2024-08-01",
+      "fin_estimado": "2024-08-11",
+      "estado": "en_fabricacion",
+      "destino": "Stroll",
+      "id": "fabricacion_ast24_ch3_20240801",
+      "coste_usd": 550000,
+      "metodo": "normal",
+      "fin_real": null,
+      "instaladas": 0
+    }
+  ]
+}
