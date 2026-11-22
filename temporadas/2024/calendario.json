@@ -139,8 +139,8 @@
       "ronda": 15,
       "nombre": "Países Bajos",
       "circuito": "zandvoort",
-      "inicio": "2024-08-16",
-      "carrera": "2024-08-18",
+      "inicio": "2024-08-14",
+      "carrera": "2024-08-16",
       "sprint": false,
       "metadatos": {
         "estado": "CONFIRMADO",
@@ -148,7 +148,7 @@
         "temporada": 2024,
         "fecha_registro": "2026-11-22",
         "fuente": "mensaje_calendario_usuario_2026_11_22",
-        "nota": "Inicio comunicado por el usuario; carrera calculada a +2 días, pendiente de confirmación explícita."
+        "nota": "Fecha de carrera confirmada por el usuario; inicio calculado a -2 días, pendiente de confirmación."
       }
     },
     {
@@ -156,8 +156,8 @@
       "ronda": 16,
       "nombre": "Italia",
       "circuito": "monza",
-      "inicio": "2024-08-23",
-      "carrera": "2024-08-25",
+      "inicio": "2024-08-21",
+      "carrera": "2024-08-23",
       "sprint": false,
       "metadatos": {
         "estado": "CONFIRMADO",
@@ -165,7 +165,7 @@
         "temporada": 2024,
         "fecha_registro": "2026-11-22",
         "fuente": "mensaje_calendario_usuario_2026_11_22",
-        "nota": "Inicio comunicado por el usuario; carrera calculada a +2 días, pendiente de confirmación explícita."
+        "nota": "Fecha de carrera confirmada por el usuario; inicio calculado a -2 días, pendiente de confirmación."
       }
     },
     {
@@ -173,8 +173,8 @@
       "ronda": 17,
       "nombre": "Azerbaiyán",
       "circuito": "baku",
-      "inicio": "2024-09-06",
-      "carrera": "2024-09-08",
+      "inicio": "2024-09-04",
+      "carrera": "2024-09-06",
       "sprint": false,
       "metadatos": {
         "estado": "CONFIRMADO",
@@ -182,7 +182,7 @@
         "temporada": 2024,
         "fecha_registro": "2026-11-22",
         "fuente": "mensaje_calendario_usuario_2026_11_22",
-        "nota": "Inicio comunicado por el usuario; carrera calculada a +2 días, pendiente de confirmación explícita."
+        "nota": "Fecha de carrera confirmada por el usuario; inicio calculado a -2 días, pendiente de confirmación."
       }
     },
     {
@@ -190,8 +190,8 @@
       "ronda": 18,
       "nombre": "Singapur",
       "circuito": "marina_bay",
-      "inicio": "2024-09-13",
-      "carrera": "2024-09-15",
+      "inicio": "2024-09-11",
+      "carrera": "2024-09-13",
       "sprint": false,
       "metadatos": {
         "estado": "CONFIRMADO",
@@ -199,7 +199,7 @@
         "temporada": 2024,
         "fecha_registro": "2026-11-22",
         "fuente": "mensaje_calendario_usuario_2026_11_22",
-        "nota": "Inicio comunicado por el usuario; carrera calculada a +2 días, pendiente de confirmación explícita."
+        "nota": "Fecha de carrera confirmada por el usuario; inicio calculado a -2 días, pendiente de confirmación."
       }
     },
     {
@@ -207,8 +207,8 @@
       "ronda": 19,
       "nombre": "Estados Unidos",
       "circuito": "austin",
-      "inicio": "2024-10-11",
-      "carrera": "2024-10-13",
+      "inicio": "2024-10-09",
+      "carrera": "2024-10-11",
       "sprint": true,
       "metadatos": {
         "estado": "CONFIRMADO",
@@ -216,7 +216,7 @@
         "temporada": 2024,
         "fecha_registro": "2026-11-22",
         "fuente": "mensaje_calendario_usuario_2026_11_22",
-        "nota": "Inicio comunicado por el usuario; carrera calculada a +2 días, pendiente de confirmación explícita."
+        "nota": "Fecha de carrera confirmada por el usuario; inicio calculado a -2 días, pendiente de confirmación."
       }
     },
     {
@@ -224,8 +224,8 @@
       "ronda": 20,
       "nombre": "México",
       "circuito": "hermanos_rodriguez",
-      "inicio": "2024-10-18",
-      "carrera": "2024-10-20",
+      "inicio": "2024-10-16",
+      "carrera": "2024-10-18",
       "sprint": false,
       "metadatos": {
         "estado": "CONFIRMADO",
@@ -233,7 +233,7 @@
         "temporada": 2024,
         "fecha_registro": "2026-11-22",
         "fuente": "mensaje_calendario_usuario_2026_11_22",
-        "nota": "Inicio comunicado por el usuario; carrera calculada a +2 días, pendiente de confirmación explícita."
+        "nota": "Fecha de carrera confirmada por el usuario; inicio calculado a -2 días, pendiente de confirmación."
       }
     },
     {
@@ -241,8 +241,8 @@
       "ronda": 21,
       "nombre": "São Paulo",
       "circuito": "interlagos",
-      "inicio": "2024-10-25",
-      "carrera": "2024-10-27",
+      "inicio": "2024-10-23",
+      "carrera": "2024-10-25",
       "sprint": true,
       "metadatos": {
         "estado": "CONFIRMADO",
@@ -250,7 +250,7 @@
         "temporada": 2024,
         "fecha_registro": "2026-11-22",
         "fuente": "mensaje_calendario_usuario_2026_11_22",
-        "nota": "Inicio comunicado por el usuario; carrera calculada a +2 días, pendiente de confirmación explícita."
+        "nota": "Fecha de carrera confirmada por el usuario; inicio calculado a -2 días, pendiente de confirmación."
       }
     },
     {
@@ -258,8 +258,8 @@
       "ronda": 22,
       "nombre": "Las Vegas",
       "circuito": "las_vegas",
-      "inicio": "2024-11-14",
-      "carrera": "2024-11-16",
+      "inicio": "2024-11-12",
+      "carrera": "2024-11-14",
       "sprint": false,
       "metadatos": {
         "estado": "CONFIRMADO",
@@ -267,7 +267,7 @@
         "temporada": 2024,
         "fecha_registro": "2026-11-22",
         "fuente": "mensaje_calendario_usuario_2026_11_22",
-        "nota": "Inicio comunicado por el usuario; carrera calculada a +2 días, pendiente de confirmación explícita."
+        "nota": "Fecha de carrera confirmada por el usuario; inicio calculado a -2 días, pendiente de confirmación."
       }
     },
     {
@@ -275,8 +275,8 @@
       "ronda": 23,
       "nombre": "Catar",
       "circuito": "lusail",
-      "inicio": "2024-11-22",
-      "carrera": "2024-11-24",
+      "inicio": "2024-11-20",
+      "carrera": "2024-11-22",
       "sprint": true,
       "metadatos": {
         "estado": "CONFIRMADO",
@@ -284,7 +284,7 @@
         "temporada": 2024,
         "fecha_registro": "2026-11-22",
         "fuente": "mensaje_calendario_usuario_2026_11_22",
-        "nota": "Inicio comunicado por el usuario; carrera calculada a +2 días, pendiente de confirmación explícita."
+        "nota": "Fecha de carrera confirmada por el usuario; inicio calculado a -2 días, pendiente de confirmación."
       }
     },
     {
@@ -292,8 +292,8 @@
       "ronda": 24,
       "nombre": "Abu Dabi",
       "circuito": "yas_marina",
-      "inicio": "2024-11-29",
-      "carrera": "2024-12-01",
+      "inicio": "2024-11-27",
+      "carrera": "2024-11-29",
       "sprint": false,
       "metadatos": {
         "estado": "CONFIRMADO",
@@ -301,7 +301,7 @@
         "temporada": 2024,
         "fecha_registro": "2026-11-22",
         "fuente": "mensaje_calendario_usuario_2026_11_22",
-        "nota": "Inicio comunicado por el usuario; carrera calculada a +2 días, pendiente de confirmación explícita."
+        "nota": "Fecha de carrera confirmada por el usuario; inicio calculado a -2 días, pendiente de confirmación."
       }
     }
   ]
