@@ -341,12 +341,41 @@
     "confianza": {},
     "paradas": [],
     "incidentes": [],
-    "resultados": [],
+    "resultados": [
+      {
+        "piloto": "charles_leclerc",
+        "posicion": 1,
+        "tiempo": "01:20:28",
+        "vuelta_rapida": "1:22.194",
+        "estado": "CONFIRMADO_CAPTURA"
+      },
+      {
+        "piloto": "fernando_alonso",
+        "posicion": 2,
+        "diferencia_ganador_s": 0.855,
+        "puntos": 19,
+        "vuelta_rapida": "1:21.390",
+        "estado": "CONFIRMADO_CAPTURA"
+      },
+      {
+        "piloto": "carlos_sainz",
+        "posicion": 3,
+        "diferencia_ganador_s": 2.598,
+        "puntos": 15,
+        "estado": "CONFIRMADO_CAPTURA"
+      },
+      {
+        "piloto": "lance_stroll",
+        "posicion": 20,
+        "estado": "COMUNICADO_USUARIO_PENDIENTE_CAPTURA_CLASIFICACION_COMPLETA"
+      }
+    ],
     "evidencias": [
       "capturas_circuitos_2024_07_29_monza_mapa",
       "capturas_circuitos_2024_07_29_monza_secciones_por_velocidad",
       "transcripcion_video_2024_07_29#monza/resumen/0:31",
-      "capturas_comparativa_monza_2024_08_30"
+      "capturas_comparativa_monza_2024_08_30",
+      "captura_resultados_carrera_monza_2024_08_30"
     ],
     "analisis": {
       "previa": {
@@ -390,6 +419,11 @@
           "riesgos": "Baja refrigeración de Aston (15º y 16º); debilidad en curvas 7º coche2 y 10º coche1; sin potencia para igualar fácilmente a RedBull en recta."
         },
         "estado": "ESTIMADO"
+      },
+      "carrera": {
+        "fecha_registro": "2026-11-22",
+        "estado": "PARCIAL",
+        "nota": "Alonso segundo y vuelta rápida; Stroll último según usuario. Captura muestra únicamente top 10. Sin estrategias, incidentes ni posiciones restantes verificadas."
       }
     },
     "lecciones": [],
