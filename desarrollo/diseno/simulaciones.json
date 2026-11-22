@@ -723,6 +723,435 @@
       ],
       "fabricacion_dias_comunicados": 3,
       "inicio_confirmado": null
+    },
+    {
+      "id": "simulacion_pontones_2024_08_26_sin_atr",
+      "pieza": "pontones",
+      "estado": "en_evaluacion",
+      "metadatos": {
+        "estado": "CONFIRMADO",
+        "temporada": 2024,
+        "fecha_partida": "2024-08-26",
+        "fecha_registro": "2026-11-22",
+        "fuente": "capturas_simulaciones_diseno_2024_08_26#pontones"
+      },
+      "coche": "coche_1",
+      "base_comparativa": {
+        "fecha_partida_observada": "2024-08-23",
+        "atributos_coche": {
+          "velocidad_maxima": 321.81,
+          "aceleracion": 1.854,
+          "eficacia_drs": 62.7,
+          "curvas_lentas": 2.586,
+          "curvas_medias": 3.609,
+          "curvas_rapidas": 4.872,
+          "aire_sucio": 61.83,
+          "neumaticos": 61.5,
+          "refrigeracion": 56.35,
+          "peso_extra": 18.6
+        },
+        "nota": "Vista previa desde situación base actual en pantalla; no representa cambios adicionales garantizados tras instalar las piezas P.-6 pendientes."
+      },
+      "atr_simulado": {
+        "cfd_mau": 0,
+        "tunel_h": 0
+      },
+      "preajuste": "equilibrado",
+      "pieza_referencia": {
+        "reduccion_resistencia_pct": 61.93,
+        "refrigeracion_motor_pct": 58.22,
+        "flujo_frontal_pct": 60.75,
+        "flujo_central_pct": 39.95,
+        "duracion_minima_km": 4125
+      },
+      "delta_pieza_mostrado": {
+        "reduccion_resistencia_pct": 5.2,
+        "refrigeracion_motor_pct": 5.82,
+        "flujo_frontal_pct": 5.92,
+        "flujo_central_pct": 9.6,
+        "duracion_minima_km": 0
+      },
+      "delta_coche_mostrado": {
+        "velocidad_maxima": 0.15,
+        "aceleracion": 0.001,
+        "eficacia_drs": 0,
+        "curvas_lentas": 0.004,
+        "curvas_medias": 0.009,
+        "curvas_rapidas": 0.014,
+        "aire_sucio": 0,
+        "neumaticos": 0,
+        "refrigeracion": 4.65,
+        "peso_extra": 0
+      },
+      "coste_usd": null,
+      "duracion_diseno_dias": null,
+      "duracion_fabricacion_dias": null,
+      "inicio_confirmado": null,
+      "instalacion_confirmada": null,
+      "notas": "Captura 1 foco equilibrado y captura 2 resultados. La base de la pieza 61.93/58.22/60.75/39.95 coincide con AST24 P.-4 instalada en última ficha, NO con los futuros P.-6. El proyecto P.-6 ya fabricándose muestra frente a esa misma base +0.015 G medias y +0.030 G rápidas; simular otra vez después de instalar P.-6."
+    },
+    {
+      "id": "simulacion_aleron_trasero_2024_08_26_sin_atr",
+      "pieza": "aleron_trasero",
+      "estado": "en_evaluacion",
+      "metadatos": {
+        "estado": "CONFIRMADO",
+        "temporada": 2024,
+        "fecha_partida": "2024-08-26",
+        "fecha_registro": "2026-11-22",
+        "fuente": "capturas_simulaciones_diseno_2024_08_26#aleron_trasero"
+      },
+      "coche": "coche_1",
+      "base_comparativa": {
+        "fecha_partida_observada": "2024-08-23",
+        "atributos_coche": {
+          "velocidad_maxima": 321.81,
+          "aceleracion": 1.854,
+          "eficacia_drs": 62.7,
+          "curvas_lentas": 2.586,
+          "curvas_medias": 3.609,
+          "curvas_rapidas": 4.872,
+          "aire_sucio": 61.83,
+          "neumaticos": 61.5,
+          "refrigeracion": 56.35,
+          "peso_extra": 18.6
+        },
+        "nota": "Vista previa desde situación base actual en pantalla; no representa cambios adicionales garantizados tras instalar las piezas P.-6 pendientes."
+      },
+      "atr_simulado": {
+        "cfd_mau": 0,
+        "tunel_h": 0
+      },
+      "preajuste": null,
+      "pieza_referencia": {
+        "reduccion_resistencia_pct": 61.32,
+        "delta_drs_pct": 64.63,
+        "carga_baja_kN": 4.21,
+        "carga_media_kN": 6.3,
+        "carga_alta_kN": 7.61,
+        "sensibilidad_flujo_aire_pct": 62.84,
+        "duracion_minima_km": 2830
+      },
+      "delta_pieza_mostrado": {
+        "reduccion_resistencia_pct": 3.69,
+        "delta_drs_pct": 2.94,
+        "carga_baja_kN": 0.07,
+        "carga_media_kN": 0.05,
+        "carga_alta_kN": 0.04,
+        "sensibilidad_flujo_aire_pct": 3.4,
+        "duracion_minima_km": -295
+      },
+      "delta_coche_mostrado": {
+        "velocidad_maxima": 0.1,
+        "aceleracion": 0.001,
+        "eficacia_drs": 2.06,
+        "curvas_lentas": 0,
+        "curvas_medias": 0.005,
+        "curvas_rapidas": 0.003,
+        "aire_sucio": 1.02,
+        "neumaticos": 0,
+        "refrigeracion": 0,
+        "peso_extra": 0.6
+      },
+      "coste_usd": null,
+      "duracion_diseno_dias": null,
+      "duracion_fabricacion_dias": null,
+      "inicio_confirmado": null,
+      "instalacion_confirmada": null,
+      "notas": "Dos capturas: atributos pieza y efecto coche. Penalización en peso extra +0.6 kg. Es simulación adicional, no el diseño anterior terminado pendiente de fabricar."
+    },
+    {
+      "id": "simulacion_aleron_delantero_2024_08_26_sin_atr",
+      "pieza": "aleron_delantero",
+      "estado": "en_evaluacion",
+      "metadatos": {
+        "estado": "CONFIRMADO",
+        "temporada": 2024,
+        "fecha_partida": "2024-08-26",
+        "fecha_registro": "2026-11-22",
+        "fuente": "capturas_simulaciones_diseno_2024_08_26#aleron_delantero"
+      },
+      "coche": "coche_1",
+      "base_comparativa": {
+        "fecha_partida_observada": "2024-08-23",
+        "atributos_coche": {
+          "velocidad_maxima": 321.81,
+          "aceleracion": 1.854,
+          "eficacia_drs": 62.7,
+          "curvas_lentas": 2.586,
+          "curvas_medias": 3.609,
+          "curvas_rapidas": 4.872,
+          "aire_sucio": 61.83,
+          "neumaticos": 61.5,
+          "refrigeracion": 56.35,
+          "peso_extra": 18.6
+        },
+        "nota": "Vista previa desde situación base actual en pantalla; no representa cambios adicionales garantizados tras instalar las piezas P.-6 pendientes."
+      },
+      "atr_simulado": {
+        "cfd_mau": 0,
+        "tunel_h": 0
+      },
+      "preajuste": null,
+      "pieza_referencia": {
+        "carga_baja_kN": 4.19,
+        "carga_media_kN": 6.27,
+        "carga_alta_kN": 7.62,
+        "preservacion_neumaticos_pct": 66.26,
+        "sensibilidad_flujo_aire_pct": 61.01,
+        "flujo_frontal_pct": 60.78,
+        "duracion_minima_km": 2075
+      },
+      "delta_pieza_mostrado": {
+        "carga_baja_kN": 0.08,
+        "carga_media_kN": 0.06,
+        "carga_alta_kN": 0,
+        "preservacion_neumaticos_pct": 2.95,
+        "sensibilidad_flujo_aire_pct": 3.82,
+        "flujo_frontal_pct": 3.7,
+        "duracion_minima_km": 550
+      },
+      "delta_coche_mostrado": {
+        "velocidad_maxima": 0,
+        "aceleracion": 0,
+        "eficacia_drs": 0,
+        "curvas_lentas": 0.014,
+        "curvas_medias": 0.003,
+        "curvas_rapidas": -0.004,
+        "aire_sucio": 1.52,
+        "neumaticos": 0.59,
+        "refrigeracion": 0,
+        "peso_extra": 0.8
+      },
+      "coste_usd": null,
+      "duracion_diseno_dias": null,
+      "duracion_fabricacion_dias": null,
+      "inicio_confirmado": null,
+      "instalacion_confirmada": null,
+      "notas": "Beneficia curvas lentas y aire sucio, perjudica curvas rápidas -0.004 G y aumenta peso +0.8 kg."
+    },
+    {
+      "id": "simulacion_chasis_2024_08_26_sin_atr",
+      "pieza": "chasis",
+      "estado": "en_evaluacion",
+      "metadatos": {
+        "estado": "CONFIRMADO",
+        "temporada": 2024,
+        "fecha_partida": "2024-08-26",
+        "fecha_registro": "2026-11-22",
+        "fuente": "capturas_simulaciones_diseno_2024_08_26#chasis"
+      },
+      "coche": "coche_1",
+      "base_comparativa": {
+        "fecha_partida_observada": "2024-08-23",
+        "atributos_coche": {
+          "velocidad_maxima": 321.81,
+          "aceleracion": 1.854,
+          "eficacia_drs": 62.7,
+          "curvas_lentas": 2.586,
+          "curvas_medias": 3.609,
+          "curvas_rapidas": 4.872,
+          "aire_sucio": 61.83,
+          "neumaticos": 61.5,
+          "refrigeracion": 56.35,
+          "peso_extra": 18.6
+        },
+        "nota": "Vista previa desde situación base actual en pantalla; no representa cambios adicionales garantizados tras instalar las piezas P.-6 pendientes."
+      },
+      "atr_simulado": {
+        "cfd_mau": 0,
+        "tunel_h": 0
+      },
+      "preajuste": null,
+      "pieza_referencia": {
+        "reduccion_resistencia_pct": 60.07,
+        "delta_drs_pct": 58.19,
+        "refrigeracion_motor_pct": 48.86,
+        "flujo_central_pct": 61.21,
+        "duracion_minima_km": 5150
+      },
+      "delta_pieza_mostrado": {
+        "reduccion_resistencia_pct": 2.27,
+        "delta_drs_pct": 1.17,
+        "refrigeracion_motor_pct": 8.73,
+        "flujo_central_pct": 2.1,
+        "duracion_minima_km": 0
+      },
+      "delta_coche_mostrado": {
+        "velocidad_maxima": 0.1,
+        "aceleracion": 0.001,
+        "eficacia_drs": 0.35,
+        "curvas_lentas": 0,
+        "curvas_medias": 0.004,
+        "curvas_rapidas": 0.008,
+        "aire_sucio": 0,
+        "neumaticos": 0,
+        "refrigeracion": 1.74,
+        "peso_extra": 0
+      },
+      "coste_usd": null,
+      "duracion_diseno_dias": null,
+      "duracion_fabricacion_dias": null,
+      "inicio_confirmado": null,
+      "instalacion_confirmada": null,
+      "notas": "Aumento más moderado en curvas que pontones, gana refrigeración y DRS."
+    },
+    {
+      "id": "simulacion_fondo_plano_2024_08_26_sin_atr",
+      "pieza": "fondo_plano",
+      "estado": "en_evaluacion",
+      "metadatos": {
+        "estado": "CONFIRMADO",
+        "temporada": 2024,
+        "fecha_partida": "2024-08-26",
+        "fecha_registro": "2026-11-22",
+        "fuente": "capturas_simulaciones_diseno_2024_08_26#fondo_plano"
+      },
+      "coche": "coche_1",
+      "base_comparativa": {
+        "fecha_partida_observada": "2024-08-23",
+        "atributos_coche": {
+          "velocidad_maxima": 321.81,
+          "aceleracion": 1.854,
+          "eficacia_drs": 62.7,
+          "curvas_lentas": 2.586,
+          "curvas_medias": 3.609,
+          "curvas_rapidas": 4.872,
+          "aire_sucio": 61.83,
+          "neumaticos": 61.5,
+          "refrigeracion": 56.35,
+          "peso_extra": 18.6
+        },
+        "nota": "Vista previa desde situación base actual en pantalla; no representa cambios adicionales garantizados tras instalar las piezas P.-6 pendientes."
+      },
+      "atr_simulado": {
+        "cfd_mau": 0,
+        "tunel_h": 0
+      },
+      "preajuste": null,
+      "pieza_referencia": {
+        "reduccion_resistencia_pct": 60.67,
+        "carga_baja_kN": 4.19,
+        "carga_media_kN": 6.43,
+        "carga_alta_kN": 7.64,
+        "sensibilidad_flujo_aire_pct": 61.89,
+        "duracion_minima_km": 3550
+      },
+      "delta_pieza_mostrado": {
+        "reduccion_resistencia_pct": 4.34,
+        "carga_baja_kN": 0.09,
+        "carga_media_kN": -0.07,
+        "carga_alta_kN": 0.01,
+        "sensibilidad_flujo_aire_pct": 4.23,
+        "duracion_minima_km": 0
+      },
+      "delta_coche_mostrado": {
+        "velocidad_maxima": 0.06,
+        "aceleracion": 0.001,
+        "eficacia_drs": 0,
+        "curvas_lentas": 0.007,
+        "curvas_medias": -0.005,
+        "curvas_rapidas": 0.003,
+        "aire_sucio": 1.26,
+        "neumaticos": 0,
+        "refrigeracion": 0,
+        "peso_extra": 0
+      },
+      "coste_usd": null,
+      "duracion_diseno_dias": null,
+      "duracion_fabricacion_dias": null,
+      "inicio_confirmado": null,
+      "instalacion_confirmada": null,
+      "notas": "La configuración mostrada pierde 0.005 G en curva media; no priorizar sin reorientar deslizadores."
+    },
+    {
+      "id": "simulacion_suspension_2024_08_26_sin_atr",
+      "pieza": "suspension",
+      "estado": "en_evaluacion",
+      "metadatos": {
+        "estado": "CONFIRMADO",
+        "temporada": 2024,
+        "fecha_partida": "2024-08-26",
+        "fecha_registro": "2026-11-22",
+        "fuente": "capturas_simulaciones_diseno_2024_08_26#suspension"
+      },
+      "coche": "coche_1",
+      "base_comparativa": {
+        "fecha_partida_observada": "2024-08-23",
+        "atributos_coche": {
+          "velocidad_maxima": 321.81,
+          "aceleracion": 1.854,
+          "eficacia_drs": 62.7,
+          "curvas_lentas": 2.586,
+          "curvas_medias": 3.609,
+          "curvas_rapidas": 4.872,
+          "aire_sucio": 61.83,
+          "neumaticos": 61.5,
+          "refrigeracion": 56.35,
+          "peso_extra": 18.6
+        },
+        "nota": "Vista previa desde situación base actual en pantalla; no representa cambios adicionales garantizados tras instalar las piezas P.-6 pendientes."
+      },
+      "atr_simulado": {
+        "cfd_mau": 0,
+        "tunel_h": 0
+      },
+      "preajuste": null,
+      "pieza_referencia": {
+        "reduccion_resistencia_pct": 52.24,
+        "carga_baja_kN": 4.04,
+        "carga_media_kN": 6.13,
+        "carga_alta_kN": 7.49,
+        "preservacion_neumaticos_pct": 60.31,
+        "flujo_frontal_pct": 52.95,
+        "duracion_minima_km": 2900
+      },
+      "delta_pieza_mostrado": {
+        "reduccion_resistencia_pct": 3.92,
+        "carga_baja_kN": 0.07,
+        "carga_media_kN": 0.07,
+        "carga_alta_kN": 0.06,
+        "preservacion_neumaticos_pct": 3.49,
+        "flujo_frontal_pct": 4.03,
+        "duracion_minima_km": 0
+      },
+      "delta_coche_mostrado": {
+        "velocidad_maxima": 0.11,
+        "aceleracion": 0.001,
+        "eficacia_drs": 0,
+        "curvas_lentas": 0.005,
+        "curvas_medias": 0.004,
+        "curvas_rapidas": 0.004,
+        "aire_sucio": 0,
+        "neumaticos": 2.79,
+        "refrigeracion": 0,
+        "peso_extra": 0
+      },
+      "coste_usd": null,
+      "duracion_diseno_dias": null,
+      "duracion_fabricacion_dias": null,
+      "inicio_confirmado": null,
+      "instalacion_confirmada": null,
+      "notas": "Opción fuerte para carreras con desgaste alto; nuestros neumáticos ya son uno de los puntos fuertes."
     }
-  ]
+  ],
+  "priorizacion_2024_08_26": {
+    "estado": "RECOMENDACION_CONDICIONAL",
+    "fecha_partida": "2024-08-26",
+    "fuente": "capturas_simulaciones_diseno_2024_08_26",
+    "primera_opcion": "pontones",
+    "otras_opciones": [
+      "suspension",
+      "chasis",
+      "aleron_trasero"
+    ],
+    "condicion": "No iniciar o contabilizar diseño P.-7 sobre la base de esta captura sin comparar con P.-6 realmente instalado. P.-6 se encuentra en fabricación y sus mejoras ya propuestas en repositorio (+0.015 curvas medias, +0.030 curvas rápidas); la pantalla de la nueva simulación usa todavía los atributos base antiguos.",
+    "objetivo_competiciones": [
+      "19_austin",
+      "20_hermanos_rodriguez",
+      "21_interlagos"
+    ],
+    "evaluacion": "México: refrigeración relevante por altura (referencia externa, no atributo crucial confirmado en juego). Brasil: curvas medias/rápidas y tracción (estimación). Los datos de importancia crucial en fichas de México e Interlagos figuran aún DESCONOCIDO.",
+    "costes_y_plazos": "No presentes en capturas; disponibilidad para Austin no confirmada, depende de calendario de diseño, fabricación, instalación y liquidez."
+  }
 }
