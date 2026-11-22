@@ -3,15 +3,15 @@
   "metadatos": {
     "estado": "CONFIRMADO",
     "fecha_partida": "2024-08-01",
-    "temporada": 2024,
     "fecha_registro": "2026-11-22",
-    "fuente": "capturas_simulacion_aleron_trasero_2024_08_01"
+    "temporada": 2024,
+    "fuente": "confirmacion_usuario_diseno_y_fabricacion_2024_08_01"
   },
   "datos": {
-    "saldo_usd": 6857015,
+    "saldo_usd": 2157015,
     "limite_usd": null,
     "consumido_limite_usd": null,
-    "restante_limite_usd": null,
+    "restante_limite_usd": 43461004,
     "ingresos_previstos_usd": null,
     "gastos_comprometidos_usd": null,
     "proyeccion_fin_temporada_usd": null,
