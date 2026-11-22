@@ -1402,7 +1402,7 @@
       },
       "q1": {
         "modo": "manual",
-        "estado": "en_curso",
+        "estado": "finalizada",
         "metadatos": {
           "estado": "CONFIRMADO",
           "temporada": 2024,
@@ -1412,7 +1412,8 @@
         },
         "observaciones": [
           "Comienzo Q1 con llovizna y 1.44 mm en pantalla, recomendación inicial intermedios; aún no confirmado que hayan salido.",
-          "Primer intento: faltan 13:37, Leclerc lidera 1:14.493; Alonso 9º +0.901, Stroll 11º +1.187; primer eliminado Magnussen 16º +1.775. Ambos regresan a boxes. Pendiente revaluar con 5 min restantes."
+          "Primer intento: faltan 13:37, Leclerc lidera 1:14.493; Alonso 9º +0.901, Stroll 11º +1.187; primer eliminado Magnussen 16º +1.775. Ambos regresan a boxes. Pendiente revaluar con 5 min restantes.",
+          "Q1 terminada sin cambios respecto a la clasificación de la primera instantánea; Stroll realizó dos intentos adicionales sin mejorar posición."
         ],
         "instantaneas": [
           {
@@ -1445,7 +1446,41 @@
               "fuente": "captura_q1_zandvoort_13m37"
             }
           }
-        ]
+        ],
+        "resultado": {
+          "alonso_posicion": 9,
+          "stroll_posicion": 11,
+          "stroll_intentos_adicionales": 2,
+          "mejora_posicion": false
+        }
+      },
+      "q2": {
+        "modo": "manual",
+        "estado": "por_comenzar",
+        "meteorologia_inicio": {
+          "agua_mm": 1.16,
+          "agua_prevista_5_min_mm": 0.55,
+          "agua_prevista_10_min_mm": 0.55,
+          "agarre": "bajo",
+          "caucho": "muy bajo",
+          "pista_c": 27,
+          "aire_c": 18,
+          "evaporacion": "baja",
+          "refrigeracion_neumaticos": "alta",
+          "refrigeracion_coche": "alta",
+          "precision_pronostico_pct": 70
+        },
+        "observaciones": [
+          "Alonso satisfacción de configuración comunicada: 94%; valor no equivale necesariamente a confianza del piloto.",
+          "Previsión de agua desciende de 1.16 a 0.55 mm en cinco minutos, manteniéndose aproximadamente hasta final de sesión."
+        ],
+        "metadatos": {
+          "estado": "CONFIRMADO",
+          "temporada": 2024,
+          "fecha_partida": "2024-08-24",
+          "fecha_registro": "2026-11-22",
+          "fuente": "capturas_inicio_q2_zandvoort"
+        }
       }
     },
     "reglajes": {},
