@@ -821,5 +821,24 @@
       "3": "Ranking de coche 2 y variación del nuevo diseño"
     },
     "observaciones": "Usuario confirma que coche 2 ya tiene instaladas todas las piezas. La foto muestra 3.626/4.904 G y refrigeración 56.96%; P.-6 respaldado por flujo central 56.94% coincidente con propuesta previa. El diseño nuevo penaliza curvas medias y rápidas; saldo no alterado."
+  },
+  {
+    "id": "capturas_suspension_equilibrada_coche2_2024_08_26_con_atr",
+    "titulo": "Evaluación suspensión en coche 2 con pontones P.-6: preajuste equilibrado y ATR seleccionados",
+    "tipo": "lote_fotos_chat",
+    "fecha_partida": "2024-08-26",
+    "fecha_consulta": "2026-11-22",
+    "total_capturas": 7,
+    "archivo": null,
+    "localizadores": {
+      "1": "Suspensión en coche2, atributos pieza, 0.4 CFD y 7h túnel seleccionados",
+      "2": "Proyección atributos coche2",
+      "3": "Comparación efectos coche1",
+      "4": "Ranking del coche1",
+      "5": "Ranking del coche2",
+      "6": "Proyección duplicada coche2",
+      "7": "Paso 2 deslizadores equilibrados"
+    },
+    "observaciones": "Ningún diseño iniciado. No son consumos confirmados de ATR. Recomendado experimentar foco de medias/rápidas con mayor peso que neumáticos y reevaluar."
   }
 ]
