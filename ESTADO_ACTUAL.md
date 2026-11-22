@@ -9,8 +9,8 @@ La trayectoria comenzó en 2024. Las observaciones iniciales se conservan en `hi
 - **Gran Premio actual o próximo** · Países Bajos
 - **Días hasta el inicio** · 22
 - **Próximos Grandes Premios comunicados** · Países Bajos, Italia, Azerbaiyán, Singapur, Estados Unidos
-- **Presupuesto disponible (USD)** · 6857015
-- **Límite restante (USD)** · Pendiente
+- **Presupuesto disponible (USD)** · 2157015
+- **Límite restante (USD)** · 43461004
 - **Constructores** · 4.º · 236 puntos
 - **Fernando Alonso** · 4.º · 187 puntos
 - **Lance Stroll** · 9.º · 49 puntos
@@ -25,12 +25,12 @@ La trayectoria comenzó en 2024. Las observaciones iniciales se conservan en `hi
 - **coche_2 · ingeniero** · peter_bonnington
 - **coche_2 · mentalidad** · positiva
 - **coche_2 · confianza por sesión** · Pendiente
-- **Proyectos activos · diseno** · Ninguno registrado (simulación de alerón trasero en evaluación)
+- **Proyectos activos · diseno** · Alerón trasero nuevo, apresurada, 5 ingenieros, finalización prevista 2024-08-21
 - **Proyectos activos · investigacion** · Pendiente
-- **Proyectos activos · fabricacion** · Ninguno registrado
+- **Proyectos activos · fabricacion** · Alerón trasero A. t.-4 ×2 (7 agosto), pontones P.-5 ×2 (17 agosto), chasis Ch.-3 ×1 (11 agosto)
 - **Instalaciones en obra** · Pendiente
 - **Próximos vencimientos contractuales** · ben_michell (2024-12-31), fernando_alonso (2024-12-31), jefe_aerodinamica (2024-12-31), jefe_tecnico (2024-12-31), lance_stroll (2024-12-31), director_deportivo (2027-12-31)
-- **Diseños pendientes de fabricar** · AST24 P.-5, AST24 A. t.-4
+- **Diseños pendientes de fabricar** · Ninguno de P.-5 y A. t.-4: ambos en fabricación
 - **Próximo vencimiento ATR** · Pendiente
 - **Renovación ATR calculada** · 2024-09-02
 - **CFD disponible (MAU)** · 2.5
