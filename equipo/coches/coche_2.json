@@ -66,10 +66,8 @@
         "fuente": "informe_tecnico_video_2_2024_07_29#atributos"
       }
     },
-    "posiciones_no_observadas_en_captura": [
-      "aceleracion",
-      "peso_extra"
-    ]
+    "posiciones_no_observadas_en_captura": [],
+    "atributos_observados_en_2024_08_23": false
   },
   "metadatos_por_bloque": {
     "pontones_instalados": {
