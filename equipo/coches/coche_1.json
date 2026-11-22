@@ -11,16 +11,16 @@
     "piloto": "lance_stroll",
     "rendimiento_general": 8,
     "atributos": {
-      "velocidad_maxima": 321.71,
+      "velocidad_maxima": 321.81,
       "aceleracion": 1.854,
-      "eficacia_drs": 60.56,
+      "eficacia_drs": 62.7,
       "curvas_lentas": 2.586,
-      "curvas_medias": 3.612,
-      "curvas_rapidas": 4.869,
-      "aire_sucio": 60.82,
+      "curvas_medias": 3.609,
+      "curvas_rapidas": 4.872,
+      "aire_sucio": 61.83,
       "neumaticos": 61.5,
       "refrigeracion": 56.35,
-      "peso_extra": 18
+      "peso_extra": 18.6
     },
     "posiciones_20_coches": {
       "velocidad_maxima": 12,
@@ -66,10 +66,28 @@
         "fuente": "capturas_diseno_2024_07_29#chasis"
       }
     },
-    "posiciones_no_observadas_en_captura": [
-      "aceleracion",
-      "peso_extra"
-    ]
+    "posiciones_no_observadas_en_captura": [],
+    "observacion_anterior_atributos": {
+      "atributos": {
+        "velocidad_maxima": 321.71,
+        "aceleracion": 1.854,
+        "eficacia_drs": 60.56,
+        "curvas_lentas": 2.586,
+        "curvas_medias": 3.612,
+        "curvas_rapidas": 4.869,
+        "aire_sucio": 60.82,
+        "neumaticos": 61.5,
+        "refrigeracion": 56.35,
+        "peso_extra": 18
+      },
+      "metadatos": {
+        "estado": "CONFIRMADO",
+        "temporada": 2024,
+        "fecha_partida": "2024-07-29",
+        "fecha_registro": "2026-11-22",
+        "fuente": "capturas_diseno_2024_07_29#chasis"
+      }
+    }
   },
   "metadatos_por_bloque": {
     "rendimiento_diseno": {
@@ -96,9 +114,9 @@
     "atributos_analisis_coche": {
       "estado": "CONFIRMADO",
       "temporada": 2024,
-      "fecha_partida": "2024-07-29",
+      "fecha_partida": "2024-08-23",
       "fecha_registro": "2026-11-22",
-      "fuente": "capturas_analisis_parrilla_2024_07_29#1"
+      "fuente": "capturas_zandvoort_fp1_2024_08_23#3"
     },
     "rankings_analisis_coche": {
       "estado": "CONFIRMADO",
