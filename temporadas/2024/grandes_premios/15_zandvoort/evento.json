@@ -222,53 +222,86 @@
         },
         "tandas": [
           {
-            "id": "fp2_stroll_historial_parcial_01",
-            "piloto_id": "lance_stroll",
-            "compuesto": "medio",
+            "id": "fp2_alonso_historial_parcial_01",
+            "piloto_id": "fernando_alonso",
+            "compuesto": "duro",
             "vueltas": [
               {
                 "numero": 2,
-                "tiempo_ms": 74344
+                "tiempo_ms": 74344,
+                "s1_ms": 26014,
+                "s2_ms": 26108,
+                "s3_ms": 22222
               },
               {
                 "numero": 3,
-                "tiempo_ms": 73708
+                "tiempo_ms": 73708,
+                "s1_ms": 25709,
+                "s2_ms": 25876,
+                "s3_ms": 22122
               },
               {
                 "numero": 4,
-                "tiempo_ms": 74031
+                "tiempo_ms": 74031,
+                "s1_ms": 25845,
+                "s2_ms": 25954,
+                "s3_ms": 22230
               },
               {
                 "numero": 5,
-                "tiempo_ms": 73488
+                "tiempo_ms": 73488,
+                "s1_ms": 25627,
+                "s2_ms": 25813,
+                "s3_ms": 22046
               },
               {
                 "numero": 6,
-                "tiempo_ms": 73547
+                "tiempo_ms": 73547,
+                "s1_ms": 25711,
+                "s2_ms": 25766,
+                "s3_ms": 22069
               },
               {
                 "numero": 7,
-                "tiempo_ms": 73746
+                "tiempo_ms": 73746,
+                "s1_ms": 25682,
+                "s2_ms": 25867,
+                "s3_ms": 22196
               },
               {
                 "numero": 8,
-                "tiempo_ms": 73331
+                "tiempo_ms": 73331,
+                "s1_ms": 25548,
+                "s2_ms": 25697,
+                "s3_ms": 22084
               },
               {
                 "numero": 9,
-                "tiempo_ms": 73360
+                "tiempo_ms": 73360,
+                "s1_ms": 25556,
+                "s2_ms": 25788,
+                "s3_ms": 22014
               },
               {
                 "numero": 10,
-                "tiempo_ms": 73795
+                "tiempo_ms": 73795,
+                "s1_ms": 25813,
+                "s2_ms": 25911,
+                "s3_ms": 22070
               },
               {
                 "numero": 11,
-                "tiempo_ms": 73309
+                "tiempo_ms": 73309,
+                "s1_ms": 25515,
+                "s2_ms": 25773,
+                "s3_ms": 22019
               },
               {
                 "numero": 12,
-                "tiempo_ms": 73204
+                "tiempo_ms": 73204,
+                "s1_ms": 25538,
+                "s2_ms": 25650,
+                "s3_ms": 22014
               }
             ],
             "observacion_final": {
@@ -278,7 +311,9 @@
               "temperatura_pista_c": 28,
               "agua_mm": 0,
               "agarre": "normal",
-              "caucho": "bajo"
+              "caucho": "bajo",
+              "fuel_kg": 4.6,
+              "ers_pct": 78
             },
             "notas": "Historial visible parcial; no asumir que todos los registros son vueltas consecutivas de un único stint ni extrapolar desgaste sin vida inicial confirmada.",
             "metadatos": {
@@ -287,56 +322,146 @@
               "fecha_partida": "2024-08-23",
               "fecha_registro": "2026-11-22",
               "fuente": "correccion_usuario_compuestos_fp2_2024_08_23"
-            }
-          },
-          {
-            "id": "fp2_alonso_historial_parcial_01",
-            "piloto_id": "fernando_alonso",
-            "compuesto": "duro",
-            "vueltas": [
+            },
+            "estado_por_vuelta": [
+              {
+                "numero": 2,
+                "neumatico_pct": 95,
+                "combustible_kg": 18.6
+              },
+              {
+                "numero": 3,
+                "neumatico_pct": 94,
+                "combustible_kg": 17.2
+              },
               {
                 "numero": 4,
-                "tiempo_ms": 73496
+                "neumatico_pct": 93,
+                "combustible_kg": 15.8
               },
               {
                 "numero": 5,
-                "tiempo_ms": 73659
+                "neumatico_pct": 91,
+                "combustible_kg": 14.4
               },
               {
                 "numero": 6,
-                "tiempo_ms": 73296
+                "neumatico_pct": 89,
+                "combustible_kg": 13
               },
               {
                 "numero": 7,
-                "tiempo_ms": 73532
+                "neumatico_pct": 87,
+                "combustible_kg": 11.6
               },
               {
                 "numero": 8,
-                "tiempo_ms": 75654
+                "neumatico_pct": 86,
+                "combustible_kg": 10.2
               },
               {
                 "numero": 9,
-                "tiempo_ms": 73345
+                "neumatico_pct": 84,
+                "combustible_kg": 8.8
               },
               {
                 "numero": 10,
-                "tiempo_ms": 73441
+                "neumatico_pct": 82,
+                "combustible_kg": 7.4
               },
               {
                 "numero": 11,
-                "tiempo_ms": 74192
+                "neumatico_pct": 80,
+                "combustible_kg": 6
               },
               {
                 "numero": 12,
-                "tiempo_ms": 73120
+                "neumatico_pct": 79,
+                "combustible_kg": 4.6
+              }
+            ]
+          },
+          {
+            "id": "fp2_stroll_historial_parcial_01",
+            "piloto_id": "lance_stroll",
+            "compuesto": "medio",
+            "vueltas": [
+              {
+                "numero": 4,
+                "tiempo_ms": 73496,
+                "s1_ms": 25616,
+                "s2_ms": 25834,
+                "s3_ms": 22044
+              },
+              {
+                "numero": 5,
+                "tiempo_ms": 73659,
+                "s1_ms": 25727,
+                "s2_ms": 25835,
+                "s3_ms": 22136
+              },
+              {
+                "numero": 6,
+                "tiempo_ms": 73296,
+                "s1_ms": 25532,
+                "s2_ms": 25731,
+                "s3_ms": 22031
+              },
+              {
+                "numero": 7,
+                "tiempo_ms": 73532,
+                "s1_ms": 25613,
+                "s2_ms": 25784,
+                "s3_ms": 22134
+              },
+              {
+                "numero": 8,
+                "tiempo_ms": 75654,
+                "s1_ms": 25890,
+                "s2_ms": 27058,
+                "s3_ms": 22705
+              },
+              {
+                "numero": 9,
+                "tiempo_ms": 73345,
+                "s1_ms": 25382,
+                "s2_ms": 25926,
+                "s3_ms": 22036
+              },
+              {
+                "numero": 10,
+                "tiempo_ms": 73441,
+                "s1_ms": 25407,
+                "s2_ms": 25878,
+                "s3_ms": 22155
+              },
+              {
+                "numero": 11,
+                "tiempo_ms": 74192,
+                "s1_ms": 25603,
+                "s2_ms": 26117,
+                "s3_ms": 22471
+              },
+              {
+                "numero": 12,
+                "tiempo_ms": 73120,
+                "s1_ms": 25503,
+                "s2_ms": 25666,
+                "s3_ms": 21948
               },
               {
                 "numero": 13,
-                "tiempo_ms": 73460
+                "tiempo_ms": 73460,
+                "s1_ms": 25681,
+                "s2_ms": 25720,
+                "s3_ms": 22057
               },
               {
                 "numero": 14,
-                "tiempo_ms": 73729
+                "tiempo_ms": 73729,
+                "s1_ms": 25596,
+                "s2_ms": 25896,
+                "s3_ms": 22236
               }
             ],
             "observacion_final": {
@@ -346,7 +471,9 @@
               "temperatura_pista_c": 28,
               "agua_mm": 0,
               "agarre": "normal",
-              "caucho": "bajo"
+              "caucho": "bajo",
+              "fuel_kg": 1.8,
+              "ers_pct": 78
             },
             "notas": "Historial visible parcial; no asumir que todos los registros son vueltas consecutivas de un único stint ni extrapolar desgaste sin vida inicial confirmada.",
             "metadatos": {
@@ -355,7 +482,64 @@
               "fecha_partida": "2024-08-23",
               "fecha_registro": "2026-11-22",
               "fuente": "correccion_usuario_compuestos_fp2_2024_08_23"
-            }
+            },
+            "estado_por_vuelta": [
+              {
+                "numero": 4,
+                "neumatico_pct": 91,
+                "combustible_kg": 15.9
+              },
+              {
+                "numero": 5,
+                "neumatico_pct": 89,
+                "combustible_kg": 14.5
+              },
+              {
+                "numero": 6,
+                "neumatico_pct": 87,
+                "combustible_kg": 13.1
+              },
+              {
+                "numero": 7,
+                "neumatico_pct": 84,
+                "combustible_kg": 11.7
+              },
+              {
+                "numero": 8,
+                "neumatico_pct": 82,
+                "combustible_kg": 10.3
+              },
+              {
+                "numero": 9,
+                "neumatico_pct": 80,
+                "combustible_kg": 8.9
+              },
+              {
+                "numero": 10,
+                "neumatico_pct": 78,
+                "combustible_kg": 7.5
+              },
+              {
+                "numero": 11,
+                "neumatico_pct": 76,
+                "combustible_kg": 6.1
+              },
+              {
+                "numero": 12,
+                "neumatico_pct": 74,
+                "combustible_kg": 4.6
+              },
+              {
+                "numero": 13,
+                "neumatico_pct": 71,
+                "combustible_kg": 3.2
+              },
+              {
+                "numero": 14,
+                "neumatico_pct": 69,
+                "combustible_kg": 1.8
+              }
+            ]
           }
         ],
         "meteorologia": {
@@ -369,13 +553,14 @@
         "observaciones": [
           "Los tiempos de pilotos están ordenados por número de vuelta tal como aparecen en historial; sin inferir degradación por los cambios de ritmo y falta de datos de control.",
           "Sergio Pérez lidera en 1:12.421 en tabla de sesión visible; Alonso aparece 7.º a +0.782 s; Stroll 6.º a +0.698 s en el momento de la captura.",
-          "Corrección del usuario: Alonso pilotó con neumático duro; Stroll con medio. Rectifica la identificación anterior."
+          "Corrección del usuario: Alonso pilotó con neumático duro; Stroll con medio. Rectifica la identificación anterior.",
+          "RECTIFICACIÓN: la serie de vueltas 2-12 y desgaste 95→79% corresponde a Alonso con DUROS; la serie 4-14 y desgaste 91→69% corresponde a Stroll con MEDIOS. Se habían intercambiado los nombres al transcribir capturas."
         ],
         "estimaciones": [
           {
-            "id": "fp2_stroll_evolucion_2_12",
-            "piloto_id": "lance_stroll",
-            "compuesto": "medio",
+            "id": "fp2_alonso_evolucion_2_12",
+            "piloto_id": "fernando_alonso",
+            "compuesto": "duro",
             "metrica": "evolucion_tiempo_vuelta",
             "vueltas_observadas": [
               2,
@@ -394,12 +579,14 @@
               "fecha_partida": "2024-08-23",
               "fecha_registro": "2026-11-22",
               "fuente": "capturas_fp2_tandas_2024_08_23"
-            }
+            },
+            "desgaste_observado_pp_por_vuelta": 1.6,
+            "consumo_combustible_observado_kg_por_vuelta": 1.4
           },
           {
-            "id": "fp2_alonso_evolucion_4_14",
-            "piloto_id": "fernando_alonso",
-            "compuesto": "duro",
+            "id": "fp2_stroll_evolucion_4_14",
+            "piloto_id": "lance_stroll",
+            "compuesto": "medio",
             "metrica": "evolucion_tiempo_vuelta",
             "vueltas_observadas": [
               4,
@@ -425,9 +612,72 @@
               "fecha_partida": "2024-08-23",
               "fecha_registro": "2026-11-22",
               "fuente": "capturas_fp2_tandas_2024_08_23"
-            }
+            },
+            "desgaste_observado_pp_por_vuelta": 2.2,
+            "consumo_combustible_observado_kg_por_vuelta": 1.41
           }
-        ]
+        ],
+        "analisis_sectores": {
+          "metadatos": {
+            "estado": "CALCULADO",
+            "temporada": 2024,
+            "fecha_partida": "2024-08-23",
+            "fecha_registro": "2026-11-22",
+            "fuente": "capturas_fp2_tandas_2024_08_23"
+          },
+          "referencia_rivales_momento_captura": {
+            "s1_min_ms": 25301,
+            "piloto_s1": "carlos_sainz",
+            "s2_min_ms": 25515,
+            "piloto_s2": "george_russell",
+            "s3_min_ms": 21833,
+            "piloto_s3": "george_russell",
+            "nota": "Mejores parciales visibles en tabla de clasificación de FP2, no necesariamente referencia absoluta al final de la sesión."
+          },
+          "alonso": {
+            "compuesto": "duro",
+            "mejores_sectores_ms": {
+              "s1": 25515,
+              "s2": 25650,
+              "s3": 22014
+            },
+            "diferencia_referencia_ms": {
+              "s1": 214,
+              "s2": 135,
+              "s3": 181
+            },
+            "neumatico_inicio_fin_pct": [
+              95,
+              79
+            ],
+            "vueltas_inicio_fin": [
+              2,
+              12
+            ]
+          },
+          "stroll": {
+            "compuesto": "medio",
+            "mejores_sectores_ms": {
+              "s1": 25382,
+              "s2": 25666,
+              "s3": 21948
+            },
+            "diferencia_referencia_ms": {
+              "s1": 81,
+              "s2": 151,
+              "s3": 115
+            },
+            "neumatico_inicio_fin_pct": [
+              91,
+              69
+            ],
+            "vueltas_inicio_fin": [
+              4,
+              14
+            ]
+          },
+          "nota": "Sectores y evolución de vueltas no comparables directamente por distinto compuesto, carga, tráfico, estado del asfalto y condiciones de la sesión."
+        }
       }
     },
     "reglajes": {},
