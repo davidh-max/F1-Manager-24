@@ -1456,7 +1456,7 @@
       },
       "q2": {
         "modo": "manual",
-        "estado": "por_comenzar",
+        "estado": "en_curso",
         "meteorologia_inicio": {
           "agua_mm": 1.16,
           "agua_prevista_5_min_mm": 0.55,
@@ -1472,7 +1472,8 @@
         },
         "observaciones": [
           "Alonso satisfacción de configuración comunicada: 94%; valor no equivale necesariamente a confianza del piloto.",
-          "Previsión de agua desciende de 1.16 a 0.55 mm en cinco minutos, manteniéndose aproximadamente hasta final de sesión."
+          "Previsión de agua desciende de 1.16 a 0.55 mm en cinco minutos, manteniéndose aproximadamente hasta final de sesión.",
+          "Con 12:00 restantes, Alonso 11º y Stroll 12º provisionalmente; Tsunoda lidera 1:15.153; Pérez sufre incidente y figura con neumáticos 0%, sin tiempo registrado en captura. No se confirma eliminación definitiva de Pérez."
         ],
         "metadatos": {
           "estado": "CONFIRMADO",
@@ -1480,7 +1481,24 @@
           "fecha_partida": "2024-08-24",
           "fecha_registro": "2026-11-22",
           "fuente": "capturas_inicio_q2_zandvoort"
-        }
+        },
+        "instantaneas": [
+          {
+            "tiempo_restante": "12:00",
+            "lider": "yuki_tsunoda",
+            "lider_tiempo_ms": 75153,
+            "alonso_posicion": 11,
+            "stroll_posicion": 12,
+            "perez": "incidente_sin_tiempo",
+            "metadatos": {
+              "estado": "CONFIRMADO",
+              "temporada": 2024,
+              "fecha_partida": "2024-08-24",
+              "fecha_registro": "2026-11-22",
+              "fuente": "capturas_q2_12min_zandvoort"
+            }
+          }
+        ]
       }
     },
     "reglajes": {},
