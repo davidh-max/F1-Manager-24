@@ -1,0 +1,64 @@
+{
+  "id": "fernando_alonso",
+  "nombre": "Fernando Alonso",
+  "metadatos": {
+    "estado": "DESCONOCIDO",
+    "fecha_partida": null,
+    "temporada": null,
+    "fecha_registro": null,
+    "fuente": null
+  },
+  "datos": {
+    "edad": null,
+    "nacionalidad": null,
+    "coche": null,
+    "ingeniero": null,
+    "valoracion_general": null,
+    "valoracion_rendimiento": null,
+    "velocidad_desarrollo": null,
+    "plan_desarrollo": null,
+    "mentalidad": null,
+    "situacion_personal": null,
+    "opinion_equipo": null,
+    "opinion_jefe": null,
+    "afinidad": null,
+    "atributos_base": {
+      "curvas": null,
+      "frenado": null,
+      "reaccion": null,
+      "precision": null,
+      "control": null,
+      "tacto": null,
+      "adaptabilidad": null,
+      "adelantamiento": null,
+      "defensa": null
+    },
+    "atributos_efectivos": {
+      "curvas": null,
+      "frenado": null,
+      "reaccion": null,
+      "precision": null,
+      "control": null,
+      "tacto": null,
+      "adaptabilidad": null,
+      "adelantamiento": null,
+      "defensa": null
+    },
+    "modificadores_temporales": {},
+    "confianza_por_sesion": {},
+    "preparacion_por_gp": {},
+    "contrato": {
+      "inicio": null,
+      "vencimiento": null,
+      "salario_usd": null,
+      "coste_rescision_usd": null,
+      "bonificaciones": null,
+      "objetivos": null,
+      "clausulas": null,
+      "ofertas": [],
+      "negociaciones": [],
+      "renovaciones": []
+    },
+    "resultados": []
+  }
+}

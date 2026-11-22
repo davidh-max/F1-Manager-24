@@ -1,0 +1,21 @@
+{
+  "metadatos": {
+    "estado": "DESCONOCIDO",
+    "fecha_partida": null,
+    "temporada": null,
+    "fecha_registro": null,
+    "fuente": null
+  },
+  "datos": {
+    "tiempo_parada_s": null,
+    "riesgo_error_pct": null,
+    "fatiga": null,
+    "mejor_parada_s": null,
+    "peor_parada_s": null,
+    "habilidades": {},
+    "entrenamiento": [],
+    "objetivos": [],
+    "errores": [],
+    "competiciones": []
+  }
+}

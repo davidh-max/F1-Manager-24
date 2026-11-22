@@ -1,0 +1,41 @@
+{
+  "id": "coche_1",
+  "metadatos": {
+    "estado": "DESCONOCIDO",
+    "fecha_partida": null,
+    "temporada": null,
+    "fecha_registro": null,
+    "fuente": null
+  },
+  "datos": {
+    "piloto": null,
+    "rendimiento_general": null,
+    "atributos": {
+      "velocidad_maxima": null,
+      "aceleracion": null,
+      "eficacia_drs": null,
+      "curvas_lentas": null,
+      "curvas_medias": null,
+      "curvas_rapidas": null,
+      "aire_sucio": null,
+      "neumaticos": null,
+      "refrigeracion": null,
+      "peso_extra": null
+    },
+    "posiciones_20_coches": {
+      "velocidad_maxima": null,
+      "aceleracion": null,
+      "eficacia_drs": null,
+      "curvas_lentas": null,
+      "curvas_medias": null,
+      "curvas_rapidas": null,
+      "aire_sucio": null,
+      "neumaticos": null,
+      "refrigeracion": null,
+      "peso_extra": null
+    },
+    "posicion_10_equipos": null,
+    "piezas_instaladas": [],
+    "unidad_potencia": {}
+  }
+}

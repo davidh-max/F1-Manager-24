@@ -1,0 +1,33 @@
+{
+  "rol": "jefe_tecnico",
+  "id": null,
+  "nombre": null,
+  "metadatos": {
+    "estado": "DESCONOCIDO",
+    "fecha_partida": null,
+    "temporada": null,
+    "fecha_registro": null,
+    "fuente": null
+  },
+  "datos": {
+    "edad": null,
+    "valoracion": null,
+    "mentalidad": null,
+    "plan_desarrollo": null,
+    "velocidad_desarrollo": null,
+    "atributos": {},
+    "contrato": {
+      "inicio": null,
+      "vencimiento": null,
+      "salario_usd": null,
+      "coste_rescision_usd": null,
+      "bonificaciones": null,
+      "objetivos": null,
+      "clausulas": null,
+      "ofertas": [],
+      "negociaciones": [],
+      "renovaciones": []
+    },
+    "contribuciones": []
+  }
+}

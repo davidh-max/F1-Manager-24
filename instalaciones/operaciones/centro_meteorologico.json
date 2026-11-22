@@ -1,0 +1,25 @@
+{
+  "id": "centro_meteorologico",
+  "metadatos": {
+    "estado": "DESCONOCIDO",
+    "fecha_partida": null,
+    "temporada": null,
+    "fecha_registro": null,
+    "fuente": null
+  },
+  "datos": {
+    "construida": null,
+    "nivel": null,
+    "conservacion": null,
+    "eficacia": null,
+    "mantenimiento_usd": null,
+    "beneficios": null,
+    "siguiente_nivel": null,
+    "coste_mejora_usd": null,
+    "duracion_mejora_dias": null,
+    "beneficios_siguiente_nivel": null,
+    "coste_renovacion_usd": null,
+    "estado_proyecto": null,
+    "fin_estimado": null
+  }
+}

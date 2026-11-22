@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "estados": [
+    "CONFIRMADO",
+    "CALCULADO",
+    "ESTIMADO",
+    "REFERENCIA EXTERNA",
+    "HIPÓTESIS",
+    "DESCONOCIDO"
+  ],
+  "unidades_coche": {
+    "velocidad_maxima": "km/h",
+    "aceleracion": "G",
+    "eficacia_drs": "%",
+    "curvas_lentas": "G",
+    "curvas_medias": "G",
+    "curvas_rapidas": "G",
+    "aire_sucio": "%",
+    "neumaticos": "%",
+    "refrigeracion": "%",
+    "peso_extra": "kg"
+  },
+  "tipos_piezas": [
+    "chasis",
+    "aleron_delantero",
+    "aleron_trasero",
+    "pontones",
+    "fondo_plano",
+    "suspension"
+  ],
+  "estados_proyecto": [
+    "propuesto",
+    "en_evaluacion",
+    "aprobado",
+    "iniciado",
+    "en_curso",
+    "completado",
+    "pendiente_fabricacion",
+    "en_fabricacion",
+    "fabricado",
+    "disponible",
+    "instalado_coche_1",
+    "instalado_coche_2",
+    "sustituido",
+    "cancelado"
+  ]
+}

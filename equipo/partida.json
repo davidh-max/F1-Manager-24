@@ -1,0 +1,21 @@
+{
+  "identidad": {
+    "equipo": "Aston Martin Aramco",
+    "temporada_inicial": 2024,
+    "piloto_prioritario": "fernando_alonso"
+  },
+  "metadatos": {
+    "estado": "DESCONOCIDO",
+    "fecha_partida": null,
+    "temporada": null,
+    "fecha_registro": null,
+    "fuente": null
+  },
+  "datos": {
+    "temporada": null,
+    "fecha_partida": null,
+    "gran_premio_confirmado": null,
+    "problemas": [],
+    "decisiones_pendientes": []
+  }
+}

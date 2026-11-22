@@ -1,0 +1,32 @@
+{
+  "id": "08_montecarlo",
+  "circuito": "montecarlo",
+  "temporada": 2024,
+  "metadatos": {
+    "estado": "DESCONOCIDO",
+    "fecha_partida": null,
+    "temporada": null,
+    "fecha_registro": null,
+    "fuente": null
+  },
+  "datos": {
+    "previa": null,
+    "meteorologia": null,
+    "coches": {},
+    "componentes": {},
+    "inventario_neumaticos": [],
+    "compuestos": [],
+    "estrategias_previstas": [],
+    "estrategias_ejecutadas": [],
+    "sesiones": {},
+    "reglajes": {},
+    "preparacion": {},
+    "confianza": {},
+    "paradas": [],
+    "incidentes": [],
+    "resultados": [],
+    "evidencias": [],
+    "analisis": null,
+    "lecciones": []
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "marina_bay",
+  "nombre": "Marina Bay",
+  "metadatos": {
+    "estado": "DESCONOCIDO",
+    "fecha_partida": null,
+    "temporada": null,
+    "fecha_registro": null,
+    "fuente": null
+  },
+  "datos": {
+    "pais": null,
+    "ciudad": null,
+    "trazado": null,
+    "longitud_km": null,
+    "vueltas": null,
+    "distancia_km": null,
+    "curvas": null,
+    "sentido": null,
+    "abrasividad": null,
+    "caracteristicas": null,
+    "dificultad_adelantamiento": null,
+    "perdida_boxes_s": null,
+    "perdida_sc_s": null,
+    "perdida_vsc_s": null,
+    "probabilidad_sc_pct": null,
+    "probabilidad_vsc_pct": null,
+    "mapa": null,
+    "sectores": [],
+    "zonas_drs": [],
+    "adelantamientos": [],
+    "secciones": [],
+    "importancia_atributos": {
+      "velocidad_maxima": "DESCONOCIDO",
+      "aceleracion": "DESCONOCIDO",
+      "eficacia_drs": "DESCONOCIDO",
+      "curvas_lentas": "DESCONOCIDO",
+      "curvas_medias": "DESCONOCIDO",
+      "curvas_rapidas": "DESCONOCIDO",
+      "aire_sucio": "DESCONOCIDO",
+      "neumaticos": "DESCONOCIDO",
+      "refrigeracion": "DESCONOCIDO",
+      "peso_extra": "DESCONOCIDO"
+    }
+  }
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "id": "encargo-inicial",
+    "titulo": "Proyecto Aston Martin — encargo inicial",
+    "url": null,
+    "origen": "Texto aportado por el jefe de equipo",
+    "fecha_consulta": "2026-11-22"
+  },
+  {
+    "id": "calendario-f1-2024",
+    "titulo": "Calendario F1 2024",
+    "url": "https://www.formula1.com/en/racing/2024",
+    "fecha_consulta": null,
+    "version_juego": null,
+    "mecanica": "Calendario F1 2024",
+    "fiabilidad": "Oficial",
+    "discrepancias": null,
+    "conclusiones": null
+  },
+  {
+    "id": "ref-2",
+    "titulo": "Calendario Sprint de F1 2024",
+    "url": "https://corp.formula1.com/formula-1-announces-2024-f1-sprint-calendar/",
+    "fecha_consulta": null,
+    "version_juego": null,
+    "mecanica": "Calendario Sprint de F1 2024",
+    "fiabilidad": "Oficial",
+    "discrepancias": null,
+    "conclusiones": null
+  },
+  {
+    "id": "ref-3",
+    "titulo": "Desarrollo del coche",
+    "url": "https://simracingsetup.com/f1-manager/f1-manager-2024-car-development/",
+    "fecha_consulta": null,
+    "version_juego": null,
+    "mecanica": "Desarrollo del coche",
+    "fiabilidad": "Guía externa por verificar",
+    "discrepancias": null,
+    "conclusiones": null
+  },
+  {
+    "id": "ref-4",
+    "titulo": "Investigación y diseño",
+    "url": "https://simracingsetup.com/f1-manager/f1-manager-2024-research-vs-design/",
+    "fecha_consulta": null,
+    "version_juego": null,
+    "mecanica": "Investigación y diseño",
+    "fiabilidad": "Guía externa por verificar",
+    "discrepancias": null,
+    "conclusiones": null
+  },
+  {
+    "id": "ref-5",
+    "titulo": "Guía de iniciación",
+    "url": "https://simracingsetup.com/f1-manager/f1-manager-2024-beginners-guide/",
+    "fecha_consulta": null,
+    "version_juego": null,
+    "mecanica": "Guía de iniciación",
+    "fiabilidad": "Guía externa por verificar",
+    "discrepancias": null,
+    "conclusiones": null
+  },
+  {
+    "id": "ref-6",
+    "titulo": "Guía de F1 Manager 2024",
+    "url": "https://gamefaqs.gamespot.com/ps5/454145-f1-manager-2024/faqs/81355",
+    "fecha_consulta": null,
+    "version_juego": null,
+    "mecanica": "Guía de F1 Manager 2024",
+    "fiabilidad": "Guía externa por verificar",
+    "discrepancias": null,
+    "conclusiones": null
+  },
+  {
+    "id": "ref-7",
+    "titulo": "Ficha de F1 Manager 2024 en Steam",
+    "url": "https://store.steampowered.com/app/2591280/F1_Manager_2024/",
+    "fecha_consulta": null,
+    "version_juego": null,
+    "mecanica": "Ficha de F1 Manager 2024 en Steam",
+    "fiabilidad": "Oficial",
+    "discrepancias": null,
+    "conclusiones": null
+  }
+]

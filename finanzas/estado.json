@@ -1,0 +1,21 @@
+{
+  "moneda": "USD",
+  "metadatos": {
+    "estado": "DESCONOCIDO",
+    "fecha_partida": null,
+    "temporada": null,
+    "fecha_registro": null,
+    "fuente": null
+  },
+  "datos": {
+    "saldo_usd": null,
+    "limite_usd": null,
+    "consumido_limite_usd": null,
+    "restante_limite_usd": null,
+    "ingresos_previstos_usd": null,
+    "gastos_comprometidos_usd": null,
+    "proyeccion_fin_temporada_usd": null,
+    "margen_seguridad_usd": null,
+    "beneficio_mensual_usd": null
+  }
+}

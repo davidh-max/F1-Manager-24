@@ -1,0 +1,17 @@
+{
+  "metadatos": {
+    "estado": "DESCONOCIDO",
+    "fecha_partida": null,
+    "temporada": null,
+    "fecha_registro": null,
+    "fuente": null
+  },
+  "datos": {
+    "puntos_carrera": null,
+    "puntos_sprint": null,
+    "punto_vuelta_rapida": null,
+    "condiciones_vuelta_rapida": null,
+    "desempates": null,
+    "penalizaciones": null
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "temporada": 2024,
+  "metadatos": {
+    "estado": "REFERENCIA EXTERNA",
+    "fecha_partida": null,
+    "temporada": 2024,
+    "fecha_registro": "2026-11-22",
+    "fuente": "calendario-f1-2024"
+  },
+  "datos": [
+    {
+      "id": "01_sakhir",
+      "ronda": 1,
+      "nombre": "Baréin",
+      "circuito": "sakhir",
+      "inicio": "2024-02-29",
+      "carrera": "2024-03-02",
+      "sprint": false
+    },
+    {
+      "id": "02_jeddah",
+      "ronda": 2,
+      "nombre": "Arabia Saudí",
+      "circuito": "jeddah",
+      "inicio": "2024-03-07",
+      "carrera": "2024-03-09",
+      "sprint": false
+    },
+    {
+      "id": "03_melbourne",
+      "ronda": 3,
+      "nombre": "Australia",
+      "circuito": "melbourne",
+      "inicio": "2024-03-22",
+      "carrera": "2024-03-24",
+      "sprint": false
+    },
+    {
+      "id": "04_suzuka",
+      "ronda": 4,
+      "nombre": "Japón",
+      "circuito": "suzuka",
+      "inicio": "2024-04-05",
+      "carrera": "2024-04-07",
+      "sprint": false
+    },
+    {
+      "id": "05_shanghai",
+      "ronda": 5,
+      "nombre": "China",
+      "circuito": "shanghai",
+      "inicio": "2024-04-19",
+      "carrera": "2024-04-21",
+      "sprint": true
+    },
+    {
+      "id": "06_miami",
+      "ronda": 6,
+      "nombre": "Miami",
+      "circuito": "miami",
+      "inicio": "2024-05-03",
+      "carrera": "2024-05-05",
+      "sprint": true
+    },
+    {
+      "id": "07_imola",
+      "ronda": 7,
+      "nombre": "Emilia-Romaña",
+      "circuito": "imola",
+      "inicio": "2024-05-17",
+      "carrera": "2024-05-19",
+      "sprint": false
+    },
+    {
+      "id": "08_montecarlo",
+      "ronda": 8,
+      "nombre": "Mónaco",
+      "circuito": "montecarlo",
+      "inicio": "2024-05-24",
+      "carrera": "2024-05-26",
+      "sprint": false
+    },
+    {
+      "id": "09_montreal",
+      "ronda": 9,
+      "nombre": "Canadá",
+      "circuito": "montreal",
+      "inicio": "2024-06-07",
+      "carrera": "2024-06-09",
+      "sprint": false
+    },
+    {
+      "id": "10_barcelona",
+      "ronda": 10,
+      "nombre": "España",
+      "circuito": "barcelona",
+      "inicio": "2024-06-21",
+      "carrera": "2024-06-23",
+      "sprint": false
+    },
+    {
+      "id": "11_spielberg",
+      "ronda": 11,
+      "nombre": "Austria",
+      "circuito": "spielberg",
+      "inicio": "2024-06-28",
+      "carrera": "2024-06-30",
+      "sprint": true
+    },
+    {
+      "id": "12_silverstone",
+      "ronda": 12,
+      "nombre": "Gran Bretaña",
+      "circuito": "silverstone",
+      "inicio": "2024-07-05",
+      "carrera": "2024-07-07",
+      "sprint": false
+    },
+    {
+      "id": "13_hungaroring",
+      "ronda": 13,
+      "nombre": "Hungría",
+      "circuito": "hungaroring",
+      "inicio": "2024-07-19",
+      "carrera": "2024-07-21",
+      "sprint": false
+    },
+    {
+      "id": "14_spa",
+      "ronda": 14,
+      "nombre": "Bélgica",
+      "circuito": "spa",
+      "inicio": "2024-07-26",
+      "carrera": "2024-07-28",
+      "sprint": false
+    },
+    {
+      "id": "15_zandvoort",
+      "ronda": 15,
+      "nombre": "Países Bajos",
+      "circuito": "zandvoort",
+      "inicio": "2024-08-23",
+      "carrera": "2024-08-25",
+      "sprint": false
+    },
+    {
+      "id": "16_monza",
+      "ronda": 16,
+      "nombre": "Italia",
+      "circuito": "monza",
+      "inicio": "2024-08-30",
+      "carrera": "2024-09-01",
+      "sprint": false
+    },
+    {
+      "id": "17_baku",
+      "ronda": 17,
+      "nombre": "Azerbaiyán",
+      "circuito": "baku",
+      "inicio": "2024-09-13",
+      "carrera": "2024-09-15",
+      "sprint": false
+    },
+    {
+      "id": "18_marina_bay",
+      "ronda": 18,
+      "nombre": "Singapur",
+      "circuito": "marina_bay",
+      "inicio": "2024-09-20",
+      "carrera": "2024-09-22",
+      "sprint": false
+    },
+    {
+      "id": "19_austin",
+      "ronda": 19,
+      "nombre": "Estados Unidos",
+      "circuito": "austin",
+      "inicio": "2024-10-18",
+      "carrera": "2024-10-20",
+      "sprint": true
+    },
+    {
+      "id": "20_hermanos_rodriguez",
+      "ronda": 20,
+      "nombre": "México",
+      "circuito": "hermanos_rodriguez",
+      "inicio": "2024-10-25",
+      "carrera": "2024-10-27",
+      "sprint": false
+    },
+    {
+      "id": "21_interlagos",
+      "ronda": 21,
+      "nombre": "São Paulo",
+      "circuito": "interlagos",
+      "inicio": "2024-11-01",
+      "carrera": "2024-11-03",
+      "sprint": true
+    },
+    {
+      "id": "22_las_vegas",
+      "ronda": 22,
+      "nombre": "Las Vegas",
+      "circuito": "las_vegas",
+      "inicio": "2024-11-21",
+      "carrera": "2024-11-23",
+      "sprint": false
+    },
+    {
+      "id": "23_lusail",
+      "ronda": 23,
+      "nombre": "Catar",
+      "circuito": "lusail",
+      "inicio": "2024-11-29",
+      "carrera": "2024-12-01",
+      "sprint": true
+    },
+    {
+      "id": "24_yas_marina",
+      "ronda": 24,
+      "nombre": "Abu Dabi",
+      "circuito": "yas_marina",
+      "inicio": "2024-12-06",
+      "carrera": "2024-12-08",
+      "sprint": false
+    }
+  ]
+}
