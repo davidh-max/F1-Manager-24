@@ -20,18 +20,18 @@
       "aire_sucio": 60.82,
       "neumaticos": 63.23,
       "refrigeracion": 56.35,
-      "peso_extra": 18.0
+      "peso_extra": 18
     },
     "posiciones_20_coches": {
       "velocidad_maxima": 9,
       "aceleracion": 15,
       "eficacia_drs": 6,
-      "curvas_lentas": 7,
-      "curvas_medias": 7,
-      "curvas_rapidas": 8,
+      "curvas_lentas": 9,
+      "curvas_medias": 9,
+      "curvas_rapidas": 9,
       "aire_sucio": 8,
       "neumaticos": 3,
-      "refrigeracion": 14,
+      "refrigeracion": 16,
       "peso_extra": 18
     },
     "posicion_10_equipos": null,
@@ -43,7 +43,33 @@
       "ast24_fp_5",
       "ast24_s_2"
     ],
-    "unidad_potencia": {}
+    "unidad_potencia": {},
+    "observacion_anterior_rendimiento": {
+      "rendimiento_general": 7,
+      "posiciones_20_coches": {
+        "velocidad_maxima": 9,
+        "aceleracion": 15,
+        "eficacia_drs": 6,
+        "curvas_lentas": 9,
+        "curvas_medias": 9,
+        "curvas_rapidas": 9,
+        "aire_sucio": 8,
+        "neumaticos": 3,
+        "refrigeracion": 16,
+        "peso_extra": 18
+      },
+      "metadatos": {
+        "estado": "CONFIRMADO",
+        "fecha_partida": "2024-07-29",
+        "fecha_registro": "2026-11-22",
+        "temporada": 2024,
+        "fuente": "informe_tecnico_video_2_2024_07_29#atributos"
+      }
+    },
+    "posiciones_no_observadas_en_captura": [
+      "aceleracion",
+      "peso_extra"
+    ]
   },
   "metadatos_por_bloque": {
     "pontones_instalados": {
@@ -59,6 +85,20 @@
       "fecha_registro": "2026-11-22",
       "temporada": 2024,
       "fuente": "informe_tecnico_video_2_2024_07_29#resumen"
+    },
+    "rankings_analisis_coche": {
+      "estado": "CONFIRMADO",
+      "temporada": 2024,
+      "fecha_partida": "2024-08-23",
+      "fecha_registro": "2026-11-22",
+      "fuente": "capturas_zandvoort_fp1_2024_08_23"
+    },
+    "rendimiento_general_actual": {
+      "estado": "CONFIRMADO",
+      "temporada": 2024,
+      "fecha_partida": "2024-08-23",
+      "fecha_registro": "2026-11-22",
+      "fuente": "capturas_zandvoort_fp1_2024_08_23"
     }
   }
 }
