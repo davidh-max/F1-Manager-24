@@ -27,16 +27,16 @@ La trayectoria comenzó en 2024. Las observaciones iniciales se conservan en `hi
 - **coche_2 · confianza por sesión** · Pendiente
 - **Proyectos activos · diseno** · Ninguno nuevo confirmado activo; diseño de alerón trasero completado el 2024-08-21. Simulaciones de seis piezas observadas 26-08-2024, NO ejecutadas.
 - **Proyectos activos · investigacion** · Pendiente
-- **Proyectos activos · fabricacion** · Pontones AST24 P.-6 ×2, apresurada, primera pieza 26 agosto y segunda 31 agosto. Órdenes antiguas A. t.-4, P.-5 y Ch.-3 con fin previsto vencido; estado actual pendiente de verificar
+- **Proyectos activos · fabricacion** · Pontones AST24 P.-6 ×2 apresurada: 1 unidad instalada en coche 2 al 26 agosto; la segunda prevista 31 agosto para coche 1 (pendiente). Órdenes antiguas A. t.-4, P.-5 y Ch.-3 con fin previsto vencido; estado actual pendiente de verificar
 - **Instalaciones en obra** · Centro turístico nivel 3 → 4 (fin previsto 2024-08-15); sala de recuerdos en mejora (fin previsto 2024-08-18, comercialidad +20→+30, mentalidad +4→+6, coste estimado 700000 USD, diferencia de saldo sin conciliar 30000 USD)
 - **Próximos vencimientos contractuales** · ben_michell (2024-12-31), fernando_alonso (2024-12-31), jefe_aerodinamica (2024-12-31), jefe_tecnico (2024-12-31), lance_stroll (2024-12-31), director_deportivo (2027-12-31)
 - **Diseños pendientes de fabricar** · Nuevo alerón trasero completado el 21 agosto, pendiente de fabricación tras GP
 - **Próximo vencimiento ATR** · Pendiente
 - **Renovación ATR calculada** · 2024-09-02
-- **CFD disponible (MAU)** · 2.5
-- **Túnel de viento disponible (h)** · 33
+- **CFD disponible (MAU)** · No observado el 26 agosto (último dato 2,5 MAU del 29 julio)
+- **Túnel de viento disponible (h)** · 7/72 (confirmado el 26 agosto; próxima renovación en 7 días)
 - **Principales problemas** · El segundo informe muestra el chasis AST24 Ch.-3 de Stroll como fallido. Verificar su estado y buscar un repuesto apto., Helipuerto deteriorado: 68 % de conservación y 80 % de eficacia.
-- **Decisiones pendientes** · Confirmar recepción y montaje de P.-6 en ambos coches; rehacer simulación de futuros P.-7 con P.-6 instalado; verificar coste, ingenieros y ATR antes de comenzar; comparar también suspensión, chasis y alerón trasero.
+- **Decisiones pendientes** · Comparar suspensión en coche 2 con P.-6 instalado; controlar coste y financiación del alerón trasero ya diseñado antes de encargar otro diseño. Pontones posteriores a P.-6 descartados con el foco recién probado por pérdidas en curvas.
 - **Última actualización confirmada del estado** · 2026-11-22
 
 ## Datos prioritarios para sincronizar
@@ -50,3 +50,10 @@ La trayectoria comenzó en 2024. Las observaciones iniciales se conservan en `hi
 - **Prioridad de evaluación**: pontones, seguida de suspensión y chasis, condicionada a repetir comparativa tras instalar los pontones P.-6 ya fabricándose. Las ganancias mostradas no son incrementos adicionales garantizados frente a P.-6.
 - **Horizonte**: Austin, México y São Paulo; México e Interlagos carecen de prioridades de atributos confirmadas en sus fichas del juego. La aptitud se considera estimación hasta nuevas capturas de los circuitos.
 - **Saldo observado 26 agosto**: 1.202.015 USD, sin gasto de nuevo diseño confirmado. El límite presupuestario restante y los recursos ATR son observaciones anteriores, no valores verificados al 26 agosto.
+
+## Prueba real sobre coche 2 con pontones P.-6 montados · 26 agosto
+
+- Coche 2: **321,92 km/h**, aceleración **1,855 G**, **2,593 / 3,626 / 4,904 G** en curvas lenta/media/rápida, DRS **62,70 %**, neumáticos **63,23 %**, refrigeración **56,96 %**, peso extra **17,6 kg**. Confirmados por captura del mismo menú; registro en `equipo/coches/coche_2.json`.
+- Simulación de siguientes pontones desde P.-6: **+0,10 km/h**, **-0,006 G** curvas medias, **-0,016 G** curvas rápidas, **+4,04 pp** refrigeración, **+1,0 kg** peso; pieza con **-7,51 pp** flujo central. NO ejecutar este diseño.
+- **Recomendación actualizada**: explorar suspensión sobre coche 2, priorizando paso por curvas; chasis como alternativa. Ambas simulaciones del 26 agosto mostradas previamente para coche 1 eran con una base diferente, por lo que sus ganancias no están verificadas tras P.-6.
+- **Presupuesto**: 1.202.015 USD (26 agosto). Antes de iniciar un diseño, revisar disponibilidad para fabricar el alerón trasero cuyo diseño está terminado y evaluar coste completo, sin atribuir gastos todavía.
