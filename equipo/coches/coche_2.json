@@ -24,7 +24,7 @@
     },
     "posiciones_20_coches": {
       "velocidad_maxima": 5,
-      "aceleracion": 15,
+      "aceleracion": null,
       "eficacia_drs": 7,
       "curvas_lentas": 7,
       "curvas_medias": 7,
@@ -32,7 +32,7 @@
       "aire_sucio": 8,
       "neumaticos": 3,
       "refrigeracion": 15,
-      "peso_extra": 18
+      "peso_extra": null
     },
     "posicion_10_equipos": null,
     "piezas_instaladas": [
@@ -162,7 +162,15 @@
         "fuente": "capturas_comparativa_monza_2024_08_30"
       }
     },
-    "nota_frescura": "Los atributos absolutos siguen siendo del 26 agosto; no se muestran valores absolutos del coche 2 el 30 agosto. Posiciones de aceleración y peso desconocidas a 30 agosto, conservadas solo como históricas 26 agosto."
+    "nota_frescura": "Los atributos absolutos siguen siendo del 26 agosto; no se muestran valores absolutos del coche 2 el 30 agosto. Posiciones de aceleración y peso desconocidas a 30 agosto, conservadas solo como históricas 26 agosto.",
+    "metadatos_posiciones_20_coches": {
+      "estado": "CONFIRMADO",
+      "temporada": 2024,
+      "fecha_partida": "2024-08-30",
+      "fecha_registro": "2026-11-22",
+      "fuente": "capturas_comparativa_monza_2024_08_30",
+      "nota": "Ranking parcial Monza: aceleración y peso extra no mostrados; conservar históricos de 26 agosto aparte"
+    }
   },
   "metadatos_por_bloque": {
     "pontones_instalados": {
