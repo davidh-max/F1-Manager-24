@@ -32,6 +32,14 @@ Los JSON de dominio tienen una raíz con `metadatos` y `datos`. Cada ficha ident
 - Identifica cada movimiento con un ID estable. Usa importe con signo (ingreso positivo, gasto negativo) y registra el saldo posterior si figura. El coste consumido del límite y el saldo disponible son magnitudes independientes. La diferencia entre dos saldos es una observación hasta conciliar su causa.
 - Para proyecciones conserva fecha de corte, partidas de ingresos y gastos, supuestos, saldo proyectado y margen. La fórmula básica suma al saldo actual los ingresos previstos y resta gastos pendientes. Separa pagos ya incluidos en el saldo.
 
+## Datos de las pestañas de circuitos
+
+- Usa `metadatos_por_bloque` para conservar la procedencia de cada pestaña. Una transcripción aportada puede incluir marca de tiempo sin que se haya revisado el vídeo directamente.
+- Guarda el tiempo medio de vuelta y los récords mostrados por el juego en milisegundos (`_ms`). Los récords históricos mostrados no son resultados de la trayectoria.
+- `perdida_boxes_sc_vsc_s` conserva una única estimación cuando el juego agrupa ambas neutralizaciones. Las cifras de `histograma_salidas_por_temporada` cuentan temporadas en cada intervalo de salidas, separadas en SC y VSC.
+- En el GP, `inventario_neumaticos` registra los juegos indicados en la previa. `compuestos` guarda el intervalo competitivo y la degradación en segundos por vuelta. Las ventanas de estrategias previstas son intervalos inclusivos de números de vuelta. Los datos de la previa quedan separados de las estrategias ejecutadas.
+- `posicion_en_parrilla_mostrada_en_previa` es el indicador de la pestaña de atributos por circuito. El resultado de clasificación y la parrilla efectiva se registran con su propia evidencia. La probabilidad de lluvia y la fecha de disponibilidad de la previsión se registran aunque el pronóstico esté pendiente.
+
 ## Registros de desarrollo
 
 | Colección | Campos por registro |

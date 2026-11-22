@@ -6,24 +6,24 @@
     "fecha_partida": "2024-07-29",
     "temporada": 2024,
     "fecha_registro": "2026-11-22",
-    "fuente": "capturas_circuitos_2024_07_29_zandvoort_mapa"
+    "fuente": "transcripcion_video_2024_07_29#zandvoort/resumen/0:05"
   },
   "datos": {
-    "pais": null,
+    "pais": "Países Bajos",
     "ciudad": null,
     "trazado": null,
-    "longitud_km": null,
-    "vueltas": null,
-    "distancia_km": null,
+    "longitud_km": 4.259,
+    "vueltas": 72,
+    "distancia_km": 306.587,
     "curvas": 14,
     "sentido": null,
-    "abrasividad": null,
+    "abrasividad": "alta",
     "caracteristicas": null,
     "dificultad_adelantamiento": null,
-    "perdida_boxes_s": null,
+    "perdida_boxes_s": 21,
     "perdida_sc_s": null,
     "perdida_vsc_s": null,
-    "probabilidad_sc_pct": null,
+    "probabilidad_sc_pct": 33,
     "probabilidad_vsc_pct": null,
     "mapa": "capturas_circuitos_2024_07_29_zandvoort_mapa",
     "sectores": [
@@ -53,15 +53,15 @@
     "adelantamientos": [],
     "secciones": [],
     "importancia_atributos": {
-      "velocidad_maxima": "DESCONOCIDO",
-      "aceleracion": "DESCONOCIDO",
-      "eficacia_drs": "DESCONOCIDO",
-      "curvas_lentas": "DESCONOCIDO",
-      "curvas_medias": "DESCONOCIDO",
-      "curvas_rapidas": "DESCONOCIDO",
-      "aire_sucio": "DESCONOCIDO",
-      "neumaticos": "DESCONOCIDO",
-      "refrigeracion": "DESCONOCIDO",
+      "velocidad_maxima": "SIN MARCA ESPECIAL",
+      "aceleracion": "SIN MARCA ESPECIAL",
+      "eficacia_drs": "RECOMENDADO",
+      "curvas_lentas": "SIN MARCA ESPECIAL",
+      "curvas_medias": "CRUCIAL",
+      "curvas_rapidas": "CRUCIAL",
+      "aire_sucio": "SIN MARCA ESPECIAL",
+      "neumaticos": "SIN MARCA ESPECIAL",
+      "refrigeracion": "SIN MARCA ESPECIAL",
       "peso_extra": "DESCONOCIDO"
     },
     "secciones_por_velocidad": {
@@ -73,6 +73,67 @@
         "rapidas": "verde"
       },
       "observacion_visual": "El gráfico marca un tramo lento en la chicane de las curvas 11–12 y varios tramos rápidos en la parte exterior del trazado."
+    },
+    "perfil_circuito": "carga aerodinámica",
+    "primer_gran_premio": 1952,
+    "record_vuelta_mostrado": {
+      "tiempo_ms": 71097,
+      "piloto": "Lewis Hamilton",
+      "anio": 2021
+    },
+    "perdida_boxes_sc_vsc_s": 19,
+    "perdida_boxes_aproximada": true,
+    "histograma_salidas_por_temporada": [
+      {
+        "salidas": "0",
+        "temporadas_sc": 2,
+        "temporadas_vsc": 2
+      },
+      {
+        "salidas": "1",
+        "temporadas_sc": 1,
+        "temporadas_vsc": 1
+      },
+      {
+        "salidas": "2",
+        "temporadas_sc": 0,
+        "temporadas_vsc": 0
+      },
+      {
+        "salidas": "3+",
+        "temporadas_sc": 0,
+        "temporadas_vsc": 0
+      }
+    ]
+  },
+  "metadatos_por_bloque": {
+    "mapa": {
+      "estado": "CONFIRMADO",
+      "fecha_partida": "2024-07-29",
+      "temporada": 2024,
+      "fecha_registro": "2026-11-22",
+      "fuente": "capturas_circuitos_2024_07_29_zandvoort_mapa"
+    },
+    "resumen": {
+      "estado": "CONFIRMADO",
+      "fecha_partida": "2024-07-29",
+      "temporada": 2024,
+      "fecha_registro": "2026-11-22",
+      "fuente": "transcripcion_video_2024_07_29#zandvoort/resumen/0:05"
+    },
+    "atributos_del_coche": {
+      "estado": "CONFIRMADO",
+      "fecha_partida": "2024-07-29",
+      "temporada": 2024,
+      "fecha_registro": "2026-11-22",
+      "fuente": "transcripcion_video_2024_07_29#zandvoort/atributos_del_coche/0:17"
+    },
+    "consideraciones_de_tiempo": {
+      "estado": "CONFIRMADO",
+      "fecha_partida": "2024-07-29",
+      "temporada": 2024,
+      "fecha_registro": "2026-11-22",
+      "fuente": "transcripcion_video_2024_07_29#zandvoort/consideraciones_de_tiempo/0:21"
     }
   }
 }

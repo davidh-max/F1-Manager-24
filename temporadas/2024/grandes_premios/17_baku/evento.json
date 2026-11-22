@@ -3,20 +3,126 @@
   "circuito": "baku",
   "temporada": 2024,
   "metadatos": {
-    "estado": "DESCONOCIDO",
-    "fecha_partida": null,
-    "temporada": null,
-    "fecha_registro": null,
-    "fuente": null
+    "estado": "CONFIRMADO",
+    "fecha_partida": "2024-07-29",
+    "temporada": 2024,
+    "fecha_registro": "2026-11-22",
+    "fuente": "transcripcion_video_2024_07_29#baku/resumen/0:51"
   },
   "datos": {
     "previa": null,
-    "meteorologia": null,
+    "meteorologia": {
+      "probabilidad_lluvia_pct": 3,
+      "fecha_disponibilidad_prevision": "2024-09-06",
+      "dias_hasta_disponibilidad_observados": 39,
+      "prevision": null
+    },
     "coches": {},
     "componentes": {},
-    "inventario_neumaticos": [],
-    "compuestos": [],
-    "estrategias_previstas": [],
+    "inventario_neumaticos": [
+      {
+        "tipo": "blando",
+        "compuesto": "C5",
+        "juegos_indicados": 8
+      },
+      {
+        "tipo": "medio",
+        "compuesto": "C4",
+        "juegos_indicados": 3
+      },
+      {
+        "tipo": "duro",
+        "compuesto": "C3",
+        "juegos_indicados": 2
+      }
+    ],
+    "compuestos": [
+      {
+        "tipo": "blando",
+        "compuesto": "C5",
+        "vuelta_promedio_ms": 106137,
+        "rango_competitivo_vueltas": [
+          30,
+          53
+        ],
+        "perdida_degradacion_s_por_vuelta": 0.09
+      },
+      {
+        "tipo": "medio",
+        "compuesto": "C4",
+        "vuelta_promedio_ms": 106517,
+        "rango_competitivo_vueltas": [
+          40,
+          71
+        ],
+        "perdida_degradacion_s_por_vuelta": 0.06
+      },
+      {
+        "tipo": "duro",
+        "compuesto": "C3",
+        "vuelta_promedio_ms": 106910,
+        "rango_competitivo_vueltas": [
+          56,
+          98
+        ],
+        "perdida_degradacion_s_por_vuelta": 0.04
+      }
+    ],
+    "estrategias_previstas": [
+      {
+        "numero": 1,
+        "condiciones": "seco",
+        "origen": "propuesta_del_juego",
+        "paradas": 1,
+        "compuestos": [
+          "medio",
+          "duro"
+        ],
+        "ventanas_parada_vueltas": [
+          [
+            19,
+            25
+          ]
+        ]
+      },
+      {
+        "numero": 2,
+        "condiciones": "seco",
+        "origen": "propuesta_del_juego",
+        "paradas": 1,
+        "compuestos": [
+          "blando",
+          "duro"
+        ],
+        "ventanas_parada_vueltas": [
+          [
+            13,
+            19
+          ]
+        ]
+      },
+      {
+        "numero": 3,
+        "condiciones": "seco",
+        "origen": "propuesta_del_juego",
+        "paradas": 2,
+        "compuestos": [
+          "medio",
+          "duro",
+          "blando"
+        ],
+        "ventanas_parada_vueltas": [
+          [
+            11,
+            17
+          ],
+          [
+            36,
+            42
+          ]
+        ]
+      }
+    ],
     "estrategias_ejecutadas": [],
     "sesiones": {},
     "reglajes": {},
@@ -27,9 +133,52 @@
     "resultados": [],
     "evidencias": [
       "capturas_circuitos_2024_07_29_baku_mapa",
-      "capturas_circuitos_2024_07_29_baku_secciones_por_velocidad"
+      "capturas_circuitos_2024_07_29_baku_secciones_por_velocidad",
+      "transcripcion_video_2024_07_29#baku/resumen/0:51"
     ],
     "analisis": null,
-    "lecciones": []
+    "lecciones": [],
+    "posicion_en_parrilla_mostrada_en_previa": {
+      "coche_1": 8,
+      "coche_2": 7
+    },
+    "sprint": false
+  },
+  "metadatos_por_bloque": {
+    "resumen": {
+      "estado": "CONFIRMADO",
+      "fecha_partida": "2024-07-29",
+      "temporada": 2024,
+      "fecha_registro": "2026-11-22",
+      "fuente": "transcripcion_video_2024_07_29#baku/resumen/0:51"
+    },
+    "atributos_del_coche": {
+      "estado": "CONFIRMADO",
+      "fecha_partida": "2024-07-29",
+      "temporada": 2024,
+      "fecha_registro": "2026-11-22",
+      "fuente": "transcripcion_video_2024_07_29#baku/atributos_del_coche/1:02"
+    },
+    "consideraciones_de_tiempo": {
+      "estado": "CONFIRMADO",
+      "fecha_partida": "2024-07-29",
+      "temporada": 2024,
+      "fecha_registro": "2026-11-22",
+      "fuente": "transcripcion_video_2024_07_29#baku/consideraciones_de_tiempo/1:04"
+    },
+    "estrategias_previstas": {
+      "estado": "CONFIRMADO",
+      "fecha_partida": "2024-07-29",
+      "temporada": 2024,
+      "fecha_registro": "2026-11-22",
+      "fuente": "transcripcion_video_2024_07_29#baku/estrategias_previstas/1:06"
+    },
+    "rendimiento_del_compuesto": {
+      "estado": "CONFIRMADO",
+      "fecha_partida": "2024-07-29",
+      "temporada": 2024,
+      "fecha_registro": "2026-11-22",
+      "fuente": "transcripcion_video_2024_07_29#baku/rendimiento_del_compuesto/1:09"
+    }
   }
 }

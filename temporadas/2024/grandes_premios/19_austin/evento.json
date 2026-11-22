@@ -3,20 +3,136 @@
   "circuito": "austin",
   "temporada": 2024,
   "metadatos": {
-    "estado": "DESCONOCIDO",
-    "fecha_partida": null,
-    "temporada": null,
-    "fecha_registro": null,
-    "fuente": null
+    "estado": "CONFIRMADO",
+    "fecha_partida": "2024-07-29",
+    "temporada": 2024,
+    "fecha_registro": "2026-11-22",
+    "fuente": "transcripcion_video_2024_07_29#austin/resumen/1:41"
   },
   "datos": {
     "previa": null,
-    "meteorologia": null,
+    "meteorologia": {
+      "probabilidad_lluvia_pct": 14,
+      "fecha_disponibilidad_prevision": "2024-10-11",
+      "dias_hasta_disponibilidad_observados": 74,
+      "prevision": null
+    },
     "coches": {},
     "componentes": {},
-    "inventario_neumaticos": [],
-    "compuestos": [],
-    "estrategias_previstas": [],
+    "inventario_neumaticos": [
+      {
+        "tipo": "blando",
+        "compuesto": "C4",
+        "juegos_indicados": 6
+      },
+      {
+        "tipo": "medio",
+        "compuesto": "C3",
+        "juegos_indicados": 4
+      },
+      {
+        "tipo": "duro",
+        "compuesto": "C2",
+        "juegos_indicados": 2
+      }
+    ],
+    "compuestos": [
+      {
+        "tipo": "blando",
+        "compuesto": "C4",
+        "vuelta_promedio_ms": 94697,
+        "rango_competitivo_vueltas": [
+          15,
+          26
+        ],
+        "perdida_degradacion_s_por_vuelta": 0.14
+      },
+      {
+        "tipo": "medio",
+        "compuesto": "C3",
+        "vuelta_promedio_ms": 94991,
+        "rango_competitivo_vueltas": [
+          21,
+          37
+        ],
+        "perdida_degradacion_s_por_vuelta": 0.09
+      },
+      {
+        "tipo": "duro",
+        "compuesto": "C2",
+        "vuelta_promedio_ms": 95531,
+        "rango_competitivo_vueltas": [
+          29,
+          51
+        ],
+        "perdida_degradacion_s_por_vuelta": 0.06
+      }
+    ],
+    "estrategias_previstas": [
+      {
+        "numero": 1,
+        "condiciones": "seco",
+        "origen": "propuesta_del_juego",
+        "paradas": 2,
+        "compuestos": [
+          "medio",
+          "medio",
+          "duro"
+        ],
+        "ventanas_parada_vueltas": [
+          [
+            13,
+            19
+          ],
+          [
+            29,
+            35
+          ]
+        ]
+      },
+      {
+        "numero": 2,
+        "condiciones": "seco",
+        "origen": "propuesta_del_juego",
+        "paradas": 2,
+        "compuestos": [
+          "blando",
+          "medio",
+          "duro"
+        ],
+        "ventanas_parada_vueltas": [
+          [
+            7,
+            13
+          ],
+          [
+            27,
+            33
+          ]
+        ]
+      },
+      {
+        "numero": 3,
+        "condiciones": "seco",
+        "origen": "propuesta_del_juego",
+        "paradas": 2,
+        "compuestos": [
+          "medio",
+          "duro",
+          "medio"
+        ],
+        "ventanas_parada_vueltas": [
+          [
+            15,
+            21
+          ],
+          [
+            38,
+            44
+          ]
+        ]
+      }
+    ],
     "estrategias_ejecutadas": [],
     "sesiones": {},
     "reglajes": {},
@@ -27,9 +143,52 @@
     "resultados": [],
     "evidencias": [
       "capturas_circuitos_2024_07_29_austin_mapa",
-      "capturas_circuitos_2024_07_29_austin_secciones_por_velocidad"
+      "capturas_circuitos_2024_07_29_austin_secciones_por_velocidad",
+      "transcripcion_video_2024_07_29#austin/resumen/1:41"
     ],
     "analisis": null,
-    "lecciones": []
+    "lecciones": [],
+    "posicion_en_parrilla_mostrada_en_previa": {
+      "coche_1": 9,
+      "coche_2": 7
+    },
+    "sprint": true
+  },
+  "metadatos_por_bloque": {
+    "resumen": {
+      "estado": "CONFIRMADO",
+      "fecha_partida": "2024-07-29",
+      "temporada": 2024,
+      "fecha_registro": "2026-11-22",
+      "fuente": "transcripcion_video_2024_07_29#austin/resumen/1:41"
+    },
+    "atributos_del_coche": {
+      "estado": "CONFIRMADO",
+      "fecha_partida": "2024-07-29",
+      "temporada": 2024,
+      "fecha_registro": "2026-11-22",
+      "fuente": "transcripcion_video_2024_07_29#austin/atributos_del_coche/1:50"
+    },
+    "consideraciones_de_tiempo": {
+      "estado": "CONFIRMADO",
+      "fecha_partida": "2024-07-29",
+      "temporada": 2024,
+      "fecha_registro": "2026-11-22",
+      "fuente": "transcripcion_video_2024_07_29#austin/consideraciones_de_tiempo/1:52"
+    },
+    "estrategias_previstas": {
+      "estado": "CONFIRMADO",
+      "fecha_partida": "2024-07-29",
+      "temporada": 2024,
+      "fecha_registro": "2026-11-22",
+      "fuente": "transcripcion_video_2024_07_29#austin/estrategias_previstas/1:54"
+    },
+    "rendimiento_del_compuesto": {
+      "estado": "CONFIRMADO",
+      "fecha_partida": "2024-07-29",
+      "temporada": 2024,
+      "fecha_registro": "2026-11-22",
+      "fuente": "transcripcion_video_2024_07_29#austin/rendimiento_del_compuesto/1:59"
+    }
   }
 }

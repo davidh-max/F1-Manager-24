@@ -275,5 +275,68 @@
     "panel": "secciones_por_velocidad",
     "archivo": null,
     "estado_archivo": "pendiente_original"
+  },
+  {
+    "id": "transcripcion_video_2024_07_29",
+    "titulo": "Transcripción aportada de las pestañas de cinco circuitos",
+    "tipo": "transcripcion_aportada",
+    "url": null,
+    "fecha_consulta": "2026-11-22",
+    "fecha_partida": "2024-07-29",
+    "referencia_adjunto": "sediment://file_00000000803c81f4a959e63d8a3c3b46",
+    "video_origen": "video_2024_07_29",
+    "localizadores": {
+      "zandvoort": {
+        "gp": "15_zandvoort",
+        "marcas_de_tiempo": {
+          "resumen": "0:05",
+          "atributos_del_coche": "0:17",
+          "consideraciones_de_tiempo": "0:21",
+          "estrategias_previstas": "0:23",
+          "rendimiento_del_compuesto": "0:26"
+        }
+      },
+      "monza": {
+        "gp": "16_monza",
+        "marcas_de_tiempo": {
+          "resumen": "0:31",
+          "atributos_del_coche": "0:41",
+          "consideraciones_de_tiempo": "0:42",
+          "estrategias_previstas": "0:43",
+          "rendimiento_del_compuesto": "0:46"
+        }
+      },
+      "baku": {
+        "gp": "17_baku",
+        "marcas_de_tiempo": {
+          "resumen": "0:51",
+          "atributos_del_coche": "1:02",
+          "consideraciones_de_tiempo": "1:04",
+          "estrategias_previstas": "1:06",
+          "rendimiento_del_compuesto": "1:09"
+        }
+      },
+      "marina_bay": {
+        "gp": "18_marina_bay",
+        "marcas_de_tiempo": {
+          "resumen": "1:14",
+          "atributos_del_coche": "1:23",
+          "consideraciones_de_tiempo": "1:26",
+          "estrategias_previstas": "1:29",
+          "rendimiento_del_compuesto": "1:34"
+        }
+      },
+      "austin": {
+        "gp": "19_austin",
+        "marcas_de_tiempo": {
+          "resumen": "1:41",
+          "atributos_del_coche": "1:50",
+          "consideraciones_de_tiempo": "1:52",
+          "estrategias_previstas": "1:54",
+          "rendimiento_del_compuesto": "1:59"
+        }
+      }
+    },
+    "observaciones": "Datos de la transcripción proporcionada por el usuario. Las marcas de tiempo son las indicadas en el texto."
   }
 ]
