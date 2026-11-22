@@ -10,7 +10,218 @@
     "fuente": "transcripcion_video_2024_07_29#monza/resumen/0:31"
   },
   "datos": {
-    "previa": null,
+    "previa": {
+      "fecha_partida": "2024-08-30",
+      "estado": "PREVIA_TECNICA",
+      "metadatos": {
+        "estado": "CONFIRMADO",
+        "temporada": 2024,
+        "fecha_partida": "2024-08-30",
+        "fecha_registro": "2026-11-22",
+        "fuente": "capturas_comparativa_monza_2024_08_30"
+      },
+      "circuito_fuente": "circuitos/monza/ficha.json",
+      "coches_fuente": "rivales/estado_actual/equipos.json;equipo/coches/coche_1.json;equipo/coches/coche_2.json",
+      "coche_1_ranking_general": 8,
+      "coche_2_ranking_general": 7,
+      "comparativa_monzafp": {
+        "red_bull": {
+          "vel": 323.09,
+          "acc": 1.881,
+          "drs": 64.94,
+          "lenta": 2.671,
+          "media": 3.649,
+          "rapida": 4.956,
+          "aire": 66.48,
+          "neumaticos": 50.49,
+          "ref": 65.27,
+          "peso": 13,
+          "ranks": {
+            "vel": 2,
+            "acc": 1,
+            "drs": 1,
+            "lenta": 5,
+            "media": 5,
+            "rapida": 3,
+            "aire": 1,
+            "neumaticos": 12,
+            "ref": 3,
+            "peso": 6
+          }
+        },
+        "ferrari": {
+          "vel": 322.54,
+          "acc": 1.872,
+          "drs": 64.22,
+          "lenta": 2.676,
+          "media": 3.68,
+          "rapida": 4.973,
+          "aire": 63.21,
+          "neumaticos": 68.06,
+          "ref": 63.54,
+          "peso": 3.6,
+          "ranks": {
+            "vel": 3,
+            "acc": 5,
+            "drs": 3,
+            "lenta": 2,
+            "media": 1,
+            "rapida": 1,
+            "aire": 6,
+            "neumaticos": 2,
+            "ref": 5,
+            "peso": 1
+          }
+        },
+        "mclaren": {
+          "vel": 322.15,
+          "acc": 1.857,
+          "drs": 61.98,
+          "lenta": 2.671,
+          "media": 3.659,
+          "rapida": 4.936,
+          "aire": 65.45,
+          "neumaticos": 58.91,
+          "ref": 66.99,
+          "peso": 12.6,
+          "ranks": {
+            "vel": 6,
+            "acc": 12,
+            "drs": 5,
+            "lenta": 4,
+            "media": 4,
+            "rapida": 6,
+            "aire": 3,
+            "neumaticos": 5,
+            "ref": 1,
+            "peso": 5
+          }
+        },
+        "aston_1": {
+          "vel": 322.09,
+          "acc": 1.856,
+          "drs": 61.01,
+          "lenta": 2.586,
+          "media": 3.614,
+          "rapida": 4.884,
+          "aire": 62.21,
+          "neumaticos": 61.5,
+          "ref": 56.35,
+          "peso": 18,
+          "ranks": {
+            "vel": 7,
+            "acc": 16,
+            "drs": 6,
+            "lenta": 10,
+            "media": 10,
+            "rapida": 10,
+            "aire": 7,
+            "neumaticos": 4,
+            "ref": 16,
+            "peso": 18
+          }
+        },
+        "mercedes": {
+          "vel": 321.86,
+          "acc": 1.856,
+          "drs": 57.39,
+          "lenta": 2.593,
+          "media": 3.617,
+          "rapida": 4.891,
+          "aire": 59.39,
+          "neumaticos": 58.44,
+          "ref": 58.05,
+          "peso": 14.2,
+          "ranks": {
+            "vel": 11,
+            "acc": 14,
+            "drs": 9,
+            "lenta": 8,
+            "media": 8,
+            "rapida": 8,
+            "aire": 9,
+            "neumaticos": 7,
+            "ref": 9,
+            "peso": 8
+          }
+        },
+        "rb": {
+          "vel": 322.01,
+          "acc": 1.876,
+          "drs": 55.71,
+          "lenta": 2.577,
+          "media": 3.565,
+          "rapida": 4.826,
+          "aire": 56.71,
+          "neumaticos": 55.34,
+          "ref": 56.99,
+          "peso": 16.8,
+          "ranks": {
+            "vel": 9,
+            "acc": 3,
+            "drs": 11,
+            "lenta": 11,
+            "media": 11,
+            "rapida": 11,
+            "aire": 11,
+            "neumaticos": 9,
+            "ref": 13,
+            "peso": 13
+          }
+        }
+      },
+      "coche_2_ranks_parciales": {
+        "vel": 5,
+        "acc": null,
+        "drs": 7,
+        "lenta": 7,
+        "media": 7,
+        "rapida": 7,
+        "aire": 8,
+        "neumaticos": 3,
+        "ref": 15,
+        "peso": null
+      },
+      "pronostico": {
+        "estado": "ESTIMADO",
+        "basado_en": "Atributos confirmados 30 agosto de coches 1, rankings coche 2, atributos cruciales y mapa de velocidades de Monza (fuentes de julio); no tiempos de sectores actuales.",
+        "primera_prioridad": "Alta velocidad en curvas: CRUCIAL; velocidad máxima y DRS RECOMENDADOS",
+        "prediccion_sector_1": {
+          "favoritos": [
+            "red_bull",
+            "ferrari"
+          ],
+          "observaciones": "Recta principal y primera chicane: RB domina punta/aceleración/DRS; Ferrari conserva ventaja de paso lento; McLaren y Aston2 siguientes."
+        },
+        "prediccion_sector_2": {
+          "favoritos": [
+            "ferrari",
+            "red_bull",
+            "mclaren"
+          ],
+          "observaciones": "Segunda chicane, Lesmo y zona de aceleración: Ferrari sobresale en medias/rápidas y curvas lentas; McLaren competitivo, Red Bull aceleración."
+        },
+        "prediccion_sector_3": {
+          "favoritos": [
+            "ferrari",
+            "red_bull"
+          ],
+          "observaciones": "Ascari, Parabólica y recta: Ferrari domina curvas rápidas (1º), Red Bull máxima velocidad y DRS. McLaren siguiente."
+        },
+        "orden_orientativo": [
+          "ferrari",
+          "red_bull",
+          "mclaren",
+          "aston_martin_coche_2",
+          "mercedes_y_aston_martin_coche_1",
+          "rb"
+        ],
+        "nota": "Orden de potencial de los coches visibles, no resultado de carrera ni ambos coches por equipo; falta resto parrilla y setup, clima, neumáticos y combustible.",
+        "oportunidad_aston": "Conservar neumáticos frente a Red Bull (Aston2 3º; RB 12º) y RB (9º); evitar quedar atrapados por aceleración de RB y uso del DRS; McLaren y Ferrari claramente superiores en curvas.",
+        "riesgos": "Baja refrigeración de Aston (15º y 16º); debilidad en curvas 7º coche2 y 10º coche1; sin potencia para igualar fácilmente a RedBull en recta."
+      },
+      "advertencia_financiera": "Saldo -2697985 USD observado en pantalla 30 agosto; diferencia -2900000 respecto al saldo calculado 26 agosto sin movimientos identificados."
+    },
     "meteorologia": {
       "probabilidad_lluvia_pct": 15,
       "fecha_disponibilidad_prevision": "2024-08-23",
@@ -134,9 +345,53 @@
     "evidencias": [
       "capturas_circuitos_2024_07_29_monza_mapa",
       "capturas_circuitos_2024_07_29_monza_secciones_por_velocidad",
-      "transcripcion_video_2024_07_29#monza/resumen/0:31"
+      "transcripcion_video_2024_07_29#monza/resumen/0:31",
+      "capturas_comparativa_monza_2024_08_30"
     ],
-    "analisis": null,
+    "analisis": {
+      "previa": {
+        "fecha_partida": "2024-08-30",
+        "pronostico": {
+          "estado": "ESTIMADO",
+          "basado_en": "Atributos confirmados 30 agosto de coches 1, rankings coche 2, atributos cruciales y mapa de velocidades de Monza (fuentes de julio); no tiempos de sectores actuales.",
+          "primera_prioridad": "Alta velocidad en curvas: CRUCIAL; velocidad máxima y DRS RECOMENDADOS",
+          "prediccion_sector_1": {
+            "favoritos": [
+              "red_bull",
+              "ferrari"
+            ],
+            "observaciones": "Recta principal y primera chicane: RB domina punta/aceleración/DRS; Ferrari conserva ventaja de paso lento; McLaren y Aston2 siguientes."
+          },
+          "prediccion_sector_2": {
+            "favoritos": [
+              "ferrari",
+              "red_bull",
+              "mclaren"
+            ],
+            "observaciones": "Segunda chicane, Lesmo y zona de aceleración: Ferrari sobresale en medias/rápidas y curvas lentas; McLaren competitivo, Red Bull aceleración."
+          },
+          "prediccion_sector_3": {
+            "favoritos": [
+              "ferrari",
+              "red_bull"
+            ],
+            "observaciones": "Ascari, Parabólica y recta: Ferrari domina curvas rápidas (1º), Red Bull máxima velocidad y DRS. McLaren siguiente."
+          },
+          "orden_orientativo": [
+            "ferrari",
+            "red_bull",
+            "mclaren",
+            "aston_martin_coche_2",
+            "mercedes_y_aston_martin_coche_1",
+            "rb"
+          ],
+          "nota": "Orden de potencial de los coches visibles, no resultado de carrera ni ambos coches por equipo; falta resto parrilla y setup, clima, neumáticos y combustible.",
+          "oportunidad_aston": "Conservar neumáticos frente a Red Bull (Aston2 3º; RB 12º) y RB (9º); evitar quedar atrapados por aceleración de RB y uso del DRS; McLaren y Ferrari claramente superiores en curvas.",
+          "riesgos": "Baja refrigeración de Aston (15º y 16º); debilidad en curvas 7º coche2 y 10º coche1; sin potencia para igualar fácilmente a RedBull en recta."
+        },
+        "estado": "ESTIMADO"
+      }
+    },
     "lecciones": [],
     "posicion_en_parrilla_mostrada_en_previa": {
       "coche_1": null,
@@ -179,6 +434,20 @@
       "temporada": 2024,
       "fecha_registro": "2026-11-22",
       "fuente": "transcripcion_video_2024_07_29#monza/rendimiento_del_compuesto/0:46"
+    },
+    "comparativa_rivales_2024_08_30": {
+      "estado": "CONFIRMADO",
+      "temporada": 2024,
+      "fecha_partida": "2024-08-30",
+      "fecha_registro": "2026-11-22",
+      "fuente": "capturas_comparativa_monza_2024_08_30"
+    },
+    "previa_pronostico": {
+      "estado": "ESTIMADO",
+      "temporada": 2024,
+      "fecha_partida": "2024-08-30",
+      "fecha_registro": "2026-11-22",
+      "fuente": "capturas_comparativa_monza_2024_08_30"
     }
   }
 }
