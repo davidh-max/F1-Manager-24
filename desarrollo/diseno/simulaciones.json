@@ -1323,6 +1323,59 @@
       "plazo_diseno_dias": null,
       "inicio_confirmado": null,
       "notas": "Fotografías muestran las pantallas del paso 1 y paso 2, configuración equilibrada. Aun sin iniciar nuevo proyecto; 7h túnel y 0.4 MAU CFD indicados en pantalla como seleccionados para simulación, sin gasto confirmado. Recomendación iterativa: aumentar foco velocidad media y alta 2 posiciones, disminuir preservación neumáticos 2 y observar vista coche2 y coste."
+    },
+    {
+      "id": "simulacion_suspension_personalizada_medias_altas_2024_08_26",
+      "pieza": "suspension",
+      "estado": "simulacion_no_iniciada",
+      "coche": "coche_2",
+      "metadatos": {
+        "estado": "CONFIRMADO",
+        "temporada": 2024,
+        "fecha_partida": "2024-08-26",
+        "fecha_registro": "2026-11-22",
+        "fuente": "capturas_suspension_foco_medias_altas_2024_08_26"
+      },
+      "preajuste": "personalizado",
+      "atr_simulado": {
+        "cfd_mau": 0.4,
+        "tunel_h": 7,
+        "estado": "seleccionados_pantalla_no_consumidos"
+      },
+      "pieza_referencia": {
+        "reduccion_resistencia_pct": 54.63,
+        "carga_baja_kN": 4.08,
+        "carga_media_kN": 6.17,
+        "carga_alta_kN": 7.53,
+        "preservacion_neumaticos_pct": 62.47,
+        "flujo_frontal_pct": 55.37,
+        "duracion_minima_km": 2900
+      },
+      "delta_pieza_mostrado": {
+        "reduccion_resistencia_pct": 0.78,
+        "carga_baja_kN": 0,
+        "carga_media_kN": 0.09,
+        "carga_alta_kN": 0.06,
+        "preservacion_neumaticos_pct": -2.74,
+        "flujo_frontal_pct": 1.45,
+        "duracion_minima_km": 0
+      },
+      "delta_coche_mostrado": {
+        "velocidad_maxima": 0.02,
+        "aceleracion": 0,
+        "eficacia_drs": 0,
+        "curvas_lentas": 0.001,
+        "curvas_medias": 0.003,
+        "curvas_rapidas": 0.004,
+        "aire_sucio": 0,
+        "neumaticos": -2.19,
+        "refrigeracion": 0,
+        "peso_extra": 0
+      },
+      "evaluacion": "Descartada frente a equilibrado por pérdida de 2.19 pp de preservación de neumáticos, pese a mejoras pequeñas de curvas medias y altas.",
+      "proxima_prueba": "Restablecer equilibrado; aumentar velocidad media y alta un clic cada una sin reducir preservación neumáticos. Si no compensa, evaluar alerón delantero.",
+      "coste_usd": null,
+      "inicio_confirmado": null
     }
   ],
   "priorizacion_2024_08_26": {
@@ -1346,7 +1399,7 @@
       "20_hermanos_rodriguez",
       "21_interlagos"
     ],
-    "ultima_simulacion": "simulacion_suspension_equilibrada_post_p6_coche2_2024_08_26_con_atr",
-    "evaluacion_actual": "Ganancias de suspensión equilibrada sobre coche2 P6 modestas (+0.05 km/h, +0.002/+0.001/+0.002 G y +1.06 pp neumáticos); antes de iniciar reorientar deslizadores a medias y rápidas y comparar. CFD 0.4 MAU y túnel 7 h aparecen seleccionados en la vista previa, no consumidos."
+    "ultima_simulacion": "simulacion_suspension_personalizada_medias_altas_2024_08_26",
+    "evaluacion_actual": "Suspensión personalizada a medias y rápidas: +0.003 G media, +0.004 G alta, pero -2.19 pp conservación. Descartada. Probar equilibrado +1 clic en cada velocidad media/alta sin tocar preservación, comparar antes de gastar."
   }
 }
