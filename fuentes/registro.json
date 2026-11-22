@@ -509,5 +509,25 @@
         "panel": "Objetivo de los atributos"
       }
     ]
+  },
+  {
+    "id": "pontones_flujo_central_2024_07_29",
+    "titulo": "Foco de flujo central en pontones y ajuste posterior de peso",
+    "tipo": "fotos_y_mensaje_usuario",
+    "fecha_partida": "2024-07-29",
+    "fecha_consulta": "2026-11-22",
+    "adjuntos": [
+      {
+        "nombre": "IMG_1743 2.HEIC",
+        "referencia": "sediment://file_000000004f5c82109dbdbabbf2ed0284",
+        "panel": "Objetivo de los atributos"
+      },
+      {
+        "nombre": "IMG_1744.HEIC",
+        "referencia": "sediment://file_0000000054c08246a9673c9a75236766",
+        "panel": "Rendimiento del coche 1"
+      }
+    ],
+    "observaciones": "Las fotos conservan la durabilidad inicial. La versión aligerada y el plazo se registran según el mensaje."
   }
 ]

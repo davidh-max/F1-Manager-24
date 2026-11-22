@@ -41,3 +41,14 @@ Priorizaría **rápidas** como objetivo común. Si la pieza debuta en Monza, usa
 Las fotos de pontones muestran un diseño nuevo en Equilibrado, con 1,4 MAU de CFD y 14 h de túnel. Frente a la simulación anterior con cero ATR, el margen visible del coche 1 es de +0,001 G en lentas. Se conservan +0,005 G en medias, +0,009 G en rápidas y +2,82 puntos de refrigeración. La reducción de resistencia, el flujo frontal y el central de la pieza mejoran 0,31 puntos adicionales cada uno frente a la simulación base. Los valores del coche están redondeados en pantalla.
 
 Para encontrar un mejor uso del ATR, simular por separado un pequeño desplazamiento hacia flujo frontal y hacia flujo central, mirando los deltas del coche. Conservar refrigeración y duración como criterios de desempate. Comparar la mejor configuración con 0 ATR y con las mismas horas. Si las horas extras siguen sin mover los atributos objetivo, reservarlas para comparar chasis, alerón o fondo plano con foco en curvas. La asignación de las fotos es una previsualización.
+
+## Pontones con foco central y reducción de peso
+
+Las fotos del diseño personalizado muestran +0,025 G en rápidas y +0,011 G en medias con 4.125 km de duración mínima. En el ajuste posterior comunicado por el usuario, se alcanzan +0,030 G en rápidas, +0,015 G en medias, +0,004 G en lentas y −1 kg de peso extra total por coche si se instala una unidad en cada uno. El peso extra de la pieza queda en 4 kg. La duración baja a 3.850 km, 275 km menos que la simulación anterior, con una previsión de 4 a 8 carreras. La refrigeración final de la variante aligerada queda por confirmar en su propia pantalla.
+
+| Coche | Lentas previstas | Medias previstas | Rápidas previstas | Peso extra total previsto |
+| --- | ---: | ---: | ---: | ---: |
+| Stroll | 2,590 G | 3,627 G | 4,899 G | 17 kg |
+| Alonso | 2,593 G | 3,629 G | 4,901 G | 17 kg |
+
+Los valores se calculan desde los atributos actuales de cada coche y presuponen el montaje de la pieza. Elegiría el diseño aligerado como siguiente proyecto si la refrigeración queda aceptable y se cubren los repuestos. Con 5 ingenieros, contribución del piloto de −7 % y 1.000.000 USD, el diseño tarda 23 días y quedarían 5 ingenieros libres. Si empieza el 29 de julio, termina el 21 de agosto, dos días antes del comienzo previsto de Zandvoort. Consultar fecha de fabricación y montaje para decidir si se estrena allí o más adelante. Quedarían 1.625.344 USD después de pagar el diseño, antes de fabricación u otros gastos. El inicio del proyecto y la asignación final de ATR siguen por confirmar.
