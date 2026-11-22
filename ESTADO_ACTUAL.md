@@ -5,11 +5,11 @@ Generado con `python herramientas/gestion.py resumen`.
 La trayectoria comenzó en 2024. Las observaciones iniciales se conservan en `historial/eventos.jsonl`.
 
 - **Temporada** · 2024
-- **Fecha de partida** · 2024-07-29
+- **Fecha de partida** · 2024-08-01
 - **Gran Premio actual o próximo** · Países Bajos
-- **Días hasta el inicio** · 25
+- **Días hasta el inicio** · 22
 - **Próximos Grandes Premios comunicados** · Países Bajos, Italia, Azerbaiyán, Singapur, Estados Unidos
-- **Presupuesto disponible (USD)** · 2625344
+- **Presupuesto disponible (USD)** · 6857015
 - **Límite restante (USD)** · Pendiente
 - **Constructores** · 4.º · 236 puntos
 - **Fernando Alonso** · 4.º · 187 puntos
@@ -25,7 +25,7 @@ La trayectoria comenzó en 2024. Las observaciones iniciales se conservan en `hi
 - **coche_2 · ingeniero** · peter_bonnington
 - **coche_2 · mentalidad** · positiva
 - **coche_2 · confianza por sesión** · Pendiente
-- **Proyectos activos · diseno** · Ninguno registrado
+- **Proyectos activos · diseno** · Ninguno registrado (simulación de alerón trasero en evaluación)
 - **Proyectos activos · investigacion** · Pendiente
 - **Proyectos activos · fabricacion** · Ninguno registrado
 - **Instalaciones en obra** · Pendiente
