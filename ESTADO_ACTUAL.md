@@ -7,7 +7,7 @@ La trayectoria comenzó en 2024. Las observaciones iniciales se conservan en `hi
 - **Temporada** · 2024
 - **Fecha de partida** · 2024-07-29
 - **Gran Premio actual o próximo** · Países Bajos
-- **Días hasta el inicio** · 25
+- **Días hasta el inicio** · 18
 - **Próximos Grandes Premios comunicados** · Países Bajos, Italia, Azerbaiyán, Singapur, Estados Unidos
 - **Presupuesto disponible (USD)** · 2625344
 - **Límite restante (USD)** · Pendiente
