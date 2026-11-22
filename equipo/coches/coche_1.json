@@ -2,25 +2,25 @@
   "id": "coche_1",
   "metadatos": {
     "estado": "CONFIRMADO",
-    "fecha_partida": "2024-07-29",
     "temporada": 2024,
+    "fecha_partida": "2024-07-29",
     "fecha_registro": "2026-11-22",
-    "fuente": "transcripcion_video_2024_07_29#zandvoort/atributos_del_coche/0:17"
+    "fuente": "capturas_diseno_2024_07_29#chasis"
   },
   "datos": {
     "piloto": null,
     "rendimiento_general": null,
     "atributos": {
-      "velocidad_maxima": null,
-      "aceleracion": null,
-      "eficacia_drs": null,
-      "curvas_lentas": null,
-      "curvas_medias": null,
-      "curvas_rapidas": null,
-      "aire_sucio": null,
-      "neumaticos": null,
-      "refrigeracion": null,
-      "peso_extra": null
+      "velocidad_maxima": 321.71,
+      "aceleracion": 1.854,
+      "eficacia_drs": 60.56,
+      "curvas_lentas": 2.586,
+      "curvas_medias": 3.612,
+      "curvas_rapidas": 4.869,
+      "aire_sucio": 60.82,
+      "neumaticos": 61.5,
+      "refrigeracion": 56.35,
+      "peso_extra": 18.0
     },
     "posiciones_20_coches": {
       "velocidad_maxima": 11,
@@ -32,10 +32,28 @@
       "aire_sucio": 7,
       "neumaticos": 4,
       "refrigeracion": 13,
-      "peso_extra": null
+      "peso_extra": 18
     },
     "posicion_10_equipos": null,
-    "piezas_instaladas": [],
+    "piezas_instaladas": [
+      "ast24_p_4"
+    ],
     "unidad_potencia": {}
+  },
+  "metadatos_por_bloque": {
+    "rendimiento_diseno": {
+      "estado": "CONFIRMADO",
+      "temporada": 2024,
+      "fecha_partida": "2024-07-29",
+      "fecha_registro": "2026-11-22",
+      "fuente": "capturas_diseno_2024_07_29#chasis"
+    },
+    "pontones_instalados": {
+      "estado": "CONFIRMADO",
+      "temporada": 2024,
+      "fecha_partida": "2024-07-29",
+      "fecha_registro": "2026-11-22",
+      "fuente": "capturas_diseno_2024_07_29#ast24_p_5"
+    }
   }
 }

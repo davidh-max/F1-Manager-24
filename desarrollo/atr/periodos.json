@@ -1,10 +1,37 @@
 {
   "metadatos": {
-    "estado": "DESCONOCIDO",
-    "fecha_partida": null,
-    "temporada": null,
-    "fecha_registro": null,
-    "fuente": null
+    "estado": "CONFIRMADO",
+    "temporada": 2024,
+    "fecha_partida": "2024-07-29",
+    "fecha_registro": "2026-11-22",
+    "fuente": "mensaje_diseno_atr_2024_07_29"
   },
-  "datos": []
+  "datos": [
+    {
+      "id": "atr_observado_2024_07_29",
+      "inicio": null,
+      "fin": null,
+      "dias_hasta_renovacion_observados": 35,
+      "renovacion_calculada": "2024-09-02",
+      "metadatos": {
+        "estado": "CONFIRMADO",
+        "temporada": 2024,
+        "fecha_partida": "2024-07-29",
+        "fecha_registro": "2026-11-22",
+        "fuente": "mensaje_diseno_atr_2024_07_29"
+      },
+      "cfd_mau": {
+        "inicial": 5.4,
+        "restante": 2.5,
+        "consumido": null,
+        "reservado": null
+      },
+      "tunel_h": {
+        "inicial": 72,
+        "restante": 33,
+        "consumido": null,
+        "reservado": null
+      }
+    }
+  ]
 }

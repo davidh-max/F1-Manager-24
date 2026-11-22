@@ -1,10 +1,58 @@
 {
   "metadatos": {
-    "estado": "DESCONOCIDO",
-    "fecha_partida": null,
-    "temporada": null,
-    "fecha_registro": null,
-    "fuente": null
+    "estado": "CONFIRMADO",
+    "temporada": 2024,
+    "fecha_partida": "2024-07-29",
+    "fecha_registro": "2026-11-22",
+    "fuente": "capturas_diseno_2024_07_29#ast24_p_5"
   },
-  "datos": []
+  "datos": [
+    {
+      "id": "ast24_p_5",
+      "categoria": "pontones",
+      "version": "AST24 P.-5",
+      "conocimiento_pct": 0,
+      "total_mostrado": 0,
+      "disponibles": 0,
+      "instaladas_por_coche": {
+        "coche_1": 0,
+        "coche_2": 0
+      },
+      "en_fabricacion": 0,
+      "proyecto": "diseno_ast24_p_5"
+    },
+    {
+      "id": "ast24_p_4",
+      "categoria": "pontones",
+      "version": "AST24 P.-4",
+      "conocimiento_pct": 100,
+      "total_mostrado": 2,
+      "instaladas_por_coche": {
+        "coche_1": 1,
+        "coche_2": 1
+      }
+    },
+    {
+      "id": "ast24_p_3",
+      "categoria": "pontones",
+      "version": "AST24 P.-3",
+      "conocimiento_pct": 100,
+      "total_mostrado": 2
+    },
+    {
+      "id": "ast24_p_2",
+      "categoria": "pontones",
+      "version": "AST24 P.-2",
+      "conocimiento_pct": 100,
+      "total_mostrado": 1
+    },
+    {
+      "id": "ast24_p_1",
+      "categoria": "pontones",
+      "version": "AST24 P.-1",
+      "conocimiento_pct": 100,
+      "total_mostrado": 4
+    }
+  ],
+  "alcance": "Pontones mostrados en la pantalla de fabricación"
 }

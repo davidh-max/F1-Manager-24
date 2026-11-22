@@ -1,0 +1,399 @@
+{
+  "metadatos": {
+    "estado": "CONFIRMADO",
+    "temporada": 2024,
+    "fecha_partida": "2024-07-29",
+    "fecha_registro": "2026-11-22",
+    "fuente": "capturas_diseno_2024_07_29"
+  },
+  "referencia_coche_1": {
+    "atributos": {
+      "velocidad_maxima": 321.71,
+      "aceleracion": 1.854,
+      "eficacia_drs": 60.56,
+      "curvas_lentas": 2.586,
+      "curvas_medias": 3.612,
+      "curvas_rapidas": 4.869,
+      "aire_sucio": 60.82,
+      "neumaticos": 61.5,
+      "refrigeracion": 56.35,
+      "peso_extra": 18.0
+    },
+    "posiciones_20_coches": {
+      "velocidad_maxima": 11,
+      "aceleracion": 16,
+      "eficacia_drs": 5,
+      "curvas_lentas": 8,
+      "curvas_medias": 8,
+      "curvas_rapidas": 9,
+      "aire_sucio": 7,
+      "neumaticos": 4,
+      "refrigeracion": 13,
+      "peso_extra": 18
+    }
+  },
+  "datos": [
+    {
+      "id": "simulacion_fondo_plano_2024_07_29",
+      "pieza": "fondo_plano",
+      "estado": "en_evaluacion",
+      "metadatos": {
+        "estado": "CONFIRMADO",
+        "temporada": 2024,
+        "fecha_partida": "2024-07-29",
+        "fecha_registro": "2026-11-22",
+        "fuente": "capturas_diseno_2024_07_29#fondo_plano"
+      },
+      "coche": "coche_1",
+      "atr_simulado": {
+        "cfd_mau": 0,
+        "tunel_h": 0
+      },
+      "pieza_referencia": {
+        "reduccion_resistencia_pct": 60.67,
+        "carga_baja_kN": 4.19,
+        "carga_media_kN": 6.43,
+        "carga_alta_kN": 7.64,
+        "sensibilidad_flujo_aire_pct": 61.89,
+        "duracion_minima_km": 3550
+      },
+      "delta_pieza_mostrado": {
+        "reduccion_resistencia_pct": 4.29,
+        "carga_baja_kN": 0.09,
+        "carga_media_kN": -0.07,
+        "carga_alta_kN": 0.01,
+        "sensibilidad_flujo_aire_pct": 4.18,
+        "duracion_minima_km": 0
+      },
+      "delta_coche_mostrado": {
+        "velocidad_maxima": 0.06,
+        "aceleracion": 0.001,
+        "eficacia_drs": 0,
+        "curvas_lentas": 0.007,
+        "curvas_medias": -0.006,
+        "curvas_rapidas": 0.003,
+        "aire_sucio": 1.25,
+        "neumaticos": 0,
+        "refrigeracion": 0,
+        "peso_extra": 0
+      },
+      "puestos_ganados_mostrados": {
+        "velocidad_maxima": 0,
+        "aceleracion": 0,
+        "eficacia_drs": 0,
+        "curvas_lentas": 1,
+        "curvas_medias": 0,
+        "curvas_rapidas": 1,
+        "aire_sucio": 0,
+        "neumaticos": 0,
+        "refrigeracion": 0,
+        "peso_extra": -1
+      },
+      "coste_usd": null,
+      "duracion_diseno_dias": null,
+      "duracion_fabricacion_dias": null
+    },
+    {
+      "id": "simulacion_suspension_2024_07_29",
+      "pieza": "suspension",
+      "estado": "en_evaluacion",
+      "metadatos": {
+        "estado": "CONFIRMADO",
+        "temporada": 2024,
+        "fecha_partida": "2024-07-29",
+        "fecha_registro": "2026-11-22",
+        "fuente": "capturas_diseno_2024_07_29#suspension"
+      },
+      "coche": "coche_1",
+      "atr_simulado": {
+        "cfd_mau": 0,
+        "tunel_h": 0
+      },
+      "pieza_referencia": {
+        "reduccion_resistencia_pct": 52.24,
+        "carga_baja_kN": 4.04,
+        "carga_media_kN": 6.13,
+        "carga_alta_kN": 7.49,
+        "preservacion_neumaticos_pct": 60.31,
+        "flujo_frontal_pct": 52.95,
+        "duracion_minima_km": 2900
+      },
+      "delta_pieza_mostrado": {
+        "reduccion_resistencia_pct": 3.87,
+        "carga_baja_kN": 0.07,
+        "carga_media_kN": 0.07,
+        "carga_alta_kN": 0.06,
+        "preservacion_neumaticos_pct": 3.44,
+        "flujo_frontal_pct": 3.98,
+        "duracion_minima_km": 0
+      },
+      "delta_coche_mostrado": {
+        "velocidad_maxima": 0.11,
+        "aceleracion": 0.001,
+        "eficacia_drs": 0,
+        "curvas_lentas": 0.005,
+        "curvas_medias": 0.003,
+        "curvas_rapidas": 0.004,
+        "aire_sucio": 0,
+        "neumaticos": 2.75,
+        "refrigeracion": 0,
+        "peso_extra": 0
+      },
+      "puestos_ganados_mostrados": {
+        "velocidad_maxima": 3,
+        "aceleracion": 1,
+        "eficacia_drs": 0,
+        "curvas_lentas": 1,
+        "curvas_medias": 1,
+        "curvas_rapidas": 1,
+        "aire_sucio": 0,
+        "neumaticos": 1,
+        "refrigeracion": 0,
+        "peso_extra": -1
+      },
+      "coste_usd": null,
+      "duracion_diseno_dias": null,
+      "duracion_fabricacion_dias": null
+    },
+    {
+      "id": "simulacion_pontones_2024_07_29",
+      "pieza": "pontones",
+      "estado": "en_evaluacion",
+      "metadatos": {
+        "estado": "CONFIRMADO",
+        "temporada": 2024,
+        "fecha_partida": "2024-07-29",
+        "fecha_registro": "2026-11-22",
+        "fuente": "capturas_diseno_2024_07_29#pontones"
+      },
+      "coche": "coche_1",
+      "atr_simulado": {
+        "cfd_mau": 0,
+        "tunel_h": 0
+      },
+      "pieza_referencia": {
+        "reduccion_resistencia_pct": 61.93,
+        "refrigeracion_motor_pct": 58.22,
+        "flujo_frontal_pct": 60.75,
+        "flujo_central_pct": 39.95,
+        "duracion_minima_km": 4125
+      },
+      "delta_pieza_mostrado": {
+        "reduccion_resistencia_pct": 3.08,
+        "refrigeracion_motor_pct": 3.53,
+        "flujo_frontal_pct": 3.74,
+        "flujo_central_pct": 5.72,
+        "duracion_minima_km": 0
+      },
+      "delta_coche_mostrado": {
+        "velocidad_maxima": 0.09,
+        "aceleracion": 0.001,
+        "eficacia_drs": 0,
+        "curvas_lentas": 0.002,
+        "curvas_medias": 0.005,
+        "curvas_rapidas": 0.009,
+        "aire_sucio": 0,
+        "neumaticos": 0,
+        "refrigeracion": 2.82,
+        "peso_extra": 0
+      },
+      "puestos_ganados_mostrados": {
+        "velocidad_maxima": 3,
+        "aceleracion": 1,
+        "eficacia_drs": 0,
+        "curvas_lentas": 0,
+        "curvas_medias": 1,
+        "curvas_rapidas": 2,
+        "aire_sucio": 0,
+        "neumaticos": 0,
+        "refrigeracion": 6,
+        "peso_extra": -1
+      },
+      "coste_usd": null,
+      "duracion_diseno_dias": null,
+      "duracion_fabricacion_dias": null
+    },
+    {
+      "id": "simulacion_aleron_trasero_2024_07_29",
+      "pieza": "aleron_trasero",
+      "estado": "en_evaluacion",
+      "metadatos": {
+        "estado": "CONFIRMADO",
+        "temporada": 2024,
+        "fecha_partida": "2024-07-29",
+        "fecha_registro": "2026-11-22",
+        "fuente": "capturas_diseno_2024_07_29#aleron_trasero"
+      },
+      "coche": "coche_1",
+      "atr_simulado": {
+        "cfd_mau": 0,
+        "tunel_h": 0
+      },
+      "pieza_referencia": {
+        "reduccion_resistencia_pct": 57.77,
+        "delta_drs_pct": 61.58,
+        "carga_baja_kN": 4.13,
+        "carga_media_kN": 6.31,
+        "carga_alta_kN": 7.57,
+        "sensibilidad_flujo_aire_pct": 59.5,
+        "duracion_minima_km": 2535
+      },
+      "delta_pieza_mostrado": {
+        "reduccion_resistencia_pct": 5.36,
+        "delta_drs_pct": 4.65,
+        "carga_baja_kN": 0.12,
+        "carga_media_kN": 0.03,
+        "carga_alta_kN": 0.06,
+        "sensibilidad_flujo_aire_pct": 5.17,
+        "duracion_minima_km": 590
+      },
+      "delta_coche_mostrado": {
+        "velocidad_maxima": 0.15,
+        "aceleracion": 0,
+        "eficacia_drs": 3.26,
+        "curvas_lentas": -0.001,
+        "curvas_medias": -0.001,
+        "curvas_rapidas": 0.004,
+        "aire_sucio": 1.55,
+        "neumaticos": 0,
+        "refrigeracion": 0,
+        "peso_extra": 1.2
+      },
+      "puestos_ganados_mostrados": {
+        "velocidad_maxima": 4,
+        "aceleracion": 0,
+        "eficacia_drs": 2,
+        "curvas_lentas": 0,
+        "curvas_medias": 0,
+        "curvas_rapidas": 1,
+        "aire_sucio": 0,
+        "neumaticos": 0,
+        "refrigeracion": 0,
+        "peso_extra": -2
+      },
+      "coste_usd": null,
+      "duracion_diseno_dias": null,
+      "duracion_fabricacion_dias": null
+    },
+    {
+      "id": "simulacion_aleron_delantero_2024_07_29",
+      "pieza": "aleron_delantero",
+      "estado": "en_evaluacion",
+      "metadatos": {
+        "estado": "CONFIRMADO",
+        "temporada": 2024,
+        "fecha_partida": "2024-07-29",
+        "fecha_registro": "2026-11-22",
+        "fuente": "capturas_diseno_2024_07_29#aleron_delantero"
+      },
+      "coche": "coche_1",
+      "atr_simulado": {
+        "cfd_mau": 0,
+        "tunel_h": 0
+      },
+      "pieza_referencia": {
+        "carga_baja_kN": 4.19,
+        "carga_media_kN": 6.27,
+        "carga_alta_kN": 7.62,
+        "preservacion_neumaticos_pct": 66.26,
+        "sensibilidad_flujo_aire_pct": 61.01,
+        "flujo_frontal_pct": 60.78,
+        "duracion_minima_km": 2075
+      },
+      "delta_pieza_mostrado": {
+        "carga_baja_kN": 0.08,
+        "carga_media_kN": 0.06,
+        "carga_alta_kN": 0,
+        "preservacion_neumaticos_pct": 2.9,
+        "sensibilidad_flujo_aire_pct": 3.77,
+        "flujo_frontal_pct": 3.65,
+        "duracion_minima_km": 550
+      },
+      "delta_coche_mostrado": {
+        "velocidad_maxima": 0,
+        "aceleracion": 0,
+        "eficacia_drs": 0,
+        "curvas_lentas": 0.014,
+        "curvas_medias": 0.003,
+        "curvas_rapidas": -0.004,
+        "aire_sucio": 1.51,
+        "neumaticos": 0.58,
+        "refrigeracion": 0,
+        "peso_extra": 0.8
+      },
+      "puestos_ganados_mostrados": {
+        "velocidad_maxima": 0,
+        "aceleracion": 0,
+        "eficacia_drs": 0,
+        "curvas_lentas": 1,
+        "curvas_medias": 1,
+        "curvas_rapidas": -1,
+        "aire_sucio": 0,
+        "neumaticos": 0,
+        "refrigeracion": 0,
+        "peso_extra": -2
+      },
+      "coste_usd": null,
+      "duracion_diseno_dias": null,
+      "duracion_fabricacion_dias": null
+    },
+    {
+      "id": "simulacion_chasis_2024_07_29",
+      "pieza": "chasis",
+      "estado": "en_evaluacion",
+      "metadatos": {
+        "estado": "CONFIRMADO",
+        "temporada": 2024,
+        "fecha_partida": "2024-07-29",
+        "fecha_registro": "2026-11-22",
+        "fuente": "capturas_diseno_2024_07_29#chasis"
+      },
+      "coche": "coche_1",
+      "atr_simulado": {
+        "cfd_mau": 0,
+        "tunel_h": 0
+      },
+      "pieza_referencia": {
+        "reduccion_resistencia_pct": 60.07,
+        "delta_drs_pct": 58.19,
+        "refrigeracion_motor_pct": 48.86,
+        "flujo_central_pct": 61.21,
+        "duracion_minima_km": 5150
+      },
+      "delta_pieza_mostrado": {
+        "reduccion_resistencia_pct": 2.22,
+        "delta_drs_pct": 1.12,
+        "refrigeracion_motor_pct": 8.68,
+        "flujo_central_pct": 2.05,
+        "duracion_minima_km": 0
+      },
+      "delta_coche_mostrado": {
+        "velocidad_maxima": 0.09,
+        "aceleracion": 0.001,
+        "eficacia_drs": 0.34,
+        "curvas_lentas": 0,
+        "curvas_medias": 0.003,
+        "curvas_rapidas": 0.007,
+        "aire_sucio": 0,
+        "neumaticos": 0,
+        "refrigeracion": 1.73,
+        "peso_extra": 0
+      },
+      "puestos_ganados_mostrados": {
+        "velocidad_maxima": 3,
+        "aceleracion": 1,
+        "eficacia_drs": 0,
+        "curvas_lentas": 0,
+        "curvas_medias": 1,
+        "curvas_rapidas": 2,
+        "aire_sucio": 0,
+        "neumaticos": 0,
+        "refrigeracion": 6,
+        "peso_extra": -1
+      },
+      "coste_usd": null,
+      "duracion_diseno_dias": null,
+      "duracion_fabricacion_dias": null
+    }
+  ]
+}

@@ -29,7 +29,11 @@ La trayectoria comenzó en 2024. Las observaciones iniciales se conservan en `hi
 - **Proyectos activos · fabricacion** · Pendiente
 - **Instalaciones en obra** · Pendiente
 - **Próximos vencimientos contractuales** · Pendiente
+- **Diseños pendientes de fabricar** · AST24 P.-5, Diseño por identificar
 - **Próximo vencimiento ATR** · Pendiente
+- **Renovación ATR calculada** · 2024-09-02
+- **CFD disponible (MAU)** · 2.5
+- **Túnel de viento disponible (h)** · 33
 - **Principales problemas** · Pendiente
 - **Decisiones pendientes** · Pendiente
 - **Última actualización confirmada del estado** · 2026-11-22

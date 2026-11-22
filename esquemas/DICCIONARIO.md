@@ -52,3 +52,9 @@ Los JSON de dominio tienen una raíz con `metadatos` y `datos`. Cada ficha ident
 | Normativa | `id`, temporada objetivo, atributos o piezas, impacto, valores y evidencia |
 
 Usa los estados de proyecto definidos en `datos.json`. En el historial separa una simulación de diseño, el diseño ejecutado, la fabricación y el montaje. El inventario referencia versiones, y cada coche lista los IDs de sus piezas instaladas.
+
+### Comparativas de diseño y fabricación
+
+- `desarrollo/diseno/simulaciones.json` registra las previsualizaciones junto con el coche, la base mostrada y el ATR asignado en la pantalla. Los deltas en atributos porcentuales se expresan en puntos porcentuales. `puestos_ganados_mostrados` conserva el signo del juego: positivo es una mejora de ranking. Un cambio de ranking puede aparecer con un delta absoluto que se redondea a cero en pantalla.
+- El diseño terminado pendiente de fabricar se registra en `desarrollo/diseno/proyectos.json`. Su `comparacion_fabricacion` conserva la base y los deltas de esa pantalla, que pueden diferir de la base de diseño. Los proyectos confirmados individualmente pueden coexistir con una lista de proyectos activos aún desconocida.
+- En ATR, `renovacion_calculada` suma los días observados a la fecha de partida. `inicio` y `fin` quedan pendientes hasta confirmarlos. Saldo disponible, consumo y reserva se registran por separado.

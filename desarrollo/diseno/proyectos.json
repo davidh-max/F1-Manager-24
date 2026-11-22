@@ -6,5 +6,91 @@
     "fecha_registro": null,
     "fuente": null
   },
-  "datos": []
+  "datos": [
+    {
+      "id": "diseno_ast24_p_5",
+      "pieza": "pontones",
+      "version": "AST24 P.-5",
+      "comparado_con": "AST24 P.-4",
+      "temporada": 2024,
+      "estado": "pendiente_fabricacion",
+      "inicio_real": null,
+      "fin_real": null,
+      "metadatos": {
+        "estado": "CONFIRMADO",
+        "temporada": 2024,
+        "fecha_partida": "2024-07-29",
+        "fecha_registro": "2026-11-22",
+        "fuente": "capturas_diseno_2024_07_29#ast24_p_5"
+      },
+      "coste_fabricacion_usd": null,
+      "duracion_fabricacion_dias": null,
+      "conocimiento_pct": 0,
+      "comparacion_fabricacion": {
+        "coche": "coche_1",
+        "referencia": {
+          "velocidad_maxima": 321.8,
+          "aceleracion": 1.855,
+          "eficacia_drs": 60.9,
+          "curvas_lentas": 2.586,
+          "curvas_medias": 3.592,
+          "curvas_rapidas": 4.824,
+          "aire_sucio": 60.82,
+          "neumaticos": 61.5,
+          "refrigeracion": 57.2,
+          "peso_extra": 18.0
+        },
+        "posiciones_referencia": {
+          "velocidad_maxima": 11,
+          "aceleracion": 16,
+          "eficacia_drs": 5,
+          "curvas_lentas": 8,
+          "curvas_medias": 8,
+          "curvas_rapidas": 9,
+          "aire_sucio": 7,
+          "neumaticos": 4,
+          "refrigeracion": 13,
+          "peso_extra": 19
+        },
+        "delta_coche_mostrado": {
+          "velocidad_maxima": -0.07,
+          "aceleracion": 0,
+          "eficacia_drs": 0,
+          "curvas_lentas": 0.004,
+          "curvas_medias": 0.008,
+          "curvas_rapidas": 0.013,
+          "aire_sucio": 0,
+          "neumaticos": 0,
+          "refrigeracion": -3.55,
+          "peso_extra": 0
+        },
+        "puestos_ganados_mostrados": {
+          "velocidad_maxima": -1,
+          "aceleracion": 0,
+          "eficacia_drs": 0,
+          "curvas_lentas": 1,
+          "curvas_medias": 1,
+          "curvas_rapidas": 2,
+          "aire_sucio": 0,
+          "neumaticos": 0,
+          "refrigeracion": -2,
+          "peso_extra": 0
+        }
+      }
+    },
+    {
+      "id": "diseno_pendiente_identificar_2024_07_29",
+      "pieza": null,
+      "version": null,
+      "temporada": 2024,
+      "estado": "pendiente_fabricacion",
+      "metadatos": {
+        "estado": "CONFIRMADO",
+        "temporada": 2024,
+        "fecha_partida": "2024-07-29",
+        "fecha_registro": "2026-11-22",
+        "fuente": "mensaje_diseno_atr_2024_07_29"
+      }
+    }
+  ]
 }

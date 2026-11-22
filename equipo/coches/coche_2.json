@@ -35,7 +35,18 @@
       "peso_extra": null
     },
     "posicion_10_equipos": null,
-    "piezas_instaladas": [],
+    "piezas_instaladas": [
+      "ast24_p_4"
+    ],
     "unidad_potencia": {}
+  },
+  "metadatos_por_bloque": {
+    "pontones_instalados": {
+      "estado": "CONFIRMADO",
+      "temporada": 2024,
+      "fecha_partida": "2024-07-29",
+      "fecha_registro": "2026-11-22",
+      "fuente": "capturas_diseno_2024_07_29#ast24_p_5"
+    }
   }
 }

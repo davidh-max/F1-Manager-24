@@ -168,13 +168,23 @@ def validate():
                               f"{project['id']}: {key} anterior al inicio")
 
     for period in load('desarrollo/atr/periodos.json')['datos']:
-        check(date.fromisoformat(period['inicio']) <= date.fromisoformat(period['fin']), f"{period['id']}: fechas ATR incoherentes")
+        start, end = period.get('inicio'), period.get('fin')
+        if start and end:
+            check(date.fromisoformat(start) <= date.fromisoformat(end), f"{period['id']}: fechas ATR incoherentes")
+        renewal = period.get('renovacion_calculada')
+        if renewal:
+            observed = date.fromisoformat(period['metadatos']['fecha_partida'])
+            days = period['dias_hasta_renovacion_observados']
+            check(days >= 0 and date.fromisoformat(renewal) == observed + timedelta(days=days),
+                  f"{period['id']}: renovación ATR incoherente")
         for resource in ('cfd_mau', 'tunel_h'):
             amounts = period[resource]
             initial, used, left, reserved = (amounts.get(k) for k in ('inicial', 'consumido', 'restante', 'reservado'))
             check(all(x is None or x >= 0 for x in (initial, used, left, reserved)), f"{period['id']}: ATR negativo")
             if None not in (initial, used, left):
                 check(abs(initial - used - left) < 1e-6, f"{period['id']}: ATR no cuadra")
+            if None not in (initial, left):
+                check(left <= initial, f"{period['id']}: saldo ATR superior a la asignación")
             if None not in (left, reserved):
                 check(reserved <= left, f"{period['id']}: reserva ATR superior al saldo")
 
@@ -258,8 +268,23 @@ def summary():
                     if load(p)['datos']['estado_proyecto'] in ('en_construccion', 'en_mejora')]
     fields.append(('Instalaciones en obra', construction or None))
     fields.append(('Próximos vencimientos contractuales', [f'{person} ({end})' for end, person in sorted(contracts)] or None))
+    pending = [p.get('version') or 'Diseño por identificar'
+               for p in load('desarrollo/diseno/proyectos.json')['datos'] if p['estado'] == 'pendiente_fabricacion']
+    if pending:
+        fields.append(('Diseños pendientes de fabricar', pending))
+
     periods = load('desarrollo/atr/periodos.json')['datos']
-    fields.append(('Próximo vencimiento ATR', min((p['fin'] for p in periods if day and p['inicio'] <= day <= p['fin']), default=None)))
+    end = min((p['fin'] for p in periods if day and p.get('inicio') and p.get('fin')
+               and p['inicio'] <= day <= p['fin']), default=None)
+    observation = next((p for p in reversed(periods)
+                        if day and p.get('metadatos', {}).get('fecha_partida') == day), None)
+    fields.append(('Próximo vencimiento ATR', end))
+    if observation:
+        renewal = observation.get('renovacion_calculada')
+        if renewal:
+            fields.append(('Renovación ATR calculada', renewal))
+        fields.extend([('CFD disponible (MAU)', observation['cfd_mau']['restante']),
+                       ('Túnel de viento disponible (h)', observation['tunel_h']['restante'])])
     fields.extend([('Principales problemas', partida['problemas'] or None), ('Decisiones pendientes', partida['decisiones_pendientes'] or None)])
 
     latest = []

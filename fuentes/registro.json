@@ -338,5 +338,52 @@
       }
     },
     "observaciones": "Datos de la transcripción proporcionada por el usuario. Las marcas de tiempo son las indicadas en el texto."
+  },
+  {
+    "id": "capturas_diseno_2024_07_29",
+    "titulo": "Diseño y fabricación de piezas del 29 de julio",
+    "tipo": "lote_capturas_chat",
+    "fecha_consulta": "2026-11-22",
+    "fecha_partida": "2024-07-29",
+    "archivo": null,
+    "localizadores": {
+      "fondo_plano": [
+        1,
+        13
+      ],
+      "suspension": [
+        2,
+        14
+      ],
+      "pontones": [
+        3,
+        12
+      ],
+      "aleron_trasero": [
+        4,
+        9,
+        10,
+        11
+      ],
+      "aleron_delantero": [
+        5,
+        8
+      ],
+      "chasis": [
+        6,
+        7
+      ],
+      "ast24_p_5": [
+        15,
+        16
+      ]
+    }
+  },
+  {
+    "id": "mensaje_diseno_atr_2024_07_29",
+    "titulo": "Saldo ATR y diseños terminados pendientes de fabricar",
+    "tipo": "mensaje_usuario",
+    "fecha_consulta": "2026-11-22",
+    "fecha_partida": "2024-07-29"
   }
 ]
