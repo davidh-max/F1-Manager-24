@@ -1,12 +1,19 @@
 # Plan de piezas para Zandvoort · 29 de julio de 2024
 
-**Recomendación.** Fabricar primero la pieza ya diseñada que resuelva una necesidad de fiabilidad o aporte rendimiento antes de Zandvoort. Usar el modo apresurado para un diseño nuevo solo si cambia la carrera de estreno y queda dinero para fabricar la pieza y cubrir repuestos.
+**Recomendación.** Con 25 días y 2.625.344 USD, elegiría **un primer juego de pontones P.-5 y la mejora del centro turístico**, una vez cubiertos los repuestos. Si falta un alerón trasero apto, la reposición pasa delante de los pontones.
 
 ## Qué pagar primero
 
 1. **Fiabilidad.** Verificar el chasis Ch.-3 de Stroll, marcado como fallido en el informe, y la disponibilidad de un repuesto apto. Revisar también los dos A. t.-3 instalados, que figuran con riesgo alto. Si falta un alerón utilizable, cotizar el A. t.-4 como posible reposición siempre que su durabilidad, coste y plazo encajen. Su efecto específico aún falta.
 2. **Rendimiento para Zandvoort.** Fabricar un primer juego de pontones P.-5 si el coste, el plazo y el margen de refrigeración lo permiten. Su comparación de fabricación muestra +0,008 G en medias y +0,013 G en rápidas, los atributos cruciales, con −3,55 puntos de refrigeración y −0,07 km/h de punta. El coche ya figura 13.º y 14.º en refrigeración. Conservar el P.-4 como alternativa según el margen térmico y probar antes de comprometer ambos coches. Ambos diseños pendientes tienen cero unidades y se pueden cotizar directamente en fabricación.
 3. **Siguiente diseño.** Comparar primero pontones y chasis con la misma asignación de ingenieros y ATR. En las simulaciones base, ambos cuestan 1.000.000 USD y tardan 31 días. Los pontones nuevos son la primera opción en rendimiento puro (+0,005 G en medias, +0,009 G en rápidas, +2,82 puntos de refrigeración). El chasis es la primera opción para desarrollar otra pieza si P.-5 cumple en pista y hay chasis de repuesto aptos. El chasis simulado mejora +0,003/+0,007 G y +1,73 puntos de refrigeración. Si ninguno cambia de carrera con modo apresurado, mantener la opción normal.
+
+## Segunda inversión y orden de compra
+
+- **Centro turístico, 100.000 USD y 14 días.** Los ingresos previstos suben 12.500 USD por semana. Son ocho semanas de funcionamiento para recuperar el coste si se cumplen las cifras. Después de pagarlo quedarían 2.525.344 USD antes de piezas, repuestos y otros gastos. Priorizaría el dinero de fiabilidad si el margen es ajustado.
+- **Si solo cabe un juego de P.-5**, daría prioridad a Alonso para probarlo si el margen térmico es aceptable. Está 4.º con 187 puntos, a 44 de Sainz y 10 por delante de Norris. Mantendría una alternativa P.-4 apta para volver a montarla si la refrigeración preocupa.
+- **Si queremos dos intervenciones en el coche**, elegiría P.-5 más A. t.-4 únicamente si el alerón cubre una carencia de repuesto o su propia comparativa demuestra una mejora útil. Sin cotización, priorizaría una pieza y el centro turístico. La renovación del helipuerto es una opción posterior de 60.000 USD. Las obras caras se aplazan.
+- Para resolverlo en el juego basta con comprobar si hay chasis y alerones aptos y ver las pantallas de fabricación normal de una unidad del P.-5 y del A. t.-4. Hace falta el coste y la fecha de entrega de cada uno, más la comparativa del alerón. Comparar cualquier propuesta con la fecha límite del 23 de agosto y el dinero que se deba reservar para piezas de repuesto.
 
 ## Cuándo pagar por acelerar
 

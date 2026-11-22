@@ -36,7 +36,7 @@ La trayectoria comenzó en 2024. Las observaciones iniciales se conservan en `hi
 - **CFD disponible (MAU)** · 2.5
 - **Túnel de viento disponible (h)** · 33
 - **Principales problemas** · El segundo informe muestra el chasis AST24 Ch.-3 de Stroll como fallido. Verificar su estado y buscar un repuesto apto., Helipuerto deteriorado: 68 % de conservación y 80 % de eficacia.
-- **Decisiones pendientes** · Zandvoort: comprobar repuestos de chasis y alerón trasero, y comparar coste y fecha de fabricar P.-5 y A. t.-4., Siguiente proyecto: simular chasis y pontones en normal y apresurada con el ATR disponible.
+- **Decisiones pendientes** · Zandvoort: cubrir repuestos de chasis y alerón trasero, cotizar P.-5 y A. t.-4 y valorar el centro turístico por 100.000 USD. Propuesta pendiente de decidir., Siguiente proyecto: simular chasis y pontones en normal y apresurada con el ATR disponible.
 - **Última actualización confirmada del estado** · 2026-11-22
 
 ## Datos prioritarios para sincronizar
