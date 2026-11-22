@@ -758,5 +758,21 @@
       "6": "Leclerc pista y meteorología"
     },
     "observaciones": "Leclerc comienza el stint con blandos en la vuelta 11 según usuario; las vueltas 14–16 son las vueltas competitivas visibles. Las comparativas sectoriales no son controladas por carga y modo."
+  },
+  {
+    "id": "capturas_fin_libres3_preparacion_q1_zandvoort_2024",
+    "titulo": "Zandvoort: preparación tras FP3 y condiciones antes de Q1",
+    "tipo": "lote_fotos_chat",
+    "fecha_partida": "2024-08-24",
+    "fecha_consulta": "2026-11-22",
+    "total_capturas": 4,
+    "archivo": null,
+    "localizadores": {
+      "1": "Confianza inicial: Stroll 100%, Alonso 95%",
+      "2": "Adaptación, conocimiento de piezas, configuración y preparación por coche",
+      "3": "Q1 de Alonso: confianza alta, llovizna 1,44 mm",
+      "4": "Q1 de Stroll: configuración 100% y confianza muy alta"
+    },
+    "observaciones": "El usuario anuncia ajustes futuros de Alonso, no confirmados en estas capturas."
   }
 ]
