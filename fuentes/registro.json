@@ -840,5 +840,19 @@
       "7": "Paso 2 deslizadores equilibrados"
     },
     "observaciones": "Ningún diseño iniciado. No son consumos confirmados de ATR. Recomendado experimentar foco de medias/rápidas con mayor peso que neumáticos y reevaluar."
+  },
+  {
+    "id": "capturas_suspension_foco_medias_altas_2024_08_26",
+    "titulo": "Suspensión personalizada: más curvas a costa de desgaste neumáticos",
+    "tipo": "lote_fotos_chat",
+    "fecha_partida": "2024-08-26",
+    "fecha_consulta": "2026-11-22",
+    "total_capturas": 2,
+    "archivo": null,
+    "localizadores": {
+      "1": "Rendimiento coche 2, variación personalizada",
+      "2": "Deslizadores de suspensión, foco en curvas medias y altas, conservación reducida"
+    },
+    "observaciones": "Capturas de simulación; no ejecución confirmada. Velocidad +0.02 km/h, curvas +0.001/+0.003/+0.004 G, neumáticos -2.19 pp. No registrar consumo ATR."
   }
 ]
