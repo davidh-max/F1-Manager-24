@@ -485,5 +485,29 @@
       "carreras": "Secciones 1–14",
       "clasificacion": "Sección 16"
     }
+  },
+  {
+    "id": "fotos_pontones_equilibrado_atr_2024_07_29",
+    "titulo": "Previsualización de pontones con ATR y foco Equilibrado",
+    "tipo": "lote_fotos",
+    "fecha_partida": "2024-07-29",
+    "fecha_consulta": "2026-11-22",
+    "adjuntos": [
+      {
+        "nombre": "IMG_1740.HEIC",
+        "referencia": "sediment://file_00000000ff24824383b2243710d99d8e",
+        "panel": "Pruebas y resumen"
+      },
+      {
+        "nombre": "IMG_1741.HEIC",
+        "referencia": "sediment://file_00000000fbcc81f48939a5cf62ba9d1a",
+        "panel": "Rendimiento del coche 1"
+      },
+      {
+        "nombre": "IMG_1742.HEIC",
+        "referencia": "sediment://file_00000000990481f49f321feda9bb5283",
+        "panel": "Objetivo de los atributos"
+      }
+    ]
   }
 ]

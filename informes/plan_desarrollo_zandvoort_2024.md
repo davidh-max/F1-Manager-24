@@ -25,3 +25,19 @@
 La previsión de mejoras rivales tras el parón queda pendiente de verificar. La referencia de parrilla del 29 de julio servirá para medir los cambios cuando haya nuevas capturas. Este plan registra propuestas. El coste y fecha de fabricación de ambas piezas, la comparación del A. t.-4 y los plazos del modo apresurado siguen pendientes.
 
 [Datos de diseño](../desarrollo/diseno/simulaciones.json) · [Diseños terminados](../desarrollo/diseno/proyectos.json) · [Modos de diseño](../desarrollo/diseno/modos.json)
+
+## Foco de diseño para el siguiente bloque
+
+| GP | Curvas cruciales según la previa | Otros atributos recomendados |
+| --- | --- | --- |
+| Zandvoort | Medias y rápidas | DRS |
+| Monza | Rápidas | Punta y DRS |
+| Bakú | Lentas | Punta y aceleración |
+| Singapur | Medias | Aceleración |
+| Austin | Lentas y rápidas | — |
+
+Priorizaría **rápidas** como objetivo común. Si la pieza debuta en Monza, usaría **medias** como segundo objetivo y vigilaría punta. Si el estreno es en Bakú o más tarde, buscaría **lentas y rápidas** sin perder medias de cara a Singapur. En las referencias de Alonso frente a Leclerc, el déficit es de 0,081 G en lentas, 0,058 G en medias y 0,084 G en rápidas. Son diferencias de atributo frente a un rival de referencia.
+
+Las fotos de pontones muestran un diseño nuevo en Equilibrado, con 1,4 MAU de CFD y 14 h de túnel. Frente a la simulación anterior con cero ATR, el margen visible del coche 1 es de +0,001 G en lentas. Se conservan +0,005 G en medias, +0,009 G en rápidas y +2,82 puntos de refrigeración. La reducción de resistencia, el flujo frontal y el central de la pieza mejoran 0,31 puntos adicionales cada uno frente a la simulación base. Los valores del coche están redondeados en pantalla.
+
+Para encontrar un mejor uso del ATR, simular por separado un pequeño desplazamiento hacia flujo frontal y hacia flujo central, mirando los deltas del coche. Conservar refrigeración y duración como criterios de desempate. Comparar la mejor configuración con 0 ATR y con las mismas horas. Si las horas extras siguen sin mover los atributos objetivo, reservarlas para comparar chasis, alerón o fondo plano con foco en curvas. La asignación de las fotos es una previsualización.

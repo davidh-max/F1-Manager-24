@@ -448,6 +448,55 @@
         "temporada": 2024,
         "fuente": "informe_tecnico_video_2_2024_07_29#estimacion_diseno"
       }
+    },
+    {
+      "id": "simulacion_pontones_equilibrado_atr_2024_07_29",
+      "pieza": "pontones",
+      "estado": "en_evaluacion",
+      "metadatos": {
+        "estado": "CONFIRMADO",
+        "temporada": 2024,
+        "fecha_partida": "2024-07-29",
+        "fecha_registro": "2026-11-22",
+        "fuente": "fotos_pontones_equilibrado_atr_2024_07_29"
+      },
+      "coche": "coche_1",
+      "preajuste": "equilibrado",
+      "comparada_con": "simulacion_pontones_2024_07_29",
+      "atr_simulado": {
+        "cfd_mau": 1.4,
+        "tunel_h": 14
+      },
+      "pieza_referencia": {
+        "reduccion_resistencia_pct": 61.93,
+        "refrigeracion_motor_pct": 58.22,
+        "flujo_frontal_pct": 60.75,
+        "flujo_central_pct": 39.95,
+        "duracion_minima_km": 4125
+      },
+      "delta_pieza_mostrado": {
+        "reduccion_resistencia_pct": 3.39,
+        "refrigeracion_motor_pct": 3.53,
+        "flujo_frontal_pct": 4.05,
+        "flujo_central_pct": 6.03,
+        "duracion_minima_km": 0
+      },
+      "delta_coche_mostrado": {
+        "velocidad_maxima": 0.09,
+        "aceleracion": 0.001,
+        "eficacia_drs": 0,
+        "curvas_lentas": 0.003,
+        "curvas_medias": 0.005,
+        "curvas_rapidas": 0.009,
+        "aire_sucio": 0,
+        "neumaticos": 0,
+        "refrigeracion": 2.82,
+        "peso_extra": 0
+      },
+      "puestos_ganados_mostrados": null,
+      "coste_usd": null,
+      "duracion_diseno_dias": null,
+      "duracion_fabricacion_dias": null
     }
   ]
 }
