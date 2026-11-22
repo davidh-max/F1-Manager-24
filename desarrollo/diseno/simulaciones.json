@@ -17,7 +17,7 @@
       "aire_sucio": 60.82,
       "neumaticos": 61.5,
       "refrigeracion": 56.35,
-      "peso_extra": 18.0
+      "peso_extra": 18
     },
     "posiciones_20_coches": {
       "velocidad_maxima": 11,
@@ -585,6 +585,56 @@
       "duracion_diseno_dias": 23,
       "duracion_fabricacion_dias": null,
       "fin_diseno_si_inicia_fecha_partida_calculado": "2024-08-21",
+      "inicio_confirmado": null
+    },
+    {
+      "id": "simulacion_aleron_trasero_personalizado_2024_08_01",
+      "pieza": "aleron_trasero",
+      "estado": "en_evaluacion",
+      "coche": "coche_1",
+      "preajuste": "personalizado",
+      "metadatos": {
+        "estado": "CONFIRMADO",
+        "temporada": 2024,
+        "fecha_partida": "2024-08-01",
+        "fecha_registro": "2026-11-22",
+        "fuente": "capturas_simulacion_aleron_trasero_2024_08_01"
+      },
+      "pieza_referencia": {
+        "reduccion_resistencia_pct": 57.77,
+        "delta_drs_pct": 61.58,
+        "carga_baja_kN": 4.13,
+        "carga_media_kN": 6.31,
+        "carga_alta_kN": 7.57,
+        "sensibilidad_flujo_aire_pct": 59.5,
+        "duracion_minima_km": 2535
+      },
+      "delta_pieza_mostrado": {
+        "reduccion_resistencia_pct": 12.68,
+        "delta_drs_pct": 3.24,
+        "carga_baja_kN": 0.09,
+        "carga_media_kN": 0.01,
+        "carga_alta_kN": 0.05,
+        "sensibilidad_flujo_aire_pct": 3.94,
+        "duracion_minima_km": 0
+      },
+      "delta_coche_mostrado": {
+        "velocidad_maxima": 0.36,
+        "aceleracion": 0.001,
+        "eficacia_drs": 2.27,
+        "curvas_lentas": 0.002,
+        "curvas_medias": 0.001,
+        "curvas_rapidas": 0.008,
+        "aire_sucio": 1.19,
+        "neumaticos": 0,
+        "refrigeracion": 0,
+        "peso_extra": 0
+      },
+      "peso_extra_pieza_kg": 1.8,
+      "duracion_estimada_carreras": [
+        3,
+        5
+      ],
       "inicio_confirmado": null
     }
   ]
