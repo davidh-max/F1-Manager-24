@@ -1,0 +1,37 @@
+{
+  "metadatos": {
+    "estado": "CONFIRMADO",
+    "temporada": 2024,
+    "fecha_partida": "2024-07-29",
+    "fecha_registro": "2026-11-22",
+    "fuente": "mensaje_modos_diseno_2024_07_29"
+  },
+  "datos": {
+    "ingenieros": {
+      "efecto_comunicado": "Asignar más ingenieros reduce el plazo",
+      "curva_exacta": null
+    },
+    "modos": {
+      "normal": {
+        "efecto_comunicado": "Plazo de referencia",
+        "multiplicador_coste": null
+      },
+      "apresurada": {
+        "efecto_comunicado": "Reduce el plazo frente al modo normal",
+        "multiplicador_coste": null,
+        "reduccion_plazo_exacta": null
+      },
+      "intensa": {
+        "efecto_comunicado": "Aumenta el ritmo diario de ganancia de experiencia de diseño en esa pieza y beneficia sus proyectos futuros",
+        "multiplicador_coste_observado_aproximado": 3,
+        "metadatos_coste": {
+          "estado": "ESTIMADO",
+          "temporada": 2024,
+          "fecha_partida": "2024-07-29",
+          "fecha_registro": "2026-11-22",
+          "fuente": "mensaje_modos_diseno_2024_07_29"
+        }
+      }
+    }
+  }
+}

@@ -465,5 +465,12 @@
       "centro_turistico": "0:59–1:04"
     },
     "observaciones": "Datos y localizadores de la transcripción aportada. Las valoraciones de inversión son propuestas."
+  },
+  {
+    "id": "mensaje_modos_diseno_2024_07_29",
+    "titulo": "Observaciones del usuario sobre tamaño y estrategia de equipo de diseño",
+    "tipo": "mensaje_usuario",
+    "fecha_consulta": "2026-11-22",
+    "fecha_partida": "2024-07-29"
   }
 ]
