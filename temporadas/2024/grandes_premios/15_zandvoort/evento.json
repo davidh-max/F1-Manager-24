@@ -208,6 +208,168 @@
           }
         ],
         "comparabilidad": "La mayoría de rivales utilizaron blandos; Piastri fue 9.º y no usó blandos según el usuario."
+      },
+      "fp2": {
+        "modo": "manual",
+        "estado": "en_curso",
+        "alcance": "Capturas del historial de vueltas y estado de coche/pista, tiempo de sesión restante mostrado 41:09",
+        "metadatos": {
+          "estado": "CONFIRMADO",
+          "temporada": 2024,
+          "fecha_partida": "2024-08-23",
+          "fecha_registro": "2026-11-22",
+          "fuente": "capturas_fp2_tandas_2024_08_23"
+        },
+        "tandas": [
+          {
+            "id": "fp2_stroll_historial_parcial_01",
+            "piloto_id": "lance_stroll",
+            "compuesto": "duro",
+            "vueltas": [
+              {
+                "numero": 2,
+                "tiempo_ms": 74344
+              },
+              {
+                "numero": 3,
+                "tiempo_ms": 73708
+              },
+              {
+                "numero": 4,
+                "tiempo_ms": 74031
+              },
+              {
+                "numero": 5,
+                "tiempo_ms": 73488
+              },
+              {
+                "numero": 6,
+                "tiempo_ms": 73547
+              },
+              {
+                "numero": 7,
+                "tiempo_ms": 73746
+              },
+              {
+                "numero": 8,
+                "tiempo_ms": 73331
+              },
+              {
+                "numero": 9,
+                "tiempo_ms": 73360
+              },
+              {
+                "numero": 10,
+                "tiempo_ms": 73795
+              },
+              {
+                "numero": 11,
+                "tiempo_ms": 73309
+              },
+              {
+                "numero": 12,
+                "tiempo_ms": 73204
+              }
+            ],
+            "observacion_final": {
+              "vuelta": 12,
+              "vida_neumatico_pct": 79,
+              "temperatura_aire_c": 19,
+              "temperatura_pista_c": 28,
+              "agua_mm": 0,
+              "agarre": "normal",
+              "caucho": "bajo"
+            },
+            "notas": "Historial visible parcial; no asumir que todos los registros son vueltas consecutivas de un único stint ni extrapolar desgaste sin vida inicial confirmada.",
+            "metadatos": {
+              "estado": "CONFIRMADO",
+              "temporada": 2024,
+              "fecha_partida": "2024-08-23",
+              "fecha_registro": "2026-11-22",
+              "fuente": "capturas_fp2_tandas_2024_08_23"
+            }
+          },
+          {
+            "id": "fp2_alonso_historial_parcial_01",
+            "piloto_id": "fernando_alonso",
+            "compuesto": "medio",
+            "vueltas": [
+              {
+                "numero": 4,
+                "tiempo_ms": 73496
+              },
+              {
+                "numero": 5,
+                "tiempo_ms": 73659
+              },
+              {
+                "numero": 6,
+                "tiempo_ms": 73296
+              },
+              {
+                "numero": 7,
+                "tiempo_ms": 73532
+              },
+              {
+                "numero": 8,
+                "tiempo_ms": 75654
+              },
+              {
+                "numero": 9,
+                "tiempo_ms": 73345
+              },
+              {
+                "numero": 10,
+                "tiempo_ms": 73441
+              },
+              {
+                "numero": 11,
+                "tiempo_ms": 74192
+              },
+              {
+                "numero": 12,
+                "tiempo_ms": 73120
+              },
+              {
+                "numero": 13,
+                "tiempo_ms": 73460
+              },
+              {
+                "numero": 14,
+                "tiempo_ms": 73729
+              }
+            ],
+            "observacion_final": {
+              "vuelta": 14,
+              "vida_neumatico_pct": 69,
+              "temperatura_aire_c": 19,
+              "temperatura_pista_c": 28,
+              "agua_mm": 0,
+              "agarre": "normal",
+              "caucho": "bajo"
+            },
+            "notas": "Historial visible parcial; no asumir que todos los registros son vueltas consecutivas de un único stint ni extrapolar desgaste sin vida inicial confirmada.",
+            "metadatos": {
+              "estado": "CONFIRMADO",
+              "temporada": 2024,
+              "fecha_partida": "2024-08-23",
+              "fecha_registro": "2026-11-22",
+              "fuente": "capturas_fp2_tandas_2024_08_23"
+            }
+          }
+        ],
+        "meteorologia": {
+          "aire_c": 19,
+          "pista_c": 28,
+          "agua_mm": 0,
+          "agarre": "normal",
+          "caucho": "bajo",
+          "estado_cielo": "algo nublado"
+        },
+        "observaciones": [
+          "Los tiempos de pilotos están ordenados por número de vuelta tal como aparecen en historial; sin inferir degradación por los cambios de ritmo y falta de datos de control.",
+          "Sergio Pérez lidera en 1:12.421 en tabla de sesión visible; Alonso aparece 7.º a +0.782 s; Stroll 6.º a +0.698 s en el momento de la captura."
+        ]
       }
     },
     "reglajes": {},
@@ -253,7 +415,8 @@
       "capturas_circuitos_2024_07_29_zandvoort_secciones_por_velocidad",
       "transcripcion_video_2024_07_29#zandvoort/resumen/0:05",
       "capturas_analisis_parrilla_2024_07_29",
-      "capturas_zandvoort_fp1_2024_08_23"
+      "capturas_zandvoort_fp1_2024_08_23",
+      "capturas_fp2_tandas_2024_08_23"
     ],
     "analisis": null,
     "lecciones": [],
@@ -323,6 +486,13 @@
       "fecha_partida": "2024-08-23",
       "fecha_registro": "2026-11-22",
       "fuente": "capturas_zandvoort_fp1_2024_08_23"
+    },
+    "fp2_tandas": {
+      "estado": "CONFIRMADO",
+      "temporada": 2024,
+      "fecha_partida": "2024-08-23",
+      "fecha_registro": "2026-11-22",
+      "fuente": "capturas_fp2_tandas_2024_08_23"
     }
   }
 }
