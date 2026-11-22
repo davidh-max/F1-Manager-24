@@ -806,5 +806,20 @@
       "8": "Suspensión: pieza y coche"
     },
     "observaciones": "Todas son simulaciones en interfaz de diseño, sin inicio confirmado ni gasto de diseño; cero CFD y cero túnel donde se observa. El saldo 1.202.015 USD y GP Italia en 4 días aparecen en cabeceras. Referencia del coche 1 = 321.81 km/h, 2.586/3.609/4.872 G, refrigeración 56.35%."
+  },
+  {
+    "id": "capturas_pontones_post_p6_coche2_2024_08_26",
+    "titulo": "Pontones después de instalar P.-6 en coche 2: simulación de diseño y rangos",
+    "tipo": "lote_fotos_chat",
+    "fecha_partida": "2024-08-26",
+    "fecha_consulta": "2026-11-22",
+    "total_capturas": 3,
+    "archivo": null,
+    "localizadores": {
+      "1": "Pantalla diseño pontones para coche 2: base, deltas del diseño y ATR 0",
+      "2": "Atributos del coche 2 y horas ATR restantes, próxima renovación",
+      "3": "Ranking de coche 2 y variación del nuevo diseño"
+    },
+    "observaciones": "Usuario confirma que coche 2 ya tiene instaladas todas las piezas. La foto muestra 3.626/4.904 G y refrigeración 56.96%; P.-6 respaldado por flujo central 56.94% coincidente con propuesta previa. El diseño nuevo penaliza curvas medias y rápidas; saldo no alterado."
   }
 ]
