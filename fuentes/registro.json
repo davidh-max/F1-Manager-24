@@ -868,5 +868,66 @@
       "2": "Resumen del rendimiento previsto en coche 2: +0.03 km/h, curvas +0.001/+0.002/+0.003 G, neumáticos +0.63 pp; botón confirmar todavía visible en captura, usuario confirma ejecución posterior"
     },
     "observaciones": "Pago y encargo confirmados expresamente por usuario tras captura. Saldo postgasto calculado. No se han fabricado ni instalado piezas."
+  },
+  {
+    "id": "capturas_comparativa_monza_2024_08_30",
+    "titulo": "Comparativa rendimiento de seis equipos (coche 1) y rankings del coche 2 Aston en Monza",
+    "origen": "Ocho fotografías directas de pantallas del juego, aportadas por usuario",
+    "fecha_partida": "2024-08-30",
+    "fecha_consulta": "2026-11-22",
+    "temporada": 2024,
+    "estado": "CONFIRMADO",
+    "circuito": "monza",
+    "capturas": [
+      {
+        "orden": 1,
+        "nombre_archivo_origen": "IMG_E75EA250-4E51-494F-B83E-B6C25724EE25.jpeg",
+        "archivo": null,
+        "detalle": "Aston Martin coche 1: ranking general 8º, atributos parciales"
+      },
+      {
+        "orden": 2,
+        "nombre_archivo_origen": "IMG_18B1E10A-F8EC-41D0-827E-0D668B879BB3.jpeg",
+        "archivo": null,
+        "detalle": "Aston Martin coche 2: ranking general 7º, atributos parciales"
+      },
+      {
+        "orden": 3,
+        "nombre_archivo_origen": "IMG_ED79B987-0BA9-4A85-9495-70369969C987.jpeg",
+        "archivo": null,
+        "detalle": "Posiciones comparadas Aston Martin coche 1 y McLaren coche 1"
+      },
+      {
+        "orden": 4,
+        "nombre_archivo_origen": "IMG_63299823-DA21-42BD-AAD2-F6AE19ABB958.jpeg",
+        "archivo": null,
+        "detalle": "Valores absolutos Aston Martin coche 1 y McLaren coche 1"
+      },
+      {
+        "orden": 5,
+        "nombre_archivo_origen": "IMG_1383A1CB-8703-407B-93A8-5AA906F9B925.jpeg",
+        "archivo": null,
+        "detalle": "Valores absolutos Red Bull y Ferrari"
+      },
+      {
+        "orden": 6,
+        "nombre_archivo_origen": "IMG_66B95E37-1FC0-494E-8417-313E91AE58ED.jpeg",
+        "archivo": null,
+        "detalle": "Posiciones Red Bull y Ferrari"
+      },
+      {
+        "orden": 7,
+        "nombre_archivo_origen": "IMG_3290C045-2D59-467D-910B-78E5E12CE9B4.jpeg",
+        "archivo": null,
+        "detalle": "Posiciones Mercedes y RB"
+      },
+      {
+        "orden": 8,
+        "nombre_archivo_origen": "IMG_6CA69C67-7393-4181-85BF-B0E42D81F60C.jpeg",
+        "archivo": null,
+        "detalle": "Valores absolutos Mercedes y RB"
+      }
+    ],
+    "notas": "Pantallas de objetivos carrera con rankings 20 coches; pantalla comparativa con atributos 6 equipos (coche 1), fecha 30 agosto; saldo negativo repetido -2.697.985 USD. Solo disponible en conversación; sin copia binaria almacenada en GitHub. No hay valores absolutos actuales de Aston coche2 en estas capturas, ni datos de Haas/Williams/Alpine/Sauber."
   }
 ]
