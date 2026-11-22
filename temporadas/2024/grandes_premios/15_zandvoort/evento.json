@@ -179,19 +179,35 @@
     "decisiones_carrera": [],
     "sesiones": {
       "fp1": {
-        "modo": "desconocida",
-        "estado": "preparacion",
+        "modo": "simulada",
+        "estado": "finalizada",
         "metadatos": {
           "estado": "CONFIRMADO",
           "temporada": 2024,
           "fecha_partida": "2024-08-23",
           "fecha_registro": "2026-11-22",
-          "fuente": "capturas_zandvoort_fp1_2024_08_23"
+          "fuente": "mensaje_usuario_resultados_fp1_zandvoort"
         },
         "neumaticos": "duros nuevos",
         "vueltas_plan": 15,
         "preparacion_inicial_pct": 7,
-        "conocimiento_piezas_pct": 79
+        "conocimiento_piezas_pct": 79,
+        "alcance": "resultados comunicados por el usuario",
+        "resultados_pilotos": [
+          {
+            "piloto_id": "lance_stroll",
+            "posicion": 7,
+            "diferencia_lider_s": 1.32,
+            "compuesto": "medio"
+          },
+          {
+            "piloto_id": "fernando_alonso",
+            "posicion": 10,
+            "diferencia_lider_s": 1.425,
+            "compuesto": "medio"
+          }
+        ],
+        "comparabilidad": "La mayoría de rivales utilizaron blandos; Piastri fue 9.º y no usó blandos según el usuario."
       }
     },
     "reglajes": {},
@@ -246,7 +262,17 @@
       "coche_2": 7
     },
     "sprint": false,
-    "referencia_comparativa_parrilla": "informes/parrilla_2024-07-29.md"
+    "referencia_comparativa_parrilla": "informes/parrilla_2024-07-29.md",
+    "decisiones_entrenamientos": {
+      "procedimiento": "El usuario gestiona FP2 y FP3 buscando satisfacción de configuración cercana al 100%; comunicar resultados al llegar a clasificación. Solicitar datos adicionales solo cuando exista una necesidad estratégica concreta.",
+      "metadatos": {
+        "estado": "CONFIRMADO",
+        "temporada": 2024,
+        "fecha_partida": "2024-08-23",
+        "fecha_registro": "2026-11-22",
+        "fuente": "mensaje_usuario_resultados_fp1_zandvoort"
+      }
+    }
   },
   "metadatos_por_bloque": {
     "resumen": {
