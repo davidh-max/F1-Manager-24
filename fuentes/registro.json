@@ -677,5 +677,17 @@
       "IMG_77A8D1EB-B5CF-4E25-ACCC-4E312080A6ED.jpeg"
     ],
     "observaciones": "Centro turístico nivel 3 con mejora a 4 por 100000 USD, 14 días; captura posterior muestra saldo 2057015 USD, frente a 2157015 anterior. Estado 78 %, eficacia 100 %, ingresos semanales 75000 -> 87500 y comercialidad +20 -> +24. No corresponde al centro de diseño."
+  },
+  {
+    "id": "capturas_pontones_p6_2024_08_21",
+    "titulo": "Pontones P.-6 fabricación apresurada y saldo confirmado",
+    "tipo": "capturas_y_mensaje_usuario",
+    "fecha_partida": "2024-08-21",
+    "fecha_consulta": "2026-11-22",
+    "imagenes": [
+      "IMG_7B546BE7-174D-4F98-BA21-A8A63A768DBA.jpeg",
+      "IMG_037CFCFD-2838-48B9-86B3-87807AEAD818.jpeg"
+    ],
+    "observaciones": "21 agosto 2024, saldo antes 1414515 USD, fabricación P.-6 x2 apresurada coste 900000 + 450000 USD; usuario confirma fabricación y saldo posterior 64515 USD. Primer pontón 26 agosto, segundo 31 agosto. Diseño alerón trasero terminado según usuario, fabricación aún pendiente. Saldo anterior observado 11 agosto 1327015, aumento intermedio 87500 sin origen acreditado."
   }
 ]
