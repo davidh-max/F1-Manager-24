@@ -29,7 +29,7 @@
       "total_mostrado": 2,
       "instaladas_por_coche": {
         "coche_1": 1,
-        "coche_2": 1
+        "coche_2": 0
       },
       "condicion_por_coche": {
         "coche_1": "riesgo medio",
@@ -63,6 +63,13 @@
         "fecha_registro": "2026-11-22",
         "temporada": 2024,
         "fuente": "informe_tecnico_video_2_2024_07_29#ficha_instalada"
+      },
+      "metadatos_actualizacion": {
+        "estado": "CONFIRMADO",
+        "temporada": 2024,
+        "fecha_partida": "2024-08-26",
+        "fecha_registro": "2026-11-22",
+        "fuente": "capturas_pontones_post_p6_coche2_2024_08_26"
       }
     },
     {
@@ -402,6 +409,43 @@
         "fecha_registro": "2026-11-22",
         "temporada": 2024,
         "fuente": "informe_tecnico_video_2_2024_07_29#inventario"
+      }
+    },
+    {
+      "id": "ast24_p_6",
+      "categoria": "pontones",
+      "version": "AST24 P.-6",
+      "total_mostrado": 1,
+      "disponibles": 0,
+      "en_fabricacion": 1,
+      "instaladas_por_coche": {
+        "coche_1": 0,
+        "coche_2": 1
+      },
+      "estado": "instalada_en_coche2_una_unidad_restante_pendiente",
+      "atributos_instalados": {
+        "reduccion_resistencia_pct": {
+          "valor": 63.45
+        },
+        "refrigeracion_motor_pct": {
+          "valor": 58.99
+        },
+        "flujo_frontal_pct": {
+          "valor": 62.1
+        },
+        "flujo_central_pct": {
+          "valor": 56.94
+        },
+        "duracion_minima_km": {
+          "valor": 3850
+        }
+      },
+      "metadatos": {
+        "estado": "CONFIRMADO",
+        "temporada": 2024,
+        "fecha_partida": "2024-08-26",
+        "fecha_registro": "2026-11-22",
+        "fuente": "capturas_pontones_post_p6_coche2_2024_08_26"
       }
     }
   ],
